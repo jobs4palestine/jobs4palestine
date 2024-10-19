@@ -112,13 +112,19 @@ async function saveSearchResults(searchResults: Partial<IResultBase>[]) {
             console.warn(`${searchResults.length - validResults.length} results were invalid and filtered out`);
         }
 
-        const savedResults = await ResultModel.insertMany(validResults, { ordered: false });
+        const savedResults = [];
+        for (const result of validResults) {
+            const newResult = new ResultModel(result);
+            const savedResult = await newResult.save(); // Save each result individually
+            savedResults.push(savedResult);
+        }
         return savedResults;
     } catch (error) {
         console.error('Error saving search results:', error);
         throw error;
     }
 }
+
 
 export {
     IResultBase,

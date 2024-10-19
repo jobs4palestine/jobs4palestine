@@ -1,12 +1,10 @@
 {
+  "extends": "../tsconfig.json",
   "compilerOptions": {
-    "target": "ES6",
-    "module": "CommonJS",
     "outDir": "./dist",
     "rootDir": "./src",
+    "types": ["jest", "node"],
     "esModuleInterop": true,
-    "strict": true,
-    "moduleResolution": "Node",
-    "skipLibCheck": true
-  }
+  },
+  "include": ["src/**/*", "tests/**/*"]
 }
