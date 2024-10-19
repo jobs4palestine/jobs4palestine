@@ -2,5 +2,9 @@
   "name": "monorepo",
   "private": true,
   "workspaces": ["frontend", "backend"],
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "scripts": {
+    "build:frontend": "tsc -p apps/frontend/tsconfig.react.json",
+    "build:backend": "tsc -p apps/backend/tsconfig.express.json"
+  }
 }
