@@ -1,0 +1,6 @@
+{
+  "name": "monorepo",
+  "private": true,
+  "workspaces": ["frontend", "backend"],
+  "version": "1.0.0"
+}
