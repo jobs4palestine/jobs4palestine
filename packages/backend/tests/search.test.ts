@@ -1,16 +1,32 @@
 // Adjust the import as necessary
 // Import the default export (ResultModel)
 const SerpApi = require("google-search-results-nodejs")
-
-import request from 'supertest';
-import { app } from '../src/index'; // Adjust the import as necessary
 const mockingoose = require('mockingoose'); // Use require for CommonJS module handling
-import ResultModel from '../src/models/Result'; // Import the default export (ResultModel)
+import request from 'supertest';
+import { app } from '../src/old_index';
+import ResultModel from '../src/models/Result';
 
 describe('GET /search', () => {
+    let server: any;
+
+    beforeAll(async () => {
+        // Create server for testing
+        server = app.listen(3001); // Use a different port for testing
+    });
+
+    afterAll(async () => {
+        // Cleanup
+        await mockingoose.disconnect(); // Close MongoDB connection
+        await new Promise<void>((resolve) => {
+            server.close(() => {
+                resolve();
+            });
+        });
+    });
+
     beforeEach(() => {
-        jest.clearAllMocks(); // Clear mocks before each test
-        mockingoose.resetAll()
+        jest.clearAllMocks();
+        mockingoose.resetAll();
     });
 
     it('should return mocked search results and save to database', async () => {
@@ -50,4 +66,7 @@ describe('GET /search', () => {
         expect(response.body.results[0].title).toBe('Mocked Result 1'); // Validate the title
     });
 });
+
+
+
 

@@ -1,10 +1,17 @@
 {
   "name": "monorepo",
+  "type": "module",
   "private": true,
-  "workspaces": ["frontend", "backend"],
-  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "build:frontend": "tsc -p apps/frontend/tsconfig.react.json",
-    "build:backend": "tsc -p apps/backend/tsconfig.express.json"
+    "dev": "concurrently \"yarn workspace @monorepo/backend dev\" \"yarn workspace @monorepo/frontend dev\"",
+    "test": "yarn workspaces run test",
+    "build": "yarn workspaces run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "typescript": "^5.6.3"
   }
 }

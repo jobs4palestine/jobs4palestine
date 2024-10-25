@@ -1,5 +1,17 @@
 // __mocks__/google-search-results-nodejs.ts
-const mockSearchResults = {
+interface SearchResult {
+    position: number;
+    title: string;
+    link: string;
+    snippet: string;
+    date: string;
+}
+
+interface MockResults {
+    organic_results: SearchResult[];
+}
+
+const mockSearchResults: MockResults = {
     organic_results: [
         {
             position: 1,
@@ -11,15 +23,15 @@ const mockSearchResults = {
     ]
 };
 
-class GoogleSearch {
-    json(params: any, callback: Function) {
+export class GoogleSearch {
+    json(params: any, callback: Function): void {
         // Simulate an asynchronous API response
         process.nextTick(() => {
-            callback(mockSearchResults); // Pass the mocked results to the callback
+            callback(mockSearchResults);
         });
     }
 }
 
-module.exports = {
+export default {
     GoogleSearch
 };
