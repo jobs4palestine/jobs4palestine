@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
-import { config } from 'dotenv';
-import { helloRouter, searchRouter } from './routes';
+import {config} from 'dotenv';
+import {helloRouter, searchRouter} from './routes';
 import mongoose from "mongoose";
 
 
@@ -22,15 +22,15 @@ if (!process.env.MONGODB_URI) {
 }
 
 const mongoURL = process.env.MONGODB_URI;
-const connectDB = async () => {
-    try {
-        await mongoose.connect(mongoURL);
-        console.log(`MongoDB Connected: ${mongoose.connection.host}`);
-    } catch (error: any) {
-        console.error(`Error: ${error.message}`);
-        process.exit(1);
-    }
-};
+
+try {
+    await mongoose.connect(mongoURL);
+    console.log(`MongoDB Connected: ${mongoose.connection.host}`);
+} catch (error: any) {
+    console.error(`Error: ${error.message}`);
+    process.exit(1);
+}
+
 
 const app = express();
 app.use(cors());
@@ -44,4 +44,4 @@ if (process.env.NODE_ENV !== 'test') {
     });
 }
 
-export { app };
+export {app};

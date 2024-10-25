@@ -1,9 +1,11 @@
 import {Router} from 'express';
 import {IResultBase, saveSearchResults} from "../models/Result";
 import {parseDate} from "../utils";
-import {SerpApiClient} from '../services/serpapi.js';
+import {SearchResponse, SerpApiClient} from '../services/serpapi.js';
 
 export const searchRouter = Router();
+import all from '../models/SearchResults.json'
+const samples = (all as SearchResponse)
 
 
 const jobSites = [
@@ -50,9 +52,9 @@ searchRouter.get('/search', async (req, res) => {
 
         const fullQuery = `${searchTermQuery} ${siteQuery} after:${afterDate}`;
 
-        const searchResults = await serpApi?.search({q: fullQuery});
-        if (searchResults) {
-            const processedResults = searchResults.organic_results
+        //const searchResults = await serpApi?.search({q: fullQuery});
+        if (samples) {
+            const processedResults = samples.organic_results
                 .map(result => {
                     if (!result.link || !result.title) {
                         console.warn('Missing required fields in search result:', result);

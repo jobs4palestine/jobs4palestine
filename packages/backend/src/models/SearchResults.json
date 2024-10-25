@@ -1,0 +1,1405 @@
+{
+    "search_metadata": {
+    "id": "671bf8b8922cce478f1b44cf",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/15738fdfca328cbc/671bf8b8922cce478f1b44cf.json",
+        "created_at": "2024-10-25 19:59:52 UTC",
+        "processed_at": "2024-10-25 19:59:52 UTC",
+        "google_url": "https://www.google.com/search?q=Senior+Software+Developer+site%3Ajobs.ashbyhq.com+OR+site%3Ajoin.com+OR+site%3Ajobs.lever.co+OR+site%3Aboards.greenhouse.io+OR+site%3Awd5.myworkdayjobs.com+OR+site%3Ajobs.lever.co+OR+site%3Acareers.icims.com+OR+site%3Ajobs.jobvite.com+OR+site%3Ajobs.smartrecruiters.com+OR+site%3Aapp.breezy.hr+OR+site%3Ajazzhr.com+OR+site%3Ataleo.net+OR+site%3Aoraclecloud.com+OR+site%3Arecruiting.adp.com+after%3A2024-10-11&oq=Senior+Software+Developer+site%3Ajobs.ashbyhq.com+OR+site%3Ajoin.com+OR+site%3Ajobs.lever.co+OR+site%3Aboards.greenhouse.io+OR+site%3Awd5.myworkdayjobs.com+OR+site%3Ajobs.lever.co+OR+site%3Acareers.icims.com+OR+site%3Ajobs.jobvite.com+OR+site%3Ajobs.smartrecruiters.com+OR+site%3Aapp.breezy.hr+OR+site%3Ajazzhr.com+OR+site%3Ataleo.net+OR+site%3Aoraclecloud.com+OR+site%3Arecruiting.adp.com+after%3A2024-10-11&num=200&sourceid=chrome&ie=UTF-8",
+        "raw_html_file": "https://serpapi.com/searches/15738fdfca328cbc/671bf8b8922cce478f1b44cf.html",
+        "total_time_taken": 2.59
+},
+    "search_parameters": {
+    "engine": "google",
+        "q": "Senior Software Developer site:jobs.ashbyhq.com OR site:join.com OR site:jobs.lever.co OR site:boards.greenhouse.io OR site:wd5.myworkdayjobs.com OR site:jobs.lever.co OR site:careers.icims.com OR site:jobs.jobvite.com OR site:jobs.smartrecruiters.com OR site:app.breezy.hr OR site:jazzhr.com OR site:taleo.net OR site:oraclecloud.com OR site:recruiting.adp.com after:2024-10-11",
+        "google_domain": "google.com",
+        "num": "200",
+        "device": "desktop"
+},
+    "search_information": {
+    "query_displayed": "Senior Software Developer site:jobs.ashbyhq.com OR site:join.com OR site:jobs.lever.co OR site:boards.greenhouse.io OR site:wd5.myworkdayjobs.com OR site:jobs.lever.co OR site:careers.icims.com OR site:jobs.jobvite.com OR site:jobs.smartrecruiters.com OR site:app.breezy.hr OR site:jazzhr.com OR site:taleo.net OR site:oraclecloud.com OR site:recruiting.adp.com after:2024-10-11",
+        "total_results": 7840,
+        "time_taken_displayed": 0.45,
+        "organic_results_state": "Results for exact spelling"
+},
+    "organic_results": [
+    {
+        "position": 1,
+        "title": "Senior Software Developer - Studio in the Cloud - My Oracle",
+        "link": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/requisitions/preview/255446",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/requisitions/preview/255446&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECA4QAQ&usg=AOvVaw2Wf4aE9rdPVPkRVveGDYfS",
+        "displayed_link": "https://eeho.fa.us2.oraclecloud.com/hcmUI/.../255446",
+        "date": "8 days ago",
+        "snippet": "For this engineering role we are seeking an individual with experience in enterprise level software development, delivery and operation of cloud services at the ...",
+        "snippet_highlighted_words": [
+            "software development"
+        ],
+        "source": "Oracle"
+    },
+    {
+        "position": 2,
+        "title": "Senior Software Engineer - Careers - Myworkdayjobs.com",
+        "link": "https://pru.wd5.myworkdayjobs.com/en-US/PrudentialTalentAcquisition/job/Senior-Software-Engineer_R-118887",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://pru.wd5.myworkdayjobs.com/en-US/PrudentialTalentAcquisition/job/Senior-Software-Engineer_R-118887&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECA8QAQ&usg=AOvVaw1pwINRWTY8BbWJZ3Fn2z-L",
+        "displayed_link": "https://pru.wd5.myworkdayjobs.com/.../Senior-Software-...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65afe35745e694209fb113e4ec5918374bb.png",
+        "date": "3 days ago",
+        "snippet": "You will code, test and debug new and existing applications as you implement capabilities to solve sophisticated business problems, deploy innovative products, ...",
+        "source": "myworkdayjobs.com"
+    },
+    {
+        "position": 3,
+        "title": "Senior Software Engineer, Data Platform - CAREERS AT NVIDIA",
+        "link": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Senior-Software-Engineer--Data-Platform_JR1982223-1",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Senior-Software-Engineer--Data-Platform_JR1982223-1&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECA0QAQ&usg=AOvVaw1h4l3YgRCUUm97Bu1ulIO9",
+        "displayed_link": "https://nvidia.wd5.myworkdayjobs.com/.../Senior-Softwar...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a8bbd7f633a6fe1964e027624b087e337.png",
+        "date": "2 days ago",
+        "snippet": "The NVIDIA Operations organization is seeking an experienced software engineering professional for the position of System Data, Software Engineer.",
+        "snippet_highlighted_words": [
+            "software",
+            "Software Engineer"
+        ],
+        "source": "Workday"
+    },
+    {
+        "position": 4,
+        "title": "Senior Software Engineer, Recommendations - Rover.com",
+        "link": "https://jobs.lever.co/rover/3bc29a8c-6b3e-4f1c-8db8-db28ef94cc35",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.lever.co/rover/3bc29a8c-6b3e-4f1c-8db8-db28ef94cc35&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECBcQAQ&usg=AOvVaw2f3dzJDC3bL83jKysflSGD",
+        "displayed_link": "https://jobs.lever.co/.../3bc29a8c-6b3e-4f1c-8db8-db28e...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65aa2aff60e3db73b24c6e7b7404d250bbd.png",
+        "date": "3 days ago",
+        "snippet": "We are looking for a Senior Software Engineer to join the Recommendations team to help with this mission. ... Your Qualifications. 5+ years as a professional ...",
+        "snippet_highlighted_words": [
+            "Senior Software Engineer"
+        ],
+        "source": "Lever"
+    },
+    {
+        "position": 5,
+        "title": "Senior Software Engineer, Infrastructure (Developer ...",
+        "link": "https://boards.greenhouse.io/coinbase/jobs/6256386",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://boards.greenhouse.io/coinbase/jobs/6256386&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECBUQAQ&usg=AOvVaw2nA5dRbFzbNjrEuG1jxYNt",
+        "displayed_link": "https://boards.greenhouse.io/coinbase/jobs/6256386",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a649d3a1fd04848a69057202359981d68.png",
+        "date": "1 day ago",
+        "snippet": "The Cloud Provisioning team within DevX is responsible for the systems and processes that allow the rest of Coinbase engineers to provision infrastructure to ...",
+        "snippet_highlighted_words": [
+            "engineers"
+        ],
+        "source": "greenhouse.io"
+    },
+    {
+        "position": 6,
+        "title": "Senior Software Engineer (C# and .NET)",
+        "link": "https://boards.greenhouse.io/nationbuilder/jobs/6235590003",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://boards.greenhouse.io/nationbuilder/jobs/6235590003&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECBgQAQ&usg=AOvVaw3lLoPmy2nWj_8080UCEBKp",
+        "displayed_link": "https://boards.greenhouse.io/nationbuilder/.../623559000...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65adecd29283f0f09568dc50a867c418b60.png",
+        "date": "4 days ago",
+        "snippet": "... development process. As a Senior Software Engineer you will build and maintain the software powering NationBuilder, while acting as a role model for the ...",
+        "snippet_highlighted_words": [
+            "Senior Software Engineer"
+        ],
+        "source": "Greenhouse"
+    },
+    {
+        "position": 7,
+        "title": "Senior Software Engineer, Platform",
+        "link": "https://boards.greenhouse.io/oplabs/jobs/5338955004",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://boards.greenhouse.io/oplabs/jobs/5338955004&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECBAQAQ&usg=AOvVaw2dKeOpA1FgibHfERcpeE_i",
+        "displayed_link": "https://boards.greenhouse.io/oplabs/jobs/5338955004",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65aaefad762f5af6b8b6476420c17a1a48e.png",
+        "date": "3 days ago",
+        "snippet": "We are looking for an experienced Software Engineer, Developer Experience to join our growing Platforms team. The goal of the Platforms team is to build the ...",
+        "snippet_highlighted_words": [
+            "Software Engineer",
+            "Developer"
+        ],
+        "source": "Greenhouse"
+    },
+    {
+        "position": 8,
+        "title": "Senior Software Engineer - Lightcast",
+        "link": "https://jobs.lever.co/economicmodeling/bd8bb035-fbb4-4b93-92ca-fe7f8da49553?utm_source=algojobs&utm_medium=website&ref=algojobs",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.lever.co/economicmodeling/bd8bb035-fbb4-4b93-92ca-fe7f8da49553%3Futm_source%3Dalgojobs%26utm_medium%3Dwebsite%26ref%3Dalgojobs&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECC0QAQ&usg=AOvVaw2939FkYakpH8zniVUuPp0r",
+        "displayed_link": "https://jobs.lever.co/.../bd8bb035-fbb4-4b93-92ca-fe7f8...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65ad2841070acdb73c977226e6ff0bcf804.png",
+        "date": "2 days ago",
+        "snippet": "Lead the design, development, and implementation of software solutions that meet project requirements and align with best practices and architectural standards.",
+        "snippet_highlighted_words": [
+            "development",
+            "software"
+        ],
+        "source": "Lever"
+    },
+    {
+        "position": 9,
+        "title": "Open positions",
+        "link": "https://boards.greenhouse.io/fanduel",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://boards.greenhouse.io/fanduel&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCOsBEAE&usg=AOvVaw0HrYDDqmVsp5boHb4SU-i6",
+        "displayed_link": "https://boards.greenhouse.io/fanduel",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a8750553619ec7f5e4f6e6e42a35c78a4.png",
+        "date": "8 days ago",
+        "snippet": "Open positions · Commercial · Customer Operations · Data Analytics · Engineering & Technology · Finance & Facilities · Human Resources · Legal · Marketing.",
+        "source": "greenhouse.io"
+    },
+    {
+        "position": 10,
+        "title": "KIPP Senior Software Engineer",
+        "link": "https://jobs.smartrecruiters.com/KIPP/744000021845164-senior-software-engineer",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/KIPP/744000021845164-senior-software-engineer&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECEwQAQ&usg=AOvVaw32xXiY6PTG-4pJg27zwuGG",
+        "displayed_link": "https://jobs.smartrecruiters.com/.../744000021845164-se...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a3b29d0ffedc090dc40643f4ed4cb949b.png",
+        "date": "4 days ago",
+        "snippet": "In this position, you will collaborate closely with KIPP Foundation stakeholders and internal teams to deliver innovative technology solutions that power KIPP's ...",
+        "missing": [
+            "Developer"
+        ],
+        "must_include": {
+            "word": "Developer",
+            "link": "https://www.google.com/search?num=100&sca_esv=dc67e9d40e314a2a&q=Senior+Software+%22Developer%22+site:jobs.ashbyhq.com+OR+site:join.com+OR+site:jobs.lever.co+OR+site:boards.greenhouse.io+OR+site:wd5.myworkdayjobs.com+OR+site:jobs.lever.co+OR+site:careers.icims.com+OR+site:jobs.jobvite.com+OR+site:jobs.smartrecruiters.com+OR+site:app.breezy.hr+OR+site:jazzhr.com+OR+site:taleo.net+OR+site:oraclecloud.com+OR+site:recruiting.adp.com+after:2024-10-11&sa=X&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0Q5t4CegQIWxAB"
+        },
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 11,
+        "title": "Assent Senior Software Developer",
+        "link": "https://jobs.smartrecruiters.com/Assent/744000020826699-senior-software-developer",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/Assent/744000020826699-senior-software-developer&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCKMBEAE&usg=AOvVaw182y6MyGlpoLxywaaxl0po",
+        "displayed_link": "https://jobs.smartrecruiters.com/.../744000020826699-se...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a946e58082495b34d59fb4984e1b6550e.png",
+        "date": "Oct 16, 2024",
+        "snippet": "You will play a leading role in defining solutions to complex technology puzzles. Through your passion for software development, proven object-oriented design ...",
+        "snippet_highlighted_words": [
+            "software development"
+        ],
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 12,
+        "title": "Senior, Software Engineer (Android) - Myworkdayjobs.com",
+        "link": "https://walmart.wd5.myworkdayjobs.com/en-US/WalmartExternal/job/Senior--Software-Engineer--Android-_R-2018283-1",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://walmart.wd5.myworkdayjobs.com/en-US/WalmartExternal/job/Senior--Software-Engineer--Android-_R-2018283-1&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCOkBEAE&usg=AOvVaw3qskvz7IOh-ttA2O_Bgu7e",
+        "displayed_link": "https://walmart.wd5.myworkdayjobs.com/.../Senior--Soft...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65afd2fd65614d67dbb9d21cf9c619b9d01.png",
+        "date": "5 days ago",
+        "snippet": "Position Summary... What you'll do... A Senior, Android Software Engineer, drives the development of complex mobile applications, working with product, ...",
+        "snippet_highlighted_words": [
+            "Senior",
+            "Software Engineer",
+            "development"
+        ],
+        "source": "myworkdayjobs.com"
+    },
+    {
+        "position": 13,
+        "title": "Senior Software Engineer, iOS @ Sorare",
+        "link": "https://jobs.ashbyhq.com/sorare/2de96bd6-bf73-449c-9e8b-4ac1ea38d615?source=web3.career",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.ashbyhq.com/sorare/2de96bd6-bf73-449c-9e8b-4ac1ea38d615%3Fsource%3Dweb3.career&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCIwCEAE&usg=AOvVaw26SygIEAb9JoNfbaDIHfW3",
+        "displayed_link": "https://jobs.ashbyhq.com/.../2de96bd6-bf73-449c-9e8b-...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65ac039e5bcc3c9167dc425e2d106907962.png",
+        "date": "2 days ago",
+        "snippet": "At Sorare, we bet on passionate and innovative people! Are you looking for an empowering environment to grow professionally and personally?",
+        "source": "Ashby"
+    },
+    {
+        "position": 14,
+        "title": "Full-Stack Guru (Senior Software Engineer) (m/f/x)",
+        "link": "https://join.com/companies/frontnow/12680008-full-stack-guru-senior-software-engineer-m-f-x",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://join.com/companies/frontnow/12680008-full-stack-guru-senior-software-engineer-m-f-x&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECEkQAQ&usg=AOvVaw28Zt5jC5z0MhtYfBt9KL_0",
+        "displayed_link": "https://join.com/.../12680008-full-stack-guru-senior-soft...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a6e3148ee3658f72a4340871fc54fc04f.png",
+        "date": "8 days ago",
+        "snippet": "Frontnow has a remote job opening for Full-Stack Guru (Senior Software Engineer) (m/f/x) (published: 06.01.2022). Apply now or check the other available ...",
+        "snippet_highlighted_words": [
+            "Senior Software Engineer"
+        ],
+        "source": "JOIN"
+    },
+    {
+        "position": 15,
+        "title": "Senior Software Engineer - CAREERS AT NVIDIA",
+        "link": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Senior-Software-Engineer_JR1987341",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Senior-Software-Engineer_JR1987341&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECHAQAQ&usg=AOvVaw3TZTYphJa6Zk_74HDkZhu-",
+        "displayed_link": "https://nvidia.wd5.myworkdayjobs.com/.../Senior-Softwar...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65ac6ecf36a81d89d91bb9bd43cf6d9333c.png",
+        "date": "4 days ago",
+        "snippet": "NVIDIA is now hiring a Senior Software Engineer to lead and help build NVIDIA's innovative Network Management System for the most powerful super-computers ...",
+        "snippet_highlighted_words": [
+            "Senior Software Engineer"
+        ],
+        "source": "Workday"
+    },
+    {
+        "position": 16,
+        "title": "Upwork Senior Software Engineer",
+        "link": "https://jobs.smartrecruiters.com/Upwork/3743990005640216-senior-software-engineer",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/Upwork/3743990005640216-senior-software-engineer&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCKcBEAE&usg=AOvVaw0Uvn1G2DgQMTu-93JhNyjQ",
+        "displayed_link": "https://jobs.smartrecruiters.com/.../3743990005640216-s...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a9a1bae39a95eebcb0e62a3063f102180.png",
+        "date": "Oct 16, 2024",
+        "snippet": "Location: Remote (Preference for candidates in Latin America) Working Hours: Must be available to work core hours of 8 AM to 5 PM or 9 AM to 6 PM CST.",
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 17,
+        "title": "Verisk Senior Software Developer",
+        "link": "https://jobs.smartrecruiters.com/Verisk/744000021865905-senior-software-developer",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/Verisk/744000021865905-senior-software-developer&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCM4BEAE&usg=AOvVaw1y1Ka_HoIiQfIzhqi0CLs2",
+        "displayed_link": "https://jobs.smartrecruiters.com/.../744000021865905-se...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a1d4158b726c67e711647e0b78226a2bd.png",
+        "date": "4 days ago",
+        "snippet": "Are you an innovative thinker passionate about cutting-edge technology? Join our technology team at Opta and help disrupt the insurance industry by building ...",
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 18,
+        "title": "Senior Software Engineer, Observability - at CLEAR",
+        "link": "https://boards.greenhouse.io/clear/jobs/6349304",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://boards.greenhouse.io/clear/jobs/6349304&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCOgBEAE&usg=AOvVaw0K_wl2IZVjuoCQhtu5wnFG",
+        "displayed_link": "https://boards.greenhouse.io/clear/jobs/6349304",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a36325b2abe4f57477a2cfe3284b91e90.png",
+        "date": "1 day ago",
+        "snippet": "Today, CLEAR is well-known as a leader in digital and biometric identification, reducing friction for our members wherever an ID check is needed.",
+        "source": "Greenhouse"
+    },
+    {
+        "position": 19,
+        "title": "Senior Software Engineer - GPU Clusters",
+        "link": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Senior-Software-Engineer---GPU-Clusters_JR1989687",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Senior-Software-Engineer---GPU-Clusters_JR1989687&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCPsBEAE&usg=AOvVaw34Wk1nFdY_nD6PkGD1sldV",
+        "displayed_link": "https://nvidia.wd5.myworkdayjobs.com/.../Senior-Softwar...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65aac15d6b32459e8cb41aa6ac9ea2e9ca3.png",
+        "date": "2 days ago",
+        "snippet": "NVIDIA is leading the way in groundbreaking developments in Artificial Intelligence, High-Performance Computing and Visualization. The GPU, our invention, ...",
+        "source": "Workday"
+    },
+    {
+        "position": 20,
+        "title": "Senior Software Engineer, Backend - Apollo",
+        "link": "https://jobs.lever.co/apollographql/384a5e69-c87c-4900-a295-b9a574a04a82",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.lever.co/apollographql/384a5e69-c87c-4900-a295-b9a574a04a82&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCJACEAE&usg=AOvVaw10sgOAxlSCfVNJlAonNwxg",
+        "displayed_link": "https://jobs.lever.co/.../384a5e69-c87c-4900-a295-b9a57...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a87daf6d74f30c2262fef525fef473686.png",
+        "date": "4 days ago",
+        "snippet": "Are you a seasoned backend developer excited to design and build the future of Apollo's product platform to support major worldwide customers, ...",
+        "snippet_highlighted_words": [
+            "developer"
+        ],
+        "source": "Lever"
+    },
+    {
+        "position": 21,
+        "title": "Senior Software Engineer - Product @ Census",
+        "link": "https://jobs.ashbyhq.com/Census/ac932bf1-bcce-4426-b962-af2418a58599",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.ashbyhq.com/Census/ac932bf1-bcce-4426-b962-af2418a58599&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCK0CEAE&usg=AOvVaw1mZRC_Y6nALq1ZmZZrcBcm",
+        "displayed_link": "https://jobs.ashbyhq.com/.../ac932bf1-bcce-4426-b962-a...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a1671e2a0a9fa9a6f9148fbcb62387ed6.png",
+        "date": "3 days ago",
+        "snippet": "ABOUT CENSUS Census is the first Data Activation platform built on your warehouse. Sync 360° customer data to 200+ business tools today with Reverse ETL.",
+        "source": "Ashby"
+    },
+    {
+        "position": 22,
+        "title": "Senior Software Engineer, Identity and Access Management",
+        "link": "https://boards.greenhouse.io/mongodb/jobs/6336186",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://boards.greenhouse.io/mongodb/jobs/6336186&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECEoQAQ&usg=AOvVaw2sOCIAUz42HCcLbb_7Ad_X",
+        "displayed_link": "https://boards.greenhouse.io/mongodb/jobs/6336186",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65afaa697f72b6169eb70cfcac181f5af36.png",
+        "date": "4 days ago",
+        "snippet": "Our industry-leading developer data platform, MongoDB Atlas, is the only globally distributed, multi-cloud database and is available in more than 115 regions ...",
+        "snippet_highlighted_words": [
+            "developer"
+        ],
+        "source": "greenhouse.io"
+    },
+    {
+        "position": 23,
+        "title": "Senior Software Engineer, Okta Workflows Operations",
+        "link": "https://boards.greenhouse.io/okta/jobs/6304843",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://boards.greenhouse.io/okta/jobs/6304843&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECGQQAQ&usg=AOvVaw1TiDxz7jsBxh9OEQ6NP6ud",
+        "displayed_link": "https://boards.greenhouse.io/okta/jobs/6304843",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a4f0edc2ec6e114bdef9adc61d623eb9b.png",
+        "date": "5 days ago",
+        "snippet": "Get to know OktaOkta is The World's Identity Company. We free everyone to safely use any technology—anywhere, on any device or app.",
+        "source": "greenhouse.io"
+    },
+    {
+        "position": 24,
+        "title": "GoodLeap - Senior Software Engineer - Flutter",
+        "link": "https://jobs.lever.co/goodleap/7ad60a3d-2f28-4c40-a107-9ca24c7bb1af",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.lever.co/goodleap/7ad60a3d-2f28-4c40-a107-9ca24c7bb1af&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECH8QAQ&usg=AOvVaw1q5eXB0Y0fO0NfTA_awyjF",
+        "displayed_link": "https://jobs.lever.co/.../7ad60a3d-2f28-4c40-a107-9ca24...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a5bbbfcf1ada3d6c8f1947d4eb314504d.png",
+        "date": "2 days ago",
+        "snippet": "GoodLeap is a technology company delivering best-in-class financing and software products for sustainable solutions, from solar panels and batteries to ...",
+        "snippet_highlighted_words": [
+            "software"
+        ],
+        "source": "Lever"
+    },
+    {
+        "position": 25,
+        "title": "Job Application for Senior Software Engineer at EarnIn",
+        "link": "https://boards.greenhouse.io/earnin/jobs/6350416",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://boards.greenhouse.io/earnin/jobs/6350416&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCJABEAE&usg=AOvVaw0vSe_k7Gq1dX2In34VdW_S",
+        "displayed_link": "https://boards.greenhouse.io/earnin/jobs/6350416",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a26dddcedad5f877b2cfeff38e149bba9.png",
+        "date": "1 day ago",
+        "snippet": "As one of the first pioneers of earned wage access, our passion at EarnIn is building products that deliver real-time financial flexibility for those with the ...",
+        "source": "Greenhouse"
+    },
+    {
+        "position": 26,
+        "title": "Senior Software Engineer 1, Home Brands",
+        "link": "https://meredith.wd5.myworkdayjobs.com/en-US/EXT/job/Senior-Software-Engineer-1--Home-Brands_JR14053",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://meredith.wd5.myworkdayjobs.com/en-US/EXT/job/Senior-Software-Engineer-1--Home-Brands_JR14053&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCKQBEAE&usg=AOvVaw3VVfS7ji2VWENpwtJzWkl_",
+        "displayed_link": "https://meredith.wd5.myworkdayjobs.com/.../Senior-Soft...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a1d5b3f0482cdc07fa7243da3b125b281.png",
+        "date": "7 days ago",
+        "snippet": "Job Title Senior Software Engineer 1, Home Brands Job Description Prototype and develop responsive and elegant cross-platform functionality on a custom ...",
+        "snippet_highlighted_words": [
+            "Senior Software Engineer"
+        ],
+        "source": "myworkdayjobs.com"
+    },
+    {
+        "position": 27,
+        "title": "Visa Senior Software Engineer [DevSecOps]",
+        "link": "https://jobs.smartrecruiters.com/Visa/744000022193475-senior-software-engineer-devsecops-",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/Visa/744000022193475-senior-software-engineer-devsecops-&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCLwBEAE&usg=AOvVaw08pwdacoj2mGbBkIbDV-OF",
+        "displayed_link": "https://jobs.smartrecruiters.com/.../744000022193475-se...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a90aae5793f1a257ef0b8b58b74d4bcf9.png",
+        "date": "3 days ago",
+        "snippet": "Visa's Technology Organization is a community of problem solvers and innovators reshaping the future of commerce. We operate the world's most sophisticated ...",
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 28,
+        "title": "Senior, Software Engineer - Myworkdayjobs.com",
+        "link": "https://walmart.wd5.myworkdayjobs.com/en-US/WalmartExternal/job/Senior--Software-Engineer_R-2011994",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://walmart.wd5.myworkdayjobs.com/en-US/WalmartExternal/job/Senior--Software-Engineer_R-2011994&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCNABEAE&usg=AOvVaw2CBY4tg4bCh40jLUenELUo",
+        "displayed_link": "https://walmart.wd5.myworkdayjobs.com/.../Senior--Soft...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a7ea4e6ab3e3c8070746b6c9008cb779e.png",
+        "date": "4 days ago",
+        "snippet": "Position Summary... What you'll do... Team Description The Search Indexing Platform team is instrumental in facilitating search functionality on Walmart's ...",
+        "source": "myworkdayjobs.com"
+    },
+    {
+        "position": 29,
+        "title": "Senior Software Engineer, Transforms Platform",
+        "link": "https://boards.greenhouse.io/tempus/jobs/7696573002",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://boards.greenhouse.io/tempus/jobs/7696573002&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCNwBEAE&usg=AOvVaw22uehs4N4RHG9CAItGMnrH",
+        "displayed_link": "https://boards.greenhouse.io/tempus/jobs/7696573002",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65aca0d6b13532b03beb3b7dd2bef1d0810.png",
+        "date": "2 days ago",
+        "snippet": "Bachelor's or Master's degree in Computer Science, Engineering, or a related field, or equivalent industry experience. · 5+ years of experience in software ...",
+        "snippet_highlighted_words": [
+            "software"
+        ],
+        "source": "Greenhouse"
+    },
+    {
+        "position": 30,
+        "title": "Senior, Software Engineer - Careers - Myworkdayjobs.com",
+        "link": "https://walmart.wd5.myworkdayjobs.com/en-US/WalmartExternal/job/Senior--Software-Engineer_R-2012216",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://walmart.wd5.myworkdayjobs.com/en-US/WalmartExternal/job/Senior--Software-Engineer_R-2012216&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCOwBEAE&usg=AOvVaw1WEq7Ol1AHaSglk9suxCk6",
+        "displayed_link": "https://walmart.wd5.myworkdayjobs.com/.../Senior--Soft...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a2dc7c1018309904f4b7f57bf5c01c540.png",
+        "date": "4 days ago",
+        "snippet": "Position Summary... What you'll do... Do you have a PASSION for Quality? Do you ENJOY writing scripts? Do you LOVE breaking stuff?",
+        "source": "myworkdayjobs.com"
+    },
+    {
+        "position": 31,
+        "title": "Senior Software Engineer, Core Infra - Dynamo AI",
+        "link": "https://jobs.lever.co/dynamoai/0ef5f0e4-880d-412f-b2f5-592e03430710",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.lever.co/dynamoai/0ef5f0e4-880d-412f-b2f5-592e03430710&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCPkBEAE&usg=AOvVaw03TdPM3HZvUJ8Uenoc5pd8",
+        "displayed_link": "https://jobs.lever.co/.../0ef5f0e4-880d-412f-b2f5-592e0...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65abcdd73cf55b6e6635c29c350db0d760a.png",
+        "date": "5 days ago",
+        "snippet": "You will be instrumental in deploying our advanced machine learning models in diverse production environments, ensuring optimal performance and reliability. You ...",
+        "source": "Lever"
+    },
+    {
+        "position": 32,
+        "title": "Senior Software Engineer (C++)",
+        "link": "https://boards.greenhouse.io/freeformfuturecorp/jobs/6247978003",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://boards.greenhouse.io/freeformfuturecorp/jobs/6247978003&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCP8BEAE&usg=AOvVaw3bmHLB9B2IPW2IBp_vekNc",
+        "displayed_link": "https://boards.greenhouse.io/.../jobs/6247978003",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a9dd05d3bcfdf45e54469cb050b863a34.png",
+        "date": "6 days ago",
+        "snippet": "Freeform is deploying software-defined, autonomous metal 3D printing factories around the world, bringing the scalability of software to physical production.",
+        "snippet_highlighted_words": [
+            "software",
+            "software"
+        ],
+        "source": "Greenhouse"
+    },
+    {
+        "position": 33,
+        "title": "Senior Software Engineer, Backend (RecordKeeper)",
+        "link": "https://boards.greenhouse.io/humaninterest/jobs/6176624?ref=levels.fyi&utm_source=levels.fyi",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://boards.greenhouse.io/humaninterest/jobs/6176624%3Fref%3Dlevels.fyi%26utm_source%3Dlevels.fyi&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCI4CEAE&usg=AOvVaw20172qrck7ShK4h4c9oM-Q",
+        "displayed_link": "https://boards.greenhouse.io/.../jobs/6176624?ref...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a2345c365498ac418dba7fde48f018d92.png",
+        "date": "2 days ago",
+        "snippet": "Human Interest is on a mission to ensure that people in all lines of work have access to retirement benefits. Nearly half of all working Americans are not ...",
+        "source": "Greenhouse"
+    },
+    {
+        "position": 34,
+        "title": "Senior Software Engineer (Embedded)",
+        "link": "https://boards.greenhouse.io/freeformfuturecorp/jobs/6247973003?utm_source=algojobs&utm_medium=website&ref=algojobs",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://boards.greenhouse.io/freeformfuturecorp/jobs/6247973003%3Futm_source%3Dalgojobs%26utm_medium%3Dwebsite%26ref%3Dalgojobs&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCJECEAE&usg=AOvVaw1W9Un2oSJHxfclP1EKET_h",
+        "displayed_link": "https://boards.greenhouse.io/.../6247973003?utm...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a14d418377dfd3b173a17203c665d712e.png",
+        "date": "5 days ago",
+        "snippet": "Freeform is deploying software-defined, autonomous metal 3D printing factories around the world, bringing the scalability of software to physical production.",
+        "snippet_highlighted_words": [
+            "software",
+            "software"
+        ],
+        "source": "Greenhouse"
+    },
+    {
+        "position": 35,
+        "title": "Senior Software Engineer, Backend (Portfolio Management)",
+        "link": "https://boards.greenhouse.io/humaninterest/jobs/6176622?ref=levels.fyi&utm_source=levels.fyi",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://boards.greenhouse.io/humaninterest/jobs/6176622%3Fref%3Dlevels.fyi%26utm_source%3Dlevels.fyi&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCKYCEAE&usg=AOvVaw02iM1legIuIUl5SmvO1Ury",
+        "displayed_link": "https://boards.greenhouse.io/.../jobs/6176622?ref...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a84603d602187b30756a35ded7521588e.png",
+        "date": "2 days ago",
+        "snippet": "Human Interest is on a mission to ensure that people in all lines of work have access to retirement benefits. Nearly half of all working Americans are not ...",
+        "source": "Greenhouse"
+    },
+    {
+        "position": 36,
+        "title": "Senior Software Engineer - CAREERS AT NVIDIA",
+        "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Senior-Software-Engineer_JR1988785-1",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Pune/Senior-Software-Engineer_JR1988785-1&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCK8CEAE&usg=AOvVaw0Zz9QzgO3Ju2q8qL2ki0V3",
+        "displayed_link": "https://nvidia.wd5.myworkdayjobs.com/.../Senior-Softwar...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65ab6810efdc456ff91f0b62565ea3e1a1d.png",
+        "date": "7 days ago",
+        "snippet": "NVIDIA is looking for an outstanding engineer to join its Software Infrastructure and Operations team. The position will be part of a fast-paced crew that ...",
+        "snippet_highlighted_words": [
+            "engineer",
+            "Software"
+        ],
+        "source": "Workday"
+    },
+    {
+        "position": 37,
+        "title": "Yoyo Group Senior Software Engineer",
+        "link": "https://jobs.smartrecruiters.com/YoyoGroup/744000021054105-senior-software-engineer",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/YoyoGroup/744000021054105-senior-software-engineer&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCLwCEAE&usg=AOvVaw3OrfHB5AJrSX7CthYf48Qg",
+        "displayed_link": "https://jobs.smartrecruiters.com/.../744000021054105-se...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a0e9ad66f362e138a1e04a1e060e07294.png",
+        "date": "Oct 16, 2024",
+        "snippet": "Do you have a passion for building high-performance, scalable backend systems? Are you a senior engineer with a deep expertise in Java?",
+        "snippet_highlighted_words": [
+            "senior engineer"
+        ],
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 38,
+        "title": "Senior Software Engineer - Sysdig",
+        "link": "https://jobs.lever.co/sysdig/a6d0fa3a-5314-473c-b1bd-c8bf6326f060",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.lever.co/sysdig/a6d0fa3a-5314-473c-b1bd-c8bf6326f060&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECEsQAQ&usg=AOvVaw1J-260NOwVOf3_y31mo2Jx",
+        "displayed_link": "https://jobs.lever.co/.../a6d0fa3a-5314-473c-b1bd-c8bf6...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a80e3f05b66737f1c38cd471fc8e957b6.png",
+        "date": "7 days ago",
+        "snippet": "On the leading edge of security, Sysdig stops attacks in real-time by instantly detecting changes in cloud security risk with runtime insights and open source ...",
+        "source": "Lever"
+    },
+    {
+        "position": 39,
+        "title": "Senior Software Engineer, Streaming Attribution",
+        "link": "https://boards.greenhouse.io/censys/jobs/7697046002",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://boards.greenhouse.io/censys/jobs/7697046002&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECEgQAQ&usg=AOvVaw2qltCYcm9KrrVTaghnAAxB",
+        "displayed_link": "https://boards.greenhouse.io/censys/jobs/7697046002",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a06431f9b504b60106ec379200079dfb7.png",
+        "date": "2 days ago",
+        "snippet": "At Censys, our mission is to bring internet visibility and intelligence to the world's security teams. Our platform not only identifies potential threats, ...",
+        "source": "Greenhouse"
+    },
+    {
+        "position": 40,
+        "title": "Senior Software Engineer - React - Web @ Kraken",
+        "link": "https://jobs.ashbyhq.com/kraken.com/03101228-04c0-4b6a-8bf4-777c78220410?source=digitalmarketingjobs.com",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.ashbyhq.com/kraken.com/03101228-04c0-4b6a-8bf4-777c78220410%3Fsource%3Ddigitalmarketingjobs.com&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECGgQAQ&usg=AOvVaw1RtBOuUNvJw51O8vGMDv9U",
+        "displayed_link": "https://jobs.ashbyhq.com/.../03101228-04c0-4b6a-8bf4-...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a31e85655009ffed0d6798b88aa14537b.png",
+        "date": "4 days ago",
+        "snippet": "BUILDING THE FUTURE OF CRYPTO Our Krakenites are a world-class team with crypto conviction, united by our desire to discover and unlock the potential of ...",
+        "missing": [
+            "Developer"
+        ],
+        "must_include": {
+            "word": "Developer",
+            "link": "https://www.google.com/search?num=100&sca_esv=dc67e9d40e314a2a&q=Senior+Software+%22Developer%22+site:jobs.ashbyhq.com+OR+site:join.com+OR+site:jobs.lever.co+OR+site:boards.greenhouse.io+OR+site:wd5.myworkdayjobs.com+OR+site:jobs.lever.co+OR+site:careers.icims.com+OR+site:jobs.jobvite.com+OR+site:jobs.smartrecruiters.com+OR+site:app.breezy.hr+OR+site:jazzhr.com+OR+site:taleo.net+OR+site:oraclecloud.com+OR+site:recruiting.adp.com+after:2024-10-11&sa=X&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0Q5t4CegQIexAB"
+        },
+        "source": "Ashby"
+    },
+    {
+        "position": 41,
+        "title": "Senior Software Development Engineer in Test",
+        "link": "https://jobs.smartrecruiters.com/insightsoftware/744000022289606-senior-software-development-engineer-in-test",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/insightsoftware/744000022289606-senior-software-development-engineer-in-test&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECGsQAQ&usg=AOvVaw0kTtxuKssVHN69_BIxkUiq",
+        "displayed_link": "https://jobs.smartrecruiters.com/insightsoftware/7440000...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65ae9d92345c8c4c61abea4290fd8cbd422.png",
+        "date": "2 days ago",
+        "snippet": "The software development team maintains our financial reporting and disclosure management software supporting companies with their global regulatory ...",
+        "snippet_highlighted_words": [
+            "software development",
+            "software"
+        ],
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 42,
+        "title": "Senior Software Engineer - Cloud Infrastructure/SRE",
+        "link": "https://boards.greenhouse.io/corelight/jobs/6338658",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://boards.greenhouse.io/corelight/jobs/6338658&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCIEBEAE&usg=AOvVaw0yRgskr8TEu2rJIw-mCH3i",
+        "displayed_link": "https://boards.greenhouse.io/corelight/jobs/6338658",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65aa60ecf6b3441660a2d9f0a60fefb5351.png",
+        "date": "4 days ago",
+        "snippet": "By making evidence the heart of security, we help customers stay ahead of ever-changing cyber-attacks. Corelight is a cybersecurity company that transforms ...",
+        "source": "Greenhouse"
+    },
+    {
+        "position": 43,
+        "title": "Senior Software Engineer - Content Experience Team",
+        "link": "https://jobs.smartrecruiters.com/Upwork/3743990005643626-senior-software-engineer-content-experience-team",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/Upwork/3743990005643626-senior-software-engineer-content-experience-team&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCIUBEAE&usg=AOvVaw1N-omuezNKMUmKwBXa6oef",
+        "displayed_link": "https://jobs.smartrecruiters.com/.../3743990005643626-s...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a11864cd56123c09f06adfaf6ad7f231a.png",
+        "date": "Oct 17, 2024",
+        "snippet": "Location: Remote (Preference for candidates in Latin America) Working Hours: Must be available to work core hours of 8 AM to 5 PM or 9 AM to 6 PM CST.",
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 44,
+        "title": "Senior Software Engineer - KBR Careers - Myworkdayjobs.com",
+        "link": "https://kbr.wd5.myworkdayjobs.com/en-US/KBR_Careers/job/Senior-Software-Engineer_R2096589",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://kbr.wd5.myworkdayjobs.com/en-US/KBR_Careers/job/Senior-Software-Engineer_R2096589&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCJIBEAE&usg=AOvVaw2GVVs87_DmNbH_yGeqOJPI",
+        "displayed_link": "https://kbr.wd5.myworkdayjobs.com/.../Senior-Software-...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a935d9fc53808088f32fdbb262ebe92ee.png",
+        "date": "4 days ago",
+        "snippet": "Senior Software Engineer · Bachelor's degree in Computer Science, Engineering, or related field. · 8 years or more of experience in software development, with a ...",
+        "snippet_highlighted_words": [
+            "Senior Software Engineer"
+        ],
+        "source": "myworkdayjobs.com"
+    },
+    {
+        "position": 45,
+        "title": "Senior Software Engineer (Fullstack) @ Gravity Sketch",
+        "link": "https://jobs.ashbyhq.com/gravitysketch/2732a0b2-e329-410f-add0-24dd3362fff3",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.ashbyhq.com/gravitysketch/2732a0b2-e329-410f-add0-24dd3362fff3&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCKIBEAE&usg=AOvVaw2apbn8fvAH2Bn3juIV0zrH",
+        "displayed_link": "https://jobs.ashbyhq.com/.../2732a0b2-e329-410f-add0-...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a4f106e479f3d4e4c8e6b6df5863eafb8.png",
+        "date": "Oct 17, 2024",
+        "snippet": "About us: Gravity Sketch is the category leader in solving the challenges faced by teams that design 3D products. Our platform enables teams to create and ...",
+        "source": "Ashby"
+    },
+    {
+        "position": 46,
+        "title": "Publicis Groupe Senior Software Engineer",
+        "link": "https://jobs.smartrecruiters.com/PublicisGroupe/744000021430025-senior-software-engineer",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/PublicisGroupe/744000021430025-senior-software-engineer&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCLMBEAE&usg=AOvVaw26zazM3PsteSAF4d2wcTLw",
+        "displayed_link": "https://jobs.smartrecruiters.com/.../744000021430025-se...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a40b7610a0fc61591eda2c9a888e5ae66.png",
+        "date": "Oct 13, 2024",
+        "snippet": "When you're one of us, you get to run with the best. For decades, we've been helping marketers from the world's top brands personalize experiences for ...",
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 47,
+        "title": "Cyberark Senior Software Engineer .NET",
+        "link": "https://jobs.smartrecruiters.com/Cyberark1/744000021766079-senior-software-engineer-net",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/Cyberark1/744000021766079-senior-software-engineer-net&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCLsBEAE&usg=AOvVaw0JoeS7YScf9amzB5riQCCG",
+        "displayed_link": "https://jobs.smartrecruiters.com/.../744000021766079-se...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a235239343d18b04699e88a934758e7d3.png",
+        "date": "4 days ago",
+        "snippet": "Responsibilities:Help guide and contribute to feature design and implementation to bring the product to the next level.Participate in continuous and ...",
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 48,
+        "title": "Cover Genius - Senior Software Engineer - Python Developer",
+        "link": "https://jobs.lever.co/covergenius/a30a73f1-9e1f-4327-b40b-6dc2d875e703?utm_source=algojobs&utm_medium=website&ref=algojobs",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.lever.co/covergenius/a30a73f1-9e1f-4327-b40b-6dc2d875e703%3Futm_source%3Dalgojobs%26utm_medium%3Dwebsite%26ref%3Dalgojobs&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCMoBEAE&usg=AOvVaw2nGb5TqfuRnGFkhLREKp-a",
+        "displayed_link": "https://jobs.lever.co/.../a30a73f1-9e1f-4327-b40b-6dc2d...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a1aef5fb24af43176bf3e357333d8979d.png",
+        "date": "4 days ago",
+        "snippet": "Cover Genius is a Series E insurtech that protects the global customers of the world's largest digital companies including Booking Holdings, ...",
+        "source": "Lever"
+    },
+    {
+        "position": 49,
+        "title": "Gurobi Optimization - Senior Software Developer",
+        "link": "https://jobs.lever.co/GurobiOptimization/834dc0a3-f414-4c6c-980d-b9082231dcdc",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.lever.co/GurobiOptimization/834dc0a3-f414-4c6c-980d-b9082231dcdc&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCM8BEAE&usg=AOvVaw0IsQ80QrBvu1JGE6-K_hIy",
+        "displayed_link": "https://jobs.lever.co/.../834dc0a3-f414-4c6c-980d-b9082...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a8f149c83acd8a833892e89c352bfec4e.png",
+        "date": "6 days ago",
+        "snippet": "A mission that focuses on mathematical optimization. We empower our customers to expand their use of mathematical optimization technology in order to make ...",
+        "source": "Lever"
+    },
+    {
+        "position": 50,
+        "title": "Visa Senior Software Engineer - (Java) (Hybrid/Onsite)",
+        "link": "https://jobs.smartrecruiters.com/Visa/744000022136375-senior-software-engineer-java-hybrid-onsite-",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/Visa/744000022136375-senior-software-engineer-java-hybrid-onsite-&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCNQBEAE&usg=AOvVaw0yLeXzY4KazNS6z-1jNlsp",
+        "displayed_link": "https://jobs.smartrecruiters.com/.../744000022136375-se...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a79457305202165260d19c802080608fd.png",
+        "date": "3 days ago",
+        "snippet": "Job Description and Responsibilities Team SummaryThe Client Information Development is part of the Member Information Systems organization.",
+        "snippet_highlighted_words": [
+            "Development"
+        ],
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 51,
+        "title": "Visa Senior Software Engineer - (Mainframe) (Hybrid/Onsite)",
+        "link": "https://jobs.smartrecruiters.com/Visa/744000022131467-senior-software-engineer-mainframe-hybrid-onsite-",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/Visa/744000022131467-senior-software-engineer-mainframe-hybrid-onsite-&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCN0BEAE&usg=AOvVaw26ii65-BW-d3yRSneRS3OL",
+        "displayed_link": "https://jobs.smartrecruiters.com/.../744000022131467-se...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a596fa5049b402f436a41ea26f54ae1e3.png",
+        "date": "3 days ago",
+        "snippet": "Team SummaryThe Client Information Development is part of the Member Information Systems organization. We are responsible for development, maintenance and ...",
+        "snippet_highlighted_words": [
+            "Development",
+            "development"
+        ],
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 52,
+        "title": "Jobs at Stack AV",
+        "link": "https://boards.greenhouse.io/stackav",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://boards.greenhouse.io/stackav&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCN8BEAE&usg=AOvVaw3JuzNBotuvFs77wnWSR7je",
+        "displayed_link": "https://boards.greenhouse.io/stackav",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a0e37d1dc981102e54543c470f2defdb8.png",
+        "date": "Oct 15, 2024",
+        "snippet": "PhD Research Intern, Simulation/ML Pittsburgh, PA or Remote. Senior Software Engineering Manager, Onboard Infrastructure Pittsburgh, PA or Remote.",
+        "snippet_highlighted_words": [
+            "Senior Software"
+        ],
+        "source": "Greenhouse"
+    },
+    {
+        "position": 53,
+        "title": "Senior Software Engineer (Rust)",
+        "link": "https://boards.greenhouse.io/freeformfuturecorp/jobs/6247918003",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://boards.greenhouse.io/freeformfuturecorp/jobs/6247918003&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCN4BEAE&usg=AOvVaw0cno135ThuZz6tc3S0yi6t",
+        "displayed_link": "https://boards.greenhouse.io/.../jobs/6247918003",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a84c72f67e27933706d895b533262d1a2.png",
+        "date": "5 days ago",
+        "snippet": "Freeform is deploying software-defined, autonomous metal 3D printing factories around the world, bringing the scalability of software to physical production.",
+        "snippet_highlighted_words": [
+            "software",
+            "software"
+        ],
+        "source": "Greenhouse"
+    },
+    {
+        "position": 54,
+        "title": "Senior Software Engineer (Golang)",
+        "link": "https://boards.greenhouse.io/stream/jobs/6075980003?utm_source=algojobs&utm_medium=website&ref=algojobs",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://boards.greenhouse.io/stream/jobs/6075980003%3Futm_source%3Dalgojobs%26utm_medium%3Dwebsite%26ref%3Dalgojobs&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCOoBEAE&usg=AOvVaw2b45RSbJIjN3KBhmgNWIGL",
+        "displayed_link": "https://boards.greenhouse.io/.../6075980003?utm...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a9fa6aaba4a3f995d9a9b8f4a26de364a.png",
+        "date": "1 day ago",
+        "snippet": "Stream uses Go for our video SFU & chat API. We power chat for many large apps like Strava, Nextdoor, Patreon, IBM, Adobe and Midjourney.",
+        "source": "Greenhouse"
+    },
+    {
+        "position": 55,
+        "title": "Senior Software Engineer - CrashPlan Careers",
+        "link": "https://jobs.jobvite.com/crashplan/job/oXsHufwk",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.jobvite.com/crashplan/job/oXsHufwk&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCPcBEAE&usg=AOvVaw2LdI0kv-nDwLffgKhIeF5K",
+        "displayed_link": "https://jobs.jobvite.com/crashplan/job/oXsHufwk",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65ace576646a8541778184c946fa2c05a80.png",
+        "date": "7 days ago",
+        "snippet": "With its comprehensive backup and recovery capabilities for data stored on servers, on endpoint devices, and in SaaS applications, CrashPlan's solutions are ...",
+        "source": "Jobvite"
+    },
+    {
+        "position": 56,
+        "title": "Visa Senior Software Engineer - Backend (Hybrid/Onsite)",
+        "link": "https://jobs.smartrecruiters.com/Visa/744000021905855-senior-software-engineer",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/Visa/744000021905855-senior-software-engineer&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCPgBEAE&usg=AOvVaw2Y_A1V9XSsYFQqZHMfBzBj",
+        "displayed_link": "https://jobs.smartrecruiters.com/.../744000021905855-se...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a62770b90ffe80c8fb1111f8e44502884.png",
+        "date": "4 days ago",
+        "snippet": "Visa's Technology Organization is a community of problem solvers and innovators reshaping the future of commerce. We operate the world's most sophisticated ...",
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 57,
+        "title": "Grab Senior Software Engineer, iOS",
+        "link": "https://jobs.smartrecruiters.com/Grab/744000020372250-senior-software-engineer-ios",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/Grab/744000020372250-senior-software-engineer-ios&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCPoBEAE&usg=AOvVaw1CSN9UvMBWorH9DPyHuIpP",
+        "displayed_link": "https://jobs.smartrecruiters.com/.../744000020372250-se...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a7514e3e6b9992f5aee7bbe3206c9f4dc.png",
+        "date": "Oct 15, 2024",
+        "snippet": "Get to Know the TeamGrab's Safety team is looking to improve the Safety of our platforms, which requires the help of top-notch iOS developers.",
+        "snippet_highlighted_words": [
+            "developers"
+        ],
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 58,
+        "title": "Senior Software Engineer, Fullstack (Glide) @ Pear VC",
+        "link": "https://jobs.ashbyhq.com/pear/0f2fc666-a72a-48fd-b257-30f6ed2571e8?utm_medium=website&utm_source=Remotejobsguru&ref=Remotejobsguru&source=Remotejobsguru",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.ashbyhq.com/pear/0f2fc666-a72a-48fd-b257-30f6ed2571e8%3Futm_medium%3Dwebsite%26utm_source%3DRemotejobsguru%26ref%3DRemotejobsguru%26source%3DRemotejobsguru&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCIMCEAE&usg=AOvVaw395fGCx5iR-XllIS1XZE6Q",
+        "displayed_link": "https://jobs.ashbyhq.com/.../0f2fc666-a72a-48fd-b257-3...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a741e8801ca49577fb15acc503bdcb56a.png",
+        "date": "3 days ago",
+        "snippet": "WELCOME TO GLIDE! At Glide we're reimagining the banking experience for the modern world. Our embedded fintech platform empowers legacy financial ...",
+        "source": "Ashby"
+    },
+    {
+        "position": 59,
+        "title": "Visa Senior Software Engineer - UI",
+        "link": "https://jobs.smartrecruiters.com/Visa/744000021715360-senior-software-engineer-ui",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/Visa/744000021715360-senior-software-engineer-ui&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCI0CEAE&usg=AOvVaw1nRUImM7g9O86QkT_-vWfh",
+        "displayed_link": "https://jobs.smartrecruiters.com/.../744000021715360-se...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a359197dd676988c7d42c935694704b03.png",
+        "date": "5 days ago",
+        "snippet": "Digital Marketing Enablement team is currently seeking Senior UI Engineer with strong UI/UX technical skills and experience in building high-performing, ...",
+        "snippet_highlighted_words": [
+            "Senior",
+            "Engineer"
+        ],
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 60,
+        "title": "Visa Senior Software Engineer- Full Stack (Hybrid/Onsite)",
+        "link": "https://jobs.smartrecruiters.com/Visa/744000021108884-senior-software-engineer-full-stack-hybrid-onsite-",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/Visa/744000021108884-senior-software-engineer-full-stack-hybrid-onsite-&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCI8CEAE&usg=AOvVaw3pBwmWxO5431TxuRU2Vwr-",
+        "displayed_link": "https://jobs.smartrecruiters.com/.../744000021108884-se...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65ad12c7a8924d36c7dc2880e38e71bb644.png",
+        "date": "Oct 17, 2024",
+        "snippet": "This role will be working in the Click2Pay (Secure Remote Commerce) Development team. Come make an immediate impact as we ramp up to tackle a new set of fun ...",
+        "snippet_highlighted_words": [
+            "Development"
+        ],
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 61,
+        "title": "Senior Software Engineer - Certinia Careers",
+        "link": "https://jobs.jobvite.com/certinia/job/oUNGufwB",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.jobvite.com/certinia/job/oUNGufwB&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCJICEAE&usg=AOvVaw3NbmrGTwFQTFFdtjMxsWDE",
+        "displayed_link": "https://jobs.jobvite.com/certinia/job/oUNGufwB",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a1fd78d42244309850a1a90272598a289.png",
+        "date": "6 days ago",
+        "snippet": "The company's Professional Services Automation (PSA), Customer Success, and ERP solutions delivered on Salesforce's leading cloud platform provide the ability ...",
+        "source": "Jobvite"
+    },
+    {
+        "position": 62,
+        "title": "Senior Software Engineer (API/Backend)",
+        "link": "https://boards.greenhouse.io/databento/jobs/6325186?gh_src=",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://boards.greenhouse.io/databento/jobs/6325186%3Fgh_src%3D&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCKACEAE&usg=AOvVaw3njNyhGscjf_8v8Xs31dAx",
+        "displayed_link": "https://boards.greenhouse.io/databento/jobs/6325186?...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a75d4f8afe5310a5505e9893541c1d09a.png",
+        "date": "Oct 12, 2024",
+        "snippet": "Databento is a startup that builds modern APIs to get financial data. As a Series A startup, we've raised nearly $30M to date, and have grown our revenues ...",
+        "source": "Greenhouse"
+    },
+    {
+        "position": 63,
+        "title": "Senior Software Developer - Sports Virtualization (m/f/d)",
+        "link": "https://jobs.smartrecruiters.com/Sportradar/744000022198680-senior-software-developer-sports-virtualization-m-f-d-",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/Sportradar/744000022198680-senior-software-developer-sports-virtualization-m-f-d-&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCKICEAE&usg=AOvVaw1gHuqYvVXe2SuXsU9v57D_",
+        "displayed_link": "https://jobs.smartrecruiters.com/.../744000022198680-se...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65ae7d829341da7fe520c81a09993d1bb04.png",
+        "date": "2 days ago",
+        "snippet": "Sportradar's newly founded Sports Virtualisation unit develops innovative and disruptive technology to enable the transition from traditional sports media ...",
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 64,
+        "title": "GoodLeap - Senior Software Engineer, NodeJS",
+        "link": "https://jobs.lever.co/goodleap/788e6aa4-b4fc-4c91-9da0-577baab4c756",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.lever.co/goodleap/788e6aa4-b4fc-4c91-9da0-577baab4c756&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCKcCEAE&usg=AOvVaw1_CUsf5dDlX7SMKHAtoM0z",
+        "displayed_link": "https://jobs.lever.co/.../788e6aa4-b4fc-4c91-9da0-577ba...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a401be2fdf27c3026c588cfbf626046d9.png",
+        "date": "2 days ago",
+        "snippet": "GoodLeap is a technology company delivering best-in-class financing and software products for sustainable solutions, from solar panels and batteries to ...",
+        "snippet_highlighted_words": [
+            "software"
+        ],
+        "source": "Lever"
+    },
+    {
+        "position": 65,
+        "title": "Senior Software Engineer, DesignShop",
+        "link": "https://boards.greenhouse.io/materialbank/jobs/6107337003?utm_source=algojobs&utm_medium=website&ref=algojobs",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://boards.greenhouse.io/materialbank/jobs/6107337003%3Futm_source%3Dalgojobs%26utm_medium%3Dwebsite%26ref%3Dalgojobs&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCKkCEAE&usg=AOvVaw1uUpvlwFtgMmTunlgmDri9",
+        "displayed_link": "https://boards.greenhouse.io/.../6107337003?utm...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65af0e87a7d2d4c3e4b2f67cb9be15ae173.png",
+        "date": "2 days ago",
+        "snippet": "Material Bank is a fast-paced, high-growth technology company and created the world's largest material marketplace for the Architecture and Design industry, ...",
+        "source": "Greenhouse"
+    },
+    {
+        "position": 66,
+        "title": "Jobs at Moloco",
+        "link": "https://boards.greenhouse.io/moloco",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://boards.greenhouse.io/moloco&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCK4CEAE&usg=AOvVaw3teuM5cA1BOjGM8eJ9S8JY",
+        "displayed_link": "https://boards.greenhouse.io/moloco",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65af68a5e2182c86952c7b09e845385e24a.png",
+        "date": "8 days ago",
+        "snippet": "Engineering ; Machine Learning Engineer Intern United States ; Software Engineer Intern United States ; Tech Lead Manager - Strategic Infrastructure Redwood City, ...",
+        "snippet_highlighted_words": [
+            "Engineer",
+            "Software Engineer"
+        ],
+        "source": "Greenhouse"
+    },
+    {
+        "position": 67,
+        "title": "Senior Software Engineer, Frontend @ Vanta",
+        "link": "https://jobs.ashbyhq.com/vanta/df231cb3-2401-4c0e-a5f1-137dfdd79b72?source=Boooom.co",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.ashbyhq.com/vanta/df231cb3-2401-4c0e-a5f1-137dfdd79b72%3Fsource%3DBoooom.co&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCLoCEAE&usg=AOvVaw2wgAlpS2-_dh_72o2_2elJ",
+        "displayed_link": "https://jobs.ashbyhq.com/.../df231cb3-2401-4c0e-a5f1-1...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a7bb121a4e8dccaf239d5184bc4630788.png",
+        "date": "3 days ago",
+        "snippet": "At Vanta, our mission is to secure the internet and protect consumer data. We believe that security should be monitored and verified continuously, ...",
+        "source": "Ashby"
+    },
+    {
+        "position": 68,
+        "title": "Senior Software Engineer - Frontend @ Scratchpad",
+        "link": "https://jobs.ashbyhq.com/scratchpad/8f5098a2-6c50-4ff8-bac4-357581712e72",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.ashbyhq.com/scratchpad/8f5098a2-6c50-4ff8-bac4-357581712e72&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCMQCEAE&usg=AOvVaw3enHfoE6KzIW-n56AMhvi_",
+        "displayed_link": "https://jobs.ashbyhq.com/.../8f5098a2-6c50-4ff8-bac4-3...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65aa9ea19e18b60d4fef834bd79179ffd3d.png",
+        "date": "1 day ago",
+        "snippet": "Unlock your potential with Scratchpad! Join us as a Backend Engineer to tackle complex challenges, shape sales tech, and grow in a remote-first, ...",
+        "snippet_highlighted_words": [
+            "Engineer"
+        ],
+        "source": "Ashby"
+    },
+    {
+        "position": 69,
+        "title": "Senior Software Engineer - at Cirkul, Inc.",
+        "link": "https://boards.greenhouse.io/cirkul/jobs/4458155007?t=09e32a067us",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://boards.greenhouse.io/cirkul/jobs/4458155007%3Ft%3D09e32a067us&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCL8CEAE&usg=AOvVaw2HB4pR9EQx8HwF1O58cEQz",
+        "displayed_link": "https://boards.greenhouse.io/cirkul/jobs/4458155007?t...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a13801581f4010b9696be731757c4d364.png",
+        "date": "1 day ago",
+        "snippet": "What is Cirkul? Cirkul is a rapidly growing beverage technology company on a mission to make a healthier world by helping people enjoy drinking more water.",
+        "source": "Greenhouse"
+    },
+    {
+        "position": 70,
+        "title": "Senior Software Engineer - Ziff Davis Shopping Careers",
+        "link": "https://jobs.jobvite.com/ziff-davis-shopping/job/oMKIufws",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.jobvite.com/ziff-davis-shopping/job/oMKIufws&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECFAQAQ&usg=AOvVaw31BArKRWMlYW-udYW2fEVL",
+        "displayed_link": "https://jobs.jobvite.com/ziff-davis-shopping/.../oMKIufw...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a21d0a22036ff9595de4f403992c0d763.png",
+        "date": "19 hours ago",
+        "snippet": "Ziff Davis Shopping helps millions of shoppers discover and save, delivering exceptional consumer and merchant-advertiser experiences across a portfolio of ...",
+        "source": "Jobvite"
+    },
+    {
+        "position": 71,
+        "title": "Senior Software Engineer - Test Engineering (Hybrid/Onsite)",
+        "link": "https://jobs.smartrecruiters.com/Visa/744000021498050-senior-software-engineer-test-engineering-hybrid-onsite-",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/Visa/744000021498050-senior-software-engineer-test-engineering-hybrid-onsite-&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECE8QAQ&usg=AOvVaw2d_T3CMGfpHbgkMgTg_HAX",
+        "displayed_link": "https://jobs.smartrecruiters.com/.../744000021498050-se...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a2a8bafc6915740853d0604a351c65cb8.png",
+        "date": "7 days ago",
+        "snippet": "The Test Engineering team in VisaNet Integrated Payment (VIP) delivers quality services and solutions using best-in-class processes, methodologies, ...",
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 72,
+        "title": "TEKWISSEN LLC Senior Software Development Engineer ...",
+        "link": "https://jobs.smartrecruiters.com/TEKWISSENLLC/744000022101233-senior-software-development-engineer-embedded-systems-",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/TEKWISSENLLC/744000022101233-senior-software-development-engineer-embedded-systems-&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECE0QAQ&usg=AOvVaw0O5zQCqStRiEnBi4i67-rm",
+        "displayed_link": "https://jobs.smartrecruiters.com/.../744000022101233-se...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a631b8340e3947ea6a8f2375014e48454.png",
+        "date": "3 days ago",
+        "snippet": "Job Title: Senior Software Development Engineer (Embedded Systems) Location: Indianola, PA, 15051 Duration: 12 Months Job Type: Contract Work Type: Onsite ...",
+        "snippet_highlighted_words": [
+            "Senior Software Development"
+        ],
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 73,
+        "title": "Software Developer Senior - Myworkdayjobs.com",
+        "link": "https://rb.wd5.myworkdayjobs.com/en-US/FRS/job/Cleveland-OH/Software-Developer-Senior_R-0000025640-1/apply?locations=fd925bdfc724016c5c1db34424019107",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://rb.wd5.myworkdayjobs.com/en-US/FRS/job/Cleveland-OH/Software-Developer-Senior_R-0000025640-1/apply%3Flocations%3Dfd925bdfc724016c5c1db34424019107&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECGMQAQ&usg=AOvVaw1tkRwWCyr8npQv10-fs1Vg",
+        "displayed_link": "https://rb.wd5.myworkdayjobs.com/.../Software-Develope...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a66800d313fdac654f6e46ad1479d510f.png",
+        "date": "Oct 16, 2024",
+        "snippet": "Start Your Application. Software Developer Senior. Autofill with Resume · Apply Manually · Use My Last Application. © 2024 Workday, Inc. All rights ...",
+        "snippet_highlighted_words": [
+            "Software Developer Senior"
+        ],
+        "source": "myworkdayjobs.com"
+    },
+    {
+        "position": 74,
+        "title": "Angular Software Developer 3 - Security Finance Careers",
+        "link": "https://jobs.jobvite.com/securityfinance/job/oYwIufwq",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.jobvite.com/securityfinance/job/oYwIufwq&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECGYQAQ&usg=AOvVaw07Rhb9fspk4R_ngd3Su3t1",
+        "displayed_link": "https://jobs.jobvite.com/securityfinance/job/oYwIufwq",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65afba1d2a6c9dd822dac3b64ab5a078218.png",
+        "date": "2 days ago",
+        "snippet": "You could be a great addition as Senior Software Developer,. Have 5 years of progressively more complex experience in software development; Have .NET and SQL ...",
+        "snippet_highlighted_words": [
+            "Senior Software Developer"
+        ],
+        "source": "Jobvite"
+    },
+    {
+        "position": 75,
+        "title": "Cyberark Senior Software Engineer, .Net",
+        "link": "https://jobs.smartrecruiters.com/Cyberark1/744000021966696-senior-software-engineer-net",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/Cyberark1/744000021966696-senior-software-engineer-net&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECGUQAQ&usg=AOvVaw3OF3L8H-8KONuNo15CdC7P",
+        "displayed_link": "https://jobs.smartrecruiters.com/.../744000021966696-se...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a32a901f183aac1ac18b6c4a8d4af7050.png",
+        "date": "3 days ago",
+        "snippet": "As a Senior Software Engineer, you will innovate, design, implement, maintain, and evolve CyberArk Products. You have a keen eye for securely written, ...",
+        "snippet_highlighted_words": [
+            "Senior Software Engineer"
+        ],
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 76,
+        "title": "Senior Software Developer - Blue J",
+        "link": "https://jobs.lever.co/bluejlegal/21f7eb57-4931-4f3d-ad22-fe062f4a5cdc",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.lever.co/bluejlegal/21f7eb57-4931-4f3d-ad22-fe062f4a5cdc&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECGoQAQ&usg=AOvVaw0rxuJcrnF64-vnCl7Z9sIj",
+        "displayed_link": "https://jobs.lever.co/.../21f7eb57-4931-4f3d-ad22-fe062...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a8ea4c503ec91599b7f81da0605e08078.png",
+        "date": "1 day ago",
+        "snippet": "Blue J is the leading solution in generative AI for tax experts. We're a B2B SaaS company whose customers are accountants and lawyers, and our AI-tax ...",
+        "source": "Lever"
+    },
+    {
+        "position": 77,
+        "title": "Senior Software Development Engineer (Multiple Positions ...",
+        "link": "https://jobs.smartrecruiters.com/BoschGroup/744000022127971-senior-software-development-engineer-multiple-positions-ref241943c",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/BoschGroup/744000022127971-senior-software-development-engineer-multiple-positions-ref241943c&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECHIQAQ&usg=AOvVaw0fsERYvH75SiuFsuM84qCe",
+        "displayed_link": "https://jobs.smartrecruiters.com/.../744000022127971-se...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a2eead34d3311dbd1e5772817f756f686.png",
+        "date": "3 days ago",
+        "snippet": "Senior Software Development Engineer (Multiple Positions) REF241943C. 15000 Haggerty Rd, Plymouth, MI, United States; Full-time. Legal Entity: Robert Bosch LLC ...",
+        "snippet_highlighted_words": [
+            "Senior Software Development"
+        ],
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 78,
+        "title": "Senior Software Engineer, Backend - AngelList",
+        "link": "https://jobs.lever.co/angellist/d426c279-4fd4-4f6b-9b1d-42ea50c263c0",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.lever.co/angellist/d426c279-4fd4-4f6b-9b1d-42ea50c263c0&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCIcBEAE&usg=AOvVaw2qvdcbjrCUqeWd02m8R81T",
+        "displayed_link": "https://jobs.lever.co/.../d426c279-4fd4-4f6b-9b1d-42ea5...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a0eb388385a51ec9891fd195f635f83c3.png",
+        "date": "7 days ago",
+        "snippet": "We want to give more people the opportunity to participate in the venture economy by building the financial infrastructure that makes it possible for more ...",
+        "source": "Lever"
+    },
+    {
+        "position": 79,
+        "title": "Senior Software Engineer - Infrastructure @ Qualified",
+        "link": "https://jobs.ashbyhq.com/qualified/9c9940ae-79ed-41e3-93b5-6846f8302a15?ref=employbl",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.ashbyhq.com/qualified/9c9940ae-79ed-41e3-93b5-6846f8302a15%3Fref%3Demploybl&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCIYBEAE&usg=AOvVaw1dco6E8LNoxFOlJ02DHViW",
+        "displayed_link": "https://jobs.ashbyhq.com/.../9c9940ae-79ed-41e3-93b5-...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a0361160dda8c31c4a2c9d63658e40a4b.png",
+        "date": "Oct 13, 2024",
+        "snippet": "Qualified is the PipelineAI platform for B2B companies around the world. Designed to generate more inbound website conversions with AI and automation, ...",
+        "source": "Ashby"
+    },
+    {
+        "position": 80,
+        "title": "Senior Software Engineer (Publisher Pro)",
+        "link": "https://boards.greenhouse.io/impact/jobs/7687866002",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://boards.greenhouse.io/impact/jobs/7687866002&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCI8BEAE&usg=AOvVaw3ERGFJqLCgyswbNAtGyFwJ",
+        "displayed_link": "https://boards.greenhouse.io/impact/jobs/7687866002",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a3f2a519dbcda08850b1db118d8217feb.png",
+        "date": "4 days ago",
+        "snippet": "Our Company: At impact.com we are passionate about our people, our technology, and are obsessed with customer success. Working together enables us to grow ...",
+        "source": "Greenhouse"
+    },
+    {
+        "position": 81,
+        "title": "Senior Software Engineer (Ruby/Java), Groove - Clari",
+        "link": "https://jobs.lever.co/clari/b9fcf7bb-49ac-4530-8f55-bd394476f8ad",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.lever.co/clari/b9fcf7bb-49ac-4530-8f55-bd394476f8ad&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCJEBEAE&usg=AOvVaw0X_QGWUPXqdT_F5ETItAze",
+        "displayed_link": "https://jobs.lever.co/.../b9fcf7bb-49ac-4530-8f55-bd394...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65ac962ea3eeea68a0f7edd642d06d82048.png",
+        "date": "2 days ago",
+        "snippet": "Clari's Revenue platform gives forecasting accuracy and visibility from the sales rep to the board room on revenue performance - helping them spot revenue ...",
+        "source": "Lever"
+    },
+    {
+        "position": 82,
+        "title": "Docler Holding Senior Software Engineer, Frontend",
+        "link": "https://jobs.smartrecruiters.com/DoclerHolding/744000021757449-senior-software-engineer-frontend",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/DoclerHolding/744000021757449-senior-software-engineer-frontend&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCIsBEAE&usg=AOvVaw380FNB5WzWMxo3m4o8MXBf",
+        "displayed_link": "https://jobs.smartrecruiters.com/.../744000021757449-se...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a5b8a7e80579b5a119fde027b8f2fe34f.png",
+        "date": "4 days ago",
+        "snippet": "Implement and deliver various featuresParticipate in code and design reviewsApprove code changes (PR)Implement bugfixesOptimize Application ...",
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 83,
+        "title": "Docler Holding Senior Software Engineer, Frontend",
+        "link": "https://jobs.smartrecruiters.com/DoclerHolding/744000022354595-senior-software-engineer-frontend",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/DoclerHolding/744000022354595-senior-software-engineer-frontend&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCJMBEAE&usg=AOvVaw0Edk0gkQ2jVYj1v3oGdu4v",
+        "displayed_link": "https://jobs.smartrecruiters.com/.../744000022354595-se...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a71f800e2efe75508d0981ef7c413e350.png",
+        "date": "2 days ago",
+        "snippet": "Senior Software Engineer, Frontend · Budapest, Expo tér 5-7, 1101 Hungary · Full-time · Department: Software Development ...",
+        "snippet_highlighted_words": [
+            "Senior Software Engineer"
+        ],
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 84,
+        "title": "Senior Software Engineer - Welocalize",
+        "link": "https://jobs.lever.co/welocalize/f24d6ca3-ee6e-4732-a31c-a79bd08c0fc7",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.lever.co/welocalize/f24d6ca3-ee6e-4732-a31c-a79bd08c0fc7&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCKABEAE&usg=AOvVaw3bMBFrXU3YiYZL_buWC81v",
+        "displayed_link": "https://jobs.lever.co/.../f24d6ca3-ee6e-4732-a31c-a79bd...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65ad9497544baca8863d3266f9738dbadc0.png",
+        "date": "Oct 16, 2024",
+        "snippet": "The Senior Software Engineer plays a pivotal role in the development of advanced information systems by deeply understanding business operations and ...",
+        "snippet_highlighted_words": [
+            "Senior Software Engineer"
+        ],
+        "source": "Lever"
+    },
+    {
+        "position": 85,
+        "title": "Job Application for Senior Software Engineer at Contentful",
+        "link": "https://boards.greenhouse.io/contentful/jobs/6348460",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://boards.greenhouse.io/contentful/jobs/6348460&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCKEBEAE&usg=AOvVaw0vzUhlE3euWYMgvnfHh8tv",
+        "displayed_link": "https://boards.greenhouse.io/contentful/jobs/6348460",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a4efca4341d7c191a479ce88fde6246d3.png",
+        "date": "21 hours ago",
+        "snippet": "As a Senior Software Engineer on Contentful's Studio Experiences team, you will play a vital role in enhancing and supporting a product that empowers teams with ...",
+        "snippet_highlighted_words": [
+            "Senior Software Engineer"
+        ],
+        "source": "Greenhouse"
+    },
+    {
+        "position": 86,
+        "title": "Docler Holding Senior Software Engineer, iOS",
+        "link": "https://jobs.smartrecruiters.com/DoclerHolding/744000022354196-senior-software-engineer-ios",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/DoclerHolding/744000022354196-senior-software-engineer-ios&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCK4BEAE&usg=AOvVaw3D3Q--bMi65idiSfjB7KNX",
+        "displayed_link": "https://jobs.smartrecruiters.com/.../744000022354196-se...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a4e33337d780e05189ee869b04b483c13.png",
+        "date": "2 days ago",
+        "snippet": "Architect and develop features for the iOS platform of a live-streaming productWork in a multicultural environment with teams in multiple geographical ...",
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 87,
+        "title": "Senior Software Engineer (1-year contract)",
+        "link": "https://boards.greenhouse.io/hudl/jobs/6337432",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://boards.greenhouse.io/hudl/jobs/6337432&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCLIBEAE&usg=AOvVaw3EO9KbXRPOxmCG2Tg8O0Dt",
+        "displayed_link": "https://boards.greenhouse.io/hudl/jobs/6337432",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a8ca40cd800d860c267c4ea64d8c3028c.png",
+        "date": "Oct 17, 2024",
+        "snippet": "Building a team starts with valuing the team. We hire the best of the best to ensure you're working with people you can constantly learn from.",
+        "source": "Greenhouse"
+    },
+    {
+        "position": 88,
+        "title": "Publicis Groupe Senior Software Engineer",
+        "link": "https://jobs.smartrecruiters.com/PublicisGroupe/744000020265096-senior-software-engineer?trid=d809bcfe-f230-4cd5-893b-bbed49c2c639",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/PublicisGroupe/744000020265096-senior-software-engineer%3Ftrid%3Dd809bcfe-f230-4cd5-893b-bbed49c2c639&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCL0BEAE&usg=AOvVaw3knd1Z8uB0uXf6BN5nO7ER",
+        "displayed_link": "https://jobs.smartrecruiters.com/.../744000020265096-se...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a87ef10940372c8f7d8dc1238cfe5f7a6.png",
+        "date": "Oct 14, 2024",
+        "snippet": "Hybrid- Working 3 days in CJ Office locationYou must be work authorized in the United States without the need for employer sponsorship As a Senior Software ...",
+        "snippet_highlighted_words": [
+            "Senior Software"
+        ],
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 89,
+        "title": "Job Postings - Senior Software Engineer",
+        "link": "https://boards.greenhouse.io/dremio/jobs/6240430003",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://boards.greenhouse.io/dremio/jobs/6240430003&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCL4BEAE&usg=AOvVaw3kE9RFk9IcYT8boeUr427r",
+        "displayed_link": "https://boards.greenhouse.io › Corp – Careers",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a6adbe2be02f8496113582b667fdcc453.png",
+        "date": "Oct 11, 2024",
+        "snippet": "Senior Software Engineer - Backend. at Dremio. Lisbon, Portugal. Be Part of Building the Future. Dremio is the unified lakehouse platform for self-service ...",
+        "snippet_highlighted_words": [
+            "Senior Software Engineer"
+        ],
+        "source": "greenhouse.io"
+    },
+    {
+        "position": 90,
+        "title": "Senior Software Developer, Backend Platform",
+        "link": "https://boards.greenhouse.io/robinhood/jobs/6305749?t=gh_src=?gh_jid=6305749",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://boards.greenhouse.io/robinhood/jobs/6305749%3Ft%3Dgh_src%3D%3Fgh_jid%3D6305749&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCMEBEAE&usg=AOvVaw3N1B89cwfWXhtEYawC_uoa",
+        "displayed_link": "https://boards.greenhouse.io/robinhood/.../6305749?...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65ad84bcac5069beef9b779bd656ae475ae.png",
+        "date": "7 days ago",
+        "snippet": "Join a leading fintech company that's democratizing finance for all. Robinhood Markets was founded on a simple idea: that our financial markets should be ...",
+        "source": "Greenhouse"
+    },
+    {
+        "position": 91,
+        "title": "Inventory Management System (Montreal, QC)",
+        "link": "https://jobs.smartrecruiters.com/SSENSE1/744000021893606-senior-software-developer-inventory-management-system-montreal-qc-",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/SSENSE1/744000021893606-senior-software-developer-inventory-management-system-montreal-qc-&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoFCMQBEAE&usg=AOvVaw1J5sLn7EY1McqkQ1GNirKR",
+        "displayed_link": "https://jobs.smartrecruiters.com/.../744000021893606-se...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a96e557e8d11f6ebc0aa31a165e86d32b.png",
+        "date": "4 days ago",
+        "snippet": "About the team:SSENSE is looking for a Senior Developer to join our rapidly growing technology team. As a Senior Software Developer on the Inventory ...",
+        "snippet_highlighted_words": [
+            "Senior Software Developer"
+        ],
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 92,
+        "title": "Acumatica Senior Software Developer - Portal team",
+        "link": "https://jobs.smartrecruiters.com/Acumatica/744000020316957-senior-software-developer-portal-team",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/Acumatica/744000020316957-senior-software-developer-portal-team&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECEcQAQ&usg=AOvVaw3BgJDptPT048MqTDHInC0Y",
+        "displayed_link": "https://jobs.smartrecruiters.com/.../744000020316957-se...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a8017d648133e2036f720a899cc378979.png",
+        "date": "Oct 14, 2024",
+        "snippet": "Participate in the design and development of business applications and customizations.Develop of the data access layers, business objects, and presentation ...",
+        "snippet_highlighted_words": [
+            "development"
+        ],
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 93,
+        "title": "Eurofins Senior Software Engineer",
+        "link": "https://jobs.smartrecruiters.com/Eurofins/744000020707466-senior-software-engineer",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/Eurofins/744000020707466-senior-software-engineer&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECDAQAQ&usg=AOvVaw3sUO6jrHQERC6_SHcC26PL",
+        "displayed_link": "https://jobs.smartrecruiters.com/.../744000020707466-se...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a47132f5e556cfeb76350a0bd7f769e59.png",
+        "date": "Oct 16, 2024",
+        "snippet": "About Eurofins. Eurofins Scientific is an international life sciences company, providing a unique range of analytical testing services to clients across ...",
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 94,
+        "title": "Cyberark Senior Software Engineer, Golang",
+        "link": "https://jobs.smartrecruiters.com/Cyberark1/744000021989435-senior-software-engineer-golang",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/Cyberark1/744000021989435-senior-software-engineer-golang&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECC8QAQ&usg=AOvVaw2r9j54KKOQEqp2wleqSjGY",
+        "displayed_link": "https://jobs.smartrecruiters.com/.../744000021989435-se...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65ac5bb20d752289688953557c8ea7f6e9e.png",
+        "date": "3 days ago",
+        "snippet": "Venafi is seeking a highly skilled and experienced Senior Software Engineer to join our distributed team in charge of the Venafi Control Plane, ...",
+        "snippet_highlighted_words": [
+            "Senior Software Engineer"
+        ],
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 95,
+        "title": "(ind) senior, software engineer - Careers - Myworkdayjobs.com",
+        "link": "https://walmart.wd5.myworkdayjobs.com/en-US/WalmartExternal/job/XMLNAME--IND--SENIOR--SOFTWARE-ENGINEER_R-2017942",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://walmart.wd5.myworkdayjobs.com/en-US/WalmartExternal/job/XMLNAME--IND--SENIOR--SOFTWARE-ENGINEER_R-2017942&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECDEQAQ&usg=AOvVaw2PImmrrUdFFXsqDdb2Pjm_",
+        "displayed_link": "https://walmart.wd5.myworkdayjobs.com/.../XMLNAME-...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a827389698ce3d1c1aa1fc033142c07c1.png",
+        "date": "3 days ago",
+        "snippet": "Position Summary... Demonstrates up-to-date expertise and applies this to the development, execution, and improvement of action plans by providing expert ...",
+        "snippet_highlighted_words": [
+            "development"
+        ],
+        "source": "myworkdayjobs.com"
+    },
+    {
+        "position": 96,
+        "title": "Cyberark Sr. Software Engineer",
+        "link": "https://jobs.smartrecruiters.com/Cyberark1/744000021554415-sr-software-engineer",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/Cyberark1/744000021554415-sr-software-engineer&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECDMQAQ&usg=AOvVaw0Qqx7BkRHBRHOfCWl5gQrJ",
+        "displayed_link": "https://jobs.smartrecruiters.com/.../744000021554415-sr-...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a20e9c51859e2a7deba721be5207132f0.png",
+        "date": "7 days ago",
+        "snippet": "As a Senior Software Engineer, you will innovate, design, implement, maintain, and evolve CyberArk Products. You have a keen eye for securely written, ...",
+        "snippet_highlighted_words": [
+            "Senior Software Engineer"
+        ],
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 97,
+        "title": "insightsoftware Senior Software Engineer (Hybrid)",
+        "link": "https://jobs.smartrecruiters.com/Insightsoftware/744000022465950-senior-software-engineer-hybrid-",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/Insightsoftware/744000022465950-senior-software-engineer-hybrid-&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECDQQAQ&usg=AOvVaw1tYO9gVj5JPKxHdu__wIy4",
+        "displayed_link": "https://jobs.smartrecruiters.com/Insightsoftware/7440000...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a4cf4d39cb27b8b013878aaacf04383fb.png",
+        "date": "2 days ago",
+        "snippet": "As a Senior Software Engineer, you will be working together as a lead with a team of skilled software engineers to build out and maintain our Equity ...",
+        "snippet_highlighted_words": [
+            "Senior Software Engineer"
+        ],
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 98,
+        "title": "Acumatica .NET Senior Software Developer - CRM, Serbia",
+        "link": "https://jobs.smartrecruiters.com/Acumatica/744000022411975--net-senior-software-developer-crm-serbia",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/Acumatica/744000022411975--net-senior-software-developer-crm-serbia&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECDIQAQ&usg=AOvVaw0mb19B2sDAQu7JJUVJRYRt",
+        "displayed_link": "https://jobs.smartrecruiters.com/.../744000022411975--n...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65aa8bff8b883aa6e74d530f9345a2fd226.png",
+        "date": "2 days ago",
+        "snippet": "Acumatica is a company on a mission. We are a leading innovator in cloud ERP with customers located around the world. But don't take our word for it—read ...",
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 99,
+        "title": "IFS Senior Software Engineer - .NET, C# (IFS Portfolio ...",
+        "link": "https://jobs.smartrecruiters.com/ifs1/744000022697813-senior-software-engineer-net-c-ifs-portfolio-companies-sitecore-",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/ifs1/744000022697813-senior-software-engineer-net-c-ifs-portfolio-companies-sitecore-&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECCwQAQ&usg=AOvVaw3cefnE2MV_Yz82aCa3_B-r",
+        "displayed_link": "https://jobs.smartrecruiters.com/.../744000022697813-se...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65a48a5e2865ffa573efb2fbbd4543cee18.png",
+        "date": "8 hours ago",
+        "snippet": "Our leading AI technology is the backbone of our award-winning enterprise software solutions, enabling our customers to be their best when it really matters–at ...",
+        "snippet_highlighted_words": [
+            "software"
+        ],
+        "source": "SmartRecruiters"
+    },
+    {
+        "position": 100,
+        "title": "Docler Holding Senior Software Engineer, PHP",
+        "link": "https://jobs.smartrecruiters.com/DoclerHolding/744000021600635-senior-software-engineer-php",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://jobs.smartrecruiters.com/DoclerHolding/744000021600635-senior-software-engineer-php&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QFnoECC4QAQ&usg=AOvVaw0EzBzkVKunoj6V7BY2ViLD",
+        "displayed_link": "https://jobs.smartrecruiters.com/.../744000021600635-se...",
+        "favicon": "https://serpapi.com/searches/671bf8b8922cce478f1b44cf/images/73e25e486f84d9cb2d6e44945cb3a65ac3b5ee9008fb2ea301fe023dea1b03ec.png",
+        "date": "6 days ago",
+        "snippet": "Our teams are excited to meet Backend engineers who have a good problem-solving mindset, excellent programming (especially with PHP) and system design ...",
+        "snippet_highlighted_words": [
+            "engineers"
+        ],
+        "source": "SmartRecruiters"
+    }
+],
+    "filters": [
+    {
+        "name": "Salary",
+        "parameters": {
+            "uds": "ADvngMiFJMFepIcBvcUS2VHF31IUv_PAAPbLqU9XF0Rw8gpO4JV7FpVim28HQQQ-YR3qRtL_swEToYOXEXbfBIf_C4Lf45NFsYmv8PLV1efswsJgpdXVnKXHfmh6MpOJPGUWeMyp20yqOCrhHwjXLKeTY4HqQ70_k4y5SZYXPSrLerbS5BtU4htb1cyk3rRFjt9MTB2xp72DsJ8yjaoOzb42FHmSc93J7wyQ-J7nStygyFNE7aW4wTYXYMCBzAYKCyus2KgqgS0dQkF1q1NvzEC2s738cl2zfDdIMS5S743uXLxsQ2HY9XyokRR9BZWoAWwMYVqRO1anM5V1sCGvturQWs5E3rouXBG6pMjEm5Gui03CMut67ySu9NWhIohb80O5YL64GOgfDBR0C34R9xaIFVTQQqQFOO9QIDs3QoQkkAirFW7pL7E",
+            "q": "Senior Software Developer salary"
+        },
+        "link": "https://www.google.com/search?num=100&sca_esv=dc67e9d40e314a2a&q=Senior+Software+Developer+salary&uds=ADvngMiFJMFepIcBvcUS2VHF31IUv_PAAPbLqU9XF0Rw8gpO4JV7FpVim28HQQQ-YR3qRtL_swEToYOXEXbfBIf_C4Lf45NFsYmv8PLV1efswsJgpdXVnKXHfmh6MpOJPGUWeMyp20yqOCrhHwjXLKeTY4HqQ70_k4y5SZYXPSrLerbS5BtU4htb1cyk3rRFjt9MTB2xp72DsJ8yjaoOzb42FHmSc93J7wyQ-J7nStygyFNE7aW4wTYXYMCBzAYKCyus2KgqgS0dQkF1q1NvzEC2s738cl2zfDdIMS5S743uXLxsQ2HY9XyokRR9BZWoAWwMYVqRO1anM5V1sCGvturQWs5E3rouXBG6pMjEm5Gui03CMut67ySu9NWhIohb80O5YL64GOgfDBR0C34R9xaIFVTQQqQFOO9QIDs3QoQkkAirFW7pL7E&sa=X&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QxKsJegQIGRAB&ictx=0",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=200&q=Senior+Software+Developer+salary&uds=ADvngMiFJMFepIcBvcUS2VHF31IUv_PAAPbLqU9XF0Rw8gpO4JV7FpVim28HQQQ-YR3qRtL_swEToYOXEXbfBIf_C4Lf45NFsYmv8PLV1efswsJgpdXVnKXHfmh6MpOJPGUWeMyp20yqOCrhHwjXLKeTY4HqQ70_k4y5SZYXPSrLerbS5BtU4htb1cyk3rRFjt9MTB2xp72DsJ8yjaoOzb42FHmSc93J7wyQ-J7nStygyFNE7aW4wTYXYMCBzAYKCyus2KgqgS0dQkF1q1NvzEC2s738cl2zfDdIMS5S743uXLxsQ2HY9XyokRR9BZWoAWwMYVqRO1anM5V1sCGvturQWs5E3rouXBG6pMjEm5Gui03CMut67ySu9NWhIohb80O5YL64GOgfDBR0C34R9xaIFVTQQqQFOO9QIDs3QoQkkAirFW7pL7E"
+    },
+    {
+        "name": "Responsibilities",
+        "parameters": {
+            "uds": "ADvngMiFJMFepIcBvcUS2VHF31IU8hEIaC3eMVgCOomUv71KcB4uA2XKH9OSJww2WReLEdsBDcOSufisFtl936Ntbm58izrsv3YXUeZ2Z3MfBSJtycRyfc8Y_kODDjX2QjmAKeb8pWRIxFEDES4CJfo_bQdXBfO3S-eP48_m2a284c3sWA5GjVAlAXtIrykDdRtN01AmTGZkjjsSiu1yWNmPn3cJF9iPs5y4RORDuBppfKvqYc4xFFeqKATuRfYr3csy5bBZMl732iWVrHi9yswLqbTkMPcpEZWLkzLV9L5JHAX9uliUX3ZpSG63Lohf5jRy9s3XXvpuP62kMereNFkFuLTvtClgSg8Q9aD4vUVmPuM8Yj4FIzk-ujzrPKeXnP3knPW-HBwwoOJYqMKF0WpKaC_j83jFufzCVweAFS6PbRPqvB-Zj1I",
+            "q": "Senior software Developer responsibilities"
+        },
+        "link": "https://www.google.com/search?num=100&sca_esv=dc67e9d40e314a2a&q=Senior+software+Developer+responsibilities&uds=ADvngMiFJMFepIcBvcUS2VHF31IU8hEIaC3eMVgCOomUv71KcB4uA2XKH9OSJww2WReLEdsBDcOSufisFtl936Ntbm58izrsv3YXUeZ2Z3MfBSJtycRyfc8Y_kODDjX2QjmAKeb8pWRIxFEDES4CJfo_bQdXBfO3S-eP48_m2a284c3sWA5GjVAlAXtIrykDdRtN01AmTGZkjjsSiu1yWNmPn3cJF9iPs5y4RORDuBppfKvqYc4xFFeqKATuRfYr3csy5bBZMl732iWVrHi9yswLqbTkMPcpEZWLkzLV9L5JHAX9uliUX3ZpSG63Lohf5jRy9s3XXvpuP62kMereNFkFuLTvtClgSg8Q9aD4vUVmPuM8Yj4FIzk-ujzrPKeXnP3knPW-HBwwoOJYqMKF0WpKaC_j83jFufzCVweAFS6PbRPqvB-Zj1I&sa=X&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QxKsJegQIGxAB&ictx=0",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=200&q=Senior+software+Developer+responsibilities&uds=ADvngMiFJMFepIcBvcUS2VHF31IU8hEIaC3eMVgCOomUv71KcB4uA2XKH9OSJww2WReLEdsBDcOSufisFtl936Ntbm58izrsv3YXUeZ2Z3MfBSJtycRyfc8Y_kODDjX2QjmAKeb8pWRIxFEDES4CJfo_bQdXBfO3S-eP48_m2a284c3sWA5GjVAlAXtIrykDdRtN01AmTGZkjjsSiu1yWNmPn3cJF9iPs5y4RORDuBppfKvqYc4xFFeqKATuRfYr3csy5bBZMl732iWVrHi9yswLqbTkMPcpEZWLkzLV9L5JHAX9uliUX3ZpSG63Lohf5jRy9s3XXvpuP62kMereNFkFuLTvtClgSg8Q9aD4vUVmPuM8Yj4FIzk-ujzrPKeXnP3knPW-HBwwoOJYqMKF0WpKaC_j83jFufzCVweAFS6PbRPqvB-Zj1I"
+    },
+    {
+        "name": "Qualifications",
+        "parameters": {
+            "uds": "ADvngMi3O2utqkDBQY-Gp0KHl9_pHq750C5isoIDMpgZZEtmwATbIkqOUT-2MuBjEPqQ6LR6ya8AhBdFWMpCvM-b-VoWXiYYOBjAVg4Gm34HXBoM40w63-Bu4CeFGQr3XR2XtvP5loRM1kqM3oVtcJGidm0iVKpdk7U4YeVRtNvSjVPAI_HIHbhymh8KuaP02DI2EfzQ9ffR7hHBASufMyiJp4XC5lF4HUJpe6XbBXHq-13w5QgAcDRpLFS1hAHHXNCzVbtN7Q_cFljMYAfftUC6sK6JSdwErBdyDCqormDxyucUWutdiYn4ik6XNmHbQsttZzBIwOnNoCyIU6l_OhgG93vKuFkkbaUPit02ryqAMayjO1ibycTA2pwsqaOAMZV4aYJxlDbNJx6zZ7eiC-1_pjRVVRNXtIApkUIoDP83x9xIBd9hJBg",
+            "q": "Senior software developer qualifications"
+        },
+        "link": "https://www.google.com/search?num=100&sca_esv=dc67e9d40e314a2a&q=Senior+software+developer+qualifications&uds=ADvngMi3O2utqkDBQY-Gp0KHl9_pHq750C5isoIDMpgZZEtmwATbIkqOUT-2MuBjEPqQ6LR6ya8AhBdFWMpCvM-b-VoWXiYYOBjAVg4Gm34HXBoM40w63-Bu4CeFGQr3XR2XtvP5loRM1kqM3oVtcJGidm0iVKpdk7U4YeVRtNvSjVPAI_HIHbhymh8KuaP02DI2EfzQ9ffR7hHBASufMyiJp4XC5lF4HUJpe6XbBXHq-13w5QgAcDRpLFS1hAHHXNCzVbtN7Q_cFljMYAfftUC6sK6JSdwErBdyDCqormDxyucUWutdiYn4ik6XNmHbQsttZzBIwOnNoCyIU6l_OhgG93vKuFkkbaUPit02ryqAMayjO1ibycTA2pwsqaOAMZV4aYJxlDbNJx6zZ7eiC-1_pjRVVRNXtIApkUIoDP83x9xIBd9hJBg&sa=X&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QxKsJegQIEhAB&ictx=0",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=200&q=Senior+software+developer+qualifications&uds=ADvngMi3O2utqkDBQY-Gp0KHl9_pHq750C5isoIDMpgZZEtmwATbIkqOUT-2MuBjEPqQ6LR6ya8AhBdFWMpCvM-b-VoWXiYYOBjAVg4Gm34HXBoM40w63-Bu4CeFGQr3XR2XtvP5loRM1kqM3oVtcJGidm0iVKpdk7U4YeVRtNvSjVPAI_HIHbhymh8KuaP02DI2EfzQ9ffR7hHBASufMyiJp4XC5lF4HUJpe6XbBXHq-13w5QgAcDRpLFS1hAHHXNCzVbtN7Q_cFljMYAfftUC6sK6JSdwErBdyDCqormDxyucUWutdiYn4ik6XNmHbQsttZzBIwOnNoCyIU6l_OhgG93vKuFkkbaUPit02ryqAMayjO1ibycTA2pwsqaOAMZV4aYJxlDbNJx6zZ7eiC-1_pjRVVRNXtIApkUIoDP83x9xIBd9hJBg"
+    },
+    {
+        "name": "Resume",
+        "parameters": {
+            "uds": "ADvngMiQAWzrV6aZW_1H1FY7YF4ByJjDFP3iLnwo4gYQL2C5pxdZxGtBiLv8nhFseiSai_m6Xj1HAWqEP6GKypJBiWukDhNEOScOv8H_LMA-QEoRoRn0VJa2RzfgGmit5cS6ML6f7EMq_JGOgyqUkG_eVJdqspv9vvQAGsGpDerJh3w7PMuxKIhEhCpDinEXwX4fkxDh3BdN-4JqQVXkcrSwYKtvREzsSIKCc6Y2o7voE1i6Sox6kfrCS_PeTV4hYPI4JW223I_5Vc4H-3No3q1Q8RiJFyi4YjVyjoMEOYH3sPLW4YmE2RplHwiZF0HWQH9wmhuoPFr8T2AQZER8v8PbT-bTDat0UE6-nJyIrkPrPhc_cPRywWCjJvf32ywk3djX12ToYBtAdTEeD8d3YyO5BDwEZAxSIDP_BgpKJPgevmwgzx6CSkg",
+            "q": "Senior software Developer resume"
+        },
+        "link": "https://www.google.com/search?num=100&sca_esv=dc67e9d40e314a2a&q=Senior+software+Developer+resume&uds=ADvngMiQAWzrV6aZW_1H1FY7YF4ByJjDFP3iLnwo4gYQL2C5pxdZxGtBiLv8nhFseiSai_m6Xj1HAWqEP6GKypJBiWukDhNEOScOv8H_LMA-QEoRoRn0VJa2RzfgGmit5cS6ML6f7EMq_JGOgyqUkG_eVJdqspv9vvQAGsGpDerJh3w7PMuxKIhEhCpDinEXwX4fkxDh3BdN-4JqQVXkcrSwYKtvREzsSIKCc6Y2o7voE1i6Sox6kfrCS_PeTV4hYPI4JW223I_5Vc4H-3No3q1Q8RiJFyi4YjVyjoMEOYH3sPLW4YmE2RplHwiZF0HWQH9wmhuoPFr8T2AQZER8v8PbT-bTDat0UE6-nJyIrkPrPhc_cPRywWCjJvf32ywk3djX12ToYBtAdTEeD8d3YyO5BDwEZAxSIDP_BgpKJPgevmwgzx6CSkg&sa=X&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QxKsJegQIFhAB&ictx=0",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=200&q=Senior+software+Developer+resume&uds=ADvngMiQAWzrV6aZW_1H1FY7YF4ByJjDFP3iLnwo4gYQL2C5pxdZxGtBiLv8nhFseiSai_m6Xj1HAWqEP6GKypJBiWukDhNEOScOv8H_LMA-QEoRoRn0VJa2RzfgGmit5cS6ML6f7EMq_JGOgyqUkG_eVJdqspv9vvQAGsGpDerJh3w7PMuxKIhEhCpDinEXwX4fkxDh3BdN-4JqQVXkcrSwYKtvREzsSIKCc6Y2o7voE1i6Sox6kfrCS_PeTV4hYPI4JW223I_5Vc4H-3No3q1Q8RiJFyi4YjVyjoMEOYH3sPLW4YmE2RplHwiZF0HWQH9wmhuoPFr8T2AQZER8v8PbT-bTDat0UE6-nJyIrkPrPhc_cPRywWCjJvf32ywk3djX12ToYBtAdTEeD8d3YyO5BDwEZAxSIDP_BgpKJPgevmwgzx6CSkg"
+    },
+    {
+        "name": "Hourly rate",
+        "parameters": {
+            "uds": "ADvngMi3O2utqkDBQY-Gp0KHl9_pBxprP_sZplvqWAsl3IJ4Ts6aAX9kAVaVcxACP6J1CqE__RrCFe_nWiDZFbzpX1TBJfhi4F4iX2ETlIyf7QoQNjI40ihTx02wjSAzyeXRTP-tij5MDnxFfZdl5bFxRT1YrfqMWyzNujfHoPKZhyCbGZ9eynS-zX5-U9YBo1FOFQNny90Jbo90PL0qF44wxFH49HrJ7-eAzAlTalLT04J6Oodz29V02sVVZkhRzj0hRzd0lkWVrLUPw95oXGxkti7tUSwlgDs0S-XXBFqn8JO15Perr6MPdo8JBAPhjEIMVfcN1p25blhkxh_5zl0MT-vAgpTctymx1_PbFiTUgKGgvJNPadlU1WVQyEbFr4KkiJOD7yeSg0WOS_MytzMW2JM-sE70LCdmWETrX2ISrAFV6bouFg4",
+            "q": "Senior Software Developer hourly rate"
+        },
+        "link": "https://www.google.com/search?num=100&sca_esv=dc67e9d40e314a2a&q=Senior+Software+Developer+hourly+rate&uds=ADvngMi3O2utqkDBQY-Gp0KHl9_pBxprP_sZplvqWAsl3IJ4Ts6aAX9kAVaVcxACP6J1CqE__RrCFe_nWiDZFbzpX1TBJfhi4F4iX2ETlIyf7QoQNjI40ihTx02wjSAzyeXRTP-tij5MDnxFfZdl5bFxRT1YrfqMWyzNujfHoPKZhyCbGZ9eynS-zX5-U9YBo1FOFQNny90Jbo90PL0qF44wxFH49HrJ7-eAzAlTalLT04J6Oodz29V02sVVZkhRzj0hRzd0lkWVrLUPw95oXGxkti7tUSwlgDs0S-XXBFqn8JO15Perr6MPdo8JBAPhjEIMVfcN1p25blhkxh_5zl0MT-vAgpTctymx1_PbFiTUgKGgvJNPadlU1WVQyEbFr4KkiJOD7yeSg0WOS_MytzMW2JM-sE70LCdmWETrX2ISrAFV6bouFg4&sa=X&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QxKsJegQICxAB&ictx=0",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=200&q=Senior+Software+Developer+hourly+rate&uds=ADvngMi3O2utqkDBQY-Gp0KHl9_pBxprP_sZplvqWAsl3IJ4Ts6aAX9kAVaVcxACP6J1CqE__RrCFe_nWiDZFbzpX1TBJfhi4F4iX2ETlIyf7QoQNjI40ihTx02wjSAzyeXRTP-tij5MDnxFfZdl5bFxRT1YrfqMWyzNujfHoPKZhyCbGZ9eynS-zX5-U9YBo1FOFQNny90Jbo90PL0qF44wxFH49HrJ7-eAzAlTalLT04J6Oodz29V02sVVZkhRzj0hRzd0lkWVrLUPw95oXGxkti7tUSwlgDs0S-XXBFqn8JO15Perr6MPdo8JBAPhjEIMVfcN1p25blhkxh_5zl0MT-vAgpTctymx1_PbFiTUgKGgvJNPadlU1WVQyEbFr4KkiJOD7yeSg0WOS_MytzMW2JM-sE70LCdmWETrX2ISrAFV6bouFg4"
+    },
+    {
+        "name": "Skills",
+        "parameters": {
+            "uds": "ADvngMi3O2utqkDBQY-Gp0KHl9_pl5u8_9SOjMudJ0sIUDCdPn8-Wp4Vp8123c7RdC_9_O3puri4dXm34HpsEQ0vNO-K-aG0cJGSsCD-rPcJo4d35Vw7qJKtnSteM0Bq68zdb3RDfH2wxSwBFPhlmD6HW9z7qAYJ5S-hwzc1awufGh2eWRC-Iw8vKmZvx0FrW7KuMARGm19AGhXoTHxXbpj-ZP0wppXP-_ogaHSSoJlZUHP8sVvh4IQVVTtH8WAQDCuPxvcxbmnh-pw4vC4ZfP4zF84NoAgwFGtUEi1VHuyhyqLzgGPhHmITXZk_K0GIxpelyGYNqY7byBTpipfHwkvhfW0N3BUIxPjVOxVNtKb9wZ_VJsD3NNzBHk-t3dQ-0AOUu2QRqbUkhtdpTCYSVnQkibuG-QLk94ferjk1tYUSh2UMTdvo4SE",
+            "q": "Senior software developer skills"
+        },
+        "link": "https://www.google.com/search?num=100&sca_esv=dc67e9d40e314a2a&q=Senior+software+developer+skills&uds=ADvngMi3O2utqkDBQY-Gp0KHl9_pl5u8_9SOjMudJ0sIUDCdPn8-Wp4Vp8123c7RdC_9_O3puri4dXm34HpsEQ0vNO-K-aG0cJGSsCD-rPcJo4d35Vw7qJKtnSteM0Bq68zdb3RDfH2wxSwBFPhlmD6HW9z7qAYJ5S-hwzc1awufGh2eWRC-Iw8vKmZvx0FrW7KuMARGm19AGhXoTHxXbpj-ZP0wppXP-_ogaHSSoJlZUHP8sVvh4IQVVTtH8WAQDCuPxvcxbmnh-pw4vC4ZfP4zF84NoAgwFGtUEi1VHuyhyqLzgGPhHmITXZk_K0GIxpelyGYNqY7byBTpipfHwkvhfW0N3BUIxPjVOxVNtKb9wZ_VJsD3NNzBHk-t3dQ-0AOUu2QRqbUkhtdpTCYSVnQkibuG-QLk94ferjk1tYUSh2UMTdvo4SE&sa=X&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QxKsJegUIygIQAQ&ictx=0",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=200&q=Senior+software+developer+skills&uds=ADvngMi3O2utqkDBQY-Gp0KHl9_pl5u8_9SOjMudJ0sIUDCdPn8-Wp4Vp8123c7RdC_9_O3puri4dXm34HpsEQ0vNO-K-aG0cJGSsCD-rPcJo4d35Vw7qJKtnSteM0Bq68zdb3RDfH2wxSwBFPhlmD6HW9z7qAYJ5S-hwzc1awufGh2eWRC-Iw8vKmZvx0FrW7KuMARGm19AGhXoTHxXbpj-ZP0wppXP-_ogaHSSoJlZUHP8sVvh4IQVVTtH8WAQDCuPxvcxbmnh-pw4vC4ZfP4zF84NoAgwFGtUEi1VHuyhyqLzgGPhHmITXZk_K0GIxpelyGYNqY7byBTpipfHwkvhfW0N3BUIxPjVOxVNtKb9wZ_VJsD3NNzBHk-t3dQ-0AOUu2QRqbUkhtdpTCYSVnQkibuG-QLk94ferjk1tYUSh2UMTdvo4SE"
+    },
+    {
+        "name": "Experience",
+        "parameters": {
+            "uds": "ADvngMiFJMFepIcBvcUS2VHF31IUHMLbf24ydBFVnaWwu-4BNO-SJuSeyhHRtpjrdaW0-kp457q2qJPzpyglPcrJzWwRxQLtMVI0DYUx3PuvONgypU3z9gu37tGLZYENEtvlzN6e3a4AnfKw2pxGf5J7_mMbq5gnRPZY2TweS4mkmltd2nZVMRsZRsBa0wV68XDweYkC59p57tMyP9DoLf22H0Xf5KqhM_hDinsUYbbdvTAruw8KV5vpV7e9XN7B2y9zh5WfxMGEUb4SyazhK30VVX1JIF2dhymFGHh795MYzVO1-JyNsc_Pwbq-DRfllbo4qpe0JiZOkZwQdtCV9XT1M9-aSbYLzZLztZ4ooD4I7HLiZ41WBdQ738klmKGb9kHOU7u-LruYRp-QMbaOa-OcMR7hIbtlh7FmXOxwswsHHsMzN_STJNs",
+            "q": "Senior software developer experience"
+        },
+        "link": "https://www.google.com/search?num=100&sca_esv=dc67e9d40e314a2a&q=Senior+software+developer+experience&uds=ADvngMiFJMFepIcBvcUS2VHF31IUHMLbf24ydBFVnaWwu-4BNO-SJuSeyhHRtpjrdaW0-kp457q2qJPzpyglPcrJzWwRxQLtMVI0DYUx3PuvONgypU3z9gu37tGLZYENEtvlzN6e3a4AnfKw2pxGf5J7_mMbq5gnRPZY2TweS4mkmltd2nZVMRsZRsBa0wV68XDweYkC59p57tMyP9DoLf22H0Xf5KqhM_hDinsUYbbdvTAruw8KV5vpV7e9XN7B2y9zh5WfxMGEUb4SyazhK30VVX1JIF2dhymFGHh795MYzVO1-JyNsc_Pwbq-DRfllbo4qpe0JiZOkZwQdtCV9XT1M9-aSbYLzZLztZ4ooD4I7HLiZ41WBdQ738klmKGb9kHOU7u-LruYRp-QMbaOa-OcMR7hIbtlh7FmXOxwswsHHsMzN_STJNs&sa=X&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QxKsJegUIzAIQAQ&ictx=0",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=200&q=Senior+software+developer+experience&uds=ADvngMiFJMFepIcBvcUS2VHF31IUHMLbf24ydBFVnaWwu-4BNO-SJuSeyhHRtpjrdaW0-kp457q2qJPzpyglPcrJzWwRxQLtMVI0DYUx3PuvONgypU3z9gu37tGLZYENEtvlzN6e3a4AnfKw2pxGf5J7_mMbq5gnRPZY2TweS4mkmltd2nZVMRsZRsBa0wV68XDweYkC59p57tMyP9DoLf22H0Xf5KqhM_hDinsUYbbdvTAruw8KV5vpV7e9XN7B2y9zh5WfxMGEUb4SyazhK30VVX1JIF2dhymFGHh795MYzVO1-JyNsc_Pwbq-DRfllbo4qpe0JiZOkZwQdtCV9XT1M9-aSbYLzZLztZ4ooD4I7HLiZ41WBdQ738klmKGb9kHOU7u-LruYRp-QMbaOa-OcMR7hIbtlh7FmXOxwswsHHsMzN_STJNs"
+    },
+    {
+        "name": "Position",
+        "parameters": {
+            "uds": "ADvngMi3O2utqkDBQY-Gp0KHl9_plTUJl54r_JtGZdE2qPy3AvyigZ-B7EwpgmV0wt-uDq7ihpkUKH6Iuid9eVWdlQrlQuog7OdMpuqJeNStmvZpEMATwP9e3VQeCMvX4r7OmBFptTSKkXJl5BN70NVNyh-UuuKBA8VJ6BJPxrDfg1XH7mz4xBzA6U3JOvPWfL8B3sMDa6WN6xYDjxawJzxOnRr-2_SFeu4L1FULzGoHZSyNoE3WmwFqjQqwltH7qCMGh5cYqPdRLQqX4kshjmMgIeOEmtDT2ya5LBe6_DmuGNuSu5OePI9EoPWByednOwUgiVC8GiJ1W7dW3KTpAljSFkY4xuM52z3rTfn39M6J_nXkU-A5dszdJoNCx59sXLQ5zwGD4ZG5UswIFFaCWTdshNL_cQ76_3L40B-OXaRs7gs72V2sgZg",
+            "q": "Senior Software Developer position"
+        },
+        "link": "https://www.google.com/search?num=100&sca_esv=dc67e9d40e314a2a&q=Senior+Software+Developer+position&uds=ADvngMi3O2utqkDBQY-Gp0KHl9_plTUJl54r_JtGZdE2qPy3AvyigZ-B7EwpgmV0wt-uDq7ihpkUKH6Iuid9eVWdlQrlQuog7OdMpuqJeNStmvZpEMATwP9e3VQeCMvX4r7OmBFptTSKkXJl5BN70NVNyh-UuuKBA8VJ6BJPxrDfg1XH7mz4xBzA6U3JOvPWfL8B3sMDa6WN6xYDjxawJzxOnRr-2_SFeu4L1FULzGoHZSyNoE3WmwFqjQqwltH7qCMGh5cYqPdRLQqX4kshjmMgIeOEmtDT2ya5LBe6_DmuGNuSu5OePI9EoPWByednOwUgiVC8GiJ1W7dW3KTpAljSFkY4xuM52z3rTfn39M6J_nXkU-A5dszdJoNCx59sXLQ5zwGD4ZG5UswIFFaCWTdshNL_cQ76_3L40B-OXaRs7gs72V2sgZg&sa=X&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QxKsJegUIyQIQAQ&ictx=0",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=200&q=Senior+Software+Developer+position&uds=ADvngMi3O2utqkDBQY-Gp0KHl9_plTUJl54r_JtGZdE2qPy3AvyigZ-B7EwpgmV0wt-uDq7ihpkUKH6Iuid9eVWdlQrlQuog7OdMpuqJeNStmvZpEMATwP9e3VQeCMvX4r7OmBFptTSKkXJl5BN70NVNyh-UuuKBA8VJ6BJPxrDfg1XH7mz4xBzA6U3JOvPWfL8B3sMDa6WN6xYDjxawJzxOnRr-2_SFeu4L1FULzGoHZSyNoE3WmwFqjQqwltH7qCMGh5cYqPdRLQqX4kshjmMgIeOEmtDT2ya5LBe6_DmuGNuSu5OePI9EoPWByednOwUgiVC8GiJ1W7dW3KTpAljSFkY4xuM52z3rTfn39M6J_nXkU-A5dszdJoNCx59sXLQ5zwGD4ZG5UswIFFaCWTdshNL_cQ76_3L40B-OXaRs7gs72V2sgZg"
+    },
+    {
+        "name": "Dubai",
+        "parameters": {
+            "uds": "ADvngMiZurrRGb4kbVqNXRWI_82N_nSjaButPKa4mgI6Tea6tl8y6xFJIV2ZO6y9sv8bWKtfRUQx5oEuXyifpm7T6MSVwPI3phI5g-aCIeRX7abMwVQFmH3e7fiZoTuUjPlpyhn9xSPCxX-tFT3d-6d_ouzei4a6GLooM1Mu5_2pl00-QdXDMykzTu5VovHurGKOQMu-EWHL4LkliTJko3FKkaasb49S-yFbTqxGNSVzI8Q18MHxtiqfMtMChyCNvl9bkMH_rhujrzsTE8onI_WhG2fSs5vJFj8GBxmvXeD1v2W_vkVf0BF4DkT-vWIRl0sxy98O9myJkm5AbhczUMkYyxjVsg0xTsNm06mZzQ6h6gDQ7PqKArmA7h02b88ATVORyOaiaeO5RYGeXU-rbRcrDYeCqbWG0D4wVZMIZqZdiahitDmJ9jo",
+            "q": "Senior Software Developer Dubai"
+        },
+        "link": "https://www.google.com/search?num=100&sca_esv=dc67e9d40e314a2a&q=Senior+Software+Developer+Dubai&uds=ADvngMiZurrRGb4kbVqNXRWI_82N_nSjaButPKa4mgI6Tea6tl8y6xFJIV2ZO6y9sv8bWKtfRUQx5oEuXyifpm7T6MSVwPI3phI5g-aCIeRX7abMwVQFmH3e7fiZoTuUjPlpyhn9xSPCxX-tFT3d-6d_ouzei4a6GLooM1Mu5_2pl00-QdXDMykzTu5VovHurGKOQMu-EWHL4LkliTJko3FKkaasb49S-yFbTqxGNSVzI8Q18MHxtiqfMtMChyCNvl9bkMH_rhujrzsTE8onI_WhG2fSs5vJFj8GBxmvXeD1v2W_vkVf0BF4DkT-vWIRl0sxy98O9myJkm5AbhczUMkYyxjVsg0xTsNm06mZzQ6h6gDQ7PqKArmA7h02b88ATVORyOaiaeO5RYGeXU-rbRcrDYeCqbWG0D4wVZMIZqZdiahitDmJ9jo&sa=X&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0QxKsJegUIyAIQAQ&ictx=0",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=200&q=Senior+Software+Developer+Dubai&uds=ADvngMiZurrRGb4kbVqNXRWI_82N_nSjaButPKa4mgI6Tea6tl8y6xFJIV2ZO6y9sv8bWKtfRUQx5oEuXyifpm7T6MSVwPI3phI5g-aCIeRX7abMwVQFmH3e7fiZoTuUjPlpyhn9xSPCxX-tFT3d-6d_ouzei4a6GLooM1Mu5_2pl00-QdXDMykzTu5VovHurGKOQMu-EWHL4LkliTJko3FKkaasb49S-yFbTqxGNSVzI8Q18MHxtiqfMtMChyCNvl9bkMH_rhujrzsTE8onI_WhG2fSs5vJFj8GBxmvXeD1v2W_vkVf0BF4DkT-vWIRl0sxy98O9myJkm5AbhczUMkYyxjVsg0xTsNm06mZzQ6h6gDQ7PqKArmA7h02b88ATVORyOaiaeO5RYGeXU-rbRcrDYeCqbWG0D4wVZMIZqZdiahitDmJ9jo"
+    }
+],
+    "pagination": {
+    "current": 1,
+        "next": "https://www.google.com/search?q=Senior+Software+Developer+site:jobs.ashbyhq.com+OR+site:join.com+OR+site:jobs.lever.co+OR+site:boards.greenhouse.io+OR+site:wd5.myworkdayjobs.com+OR+site:jobs.lever.co+OR+site:careers.icims.com+OR+site:jobs.jobvite.com+OR+site:jobs.smartrecruiters.com+OR+site:app.breezy.hr+OR+site:jazzhr.com+OR+site:taleo.net+OR+site:oraclecloud.com+OR+site:recruiting.adp.com+after:2024-10-11&num=100&sca_esv=dc67e9d40e314a2a&ei=uvgbZ8eeF4KU5OMP7JvE6Qw&start=100&sa=N&sstk=AagrsugqQUeXAFQhkQ-m9k7q2F592NWWOzVlLSbjgF94Rn4_ElEZr_OZyfpLXRwQkzTsIJYzHGnvMSNPcnjIFw78tUmrwIH0N17f1A&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0Q8NMDegQIBRAK",
+        "other_pages": {
+        "2": "https://www.google.com/search?q=Senior+Software+Developer+site:jobs.ashbyhq.com+OR+site:join.com+OR+site:jobs.lever.co+OR+site:boards.greenhouse.io+OR+site:wd5.myworkdayjobs.com+OR+site:jobs.lever.co+OR+site:careers.icims.com+OR+site:jobs.jobvite.com+OR+site:jobs.smartrecruiters.com+OR+site:app.breezy.hr+OR+site:jazzhr.com+OR+site:taleo.net+OR+site:oraclecloud.com+OR+site:recruiting.adp.com+after:2024-10-11&num=100&sca_esv=dc67e9d40e314a2a&ei=uvgbZ8eeF4KU5OMP7JvE6Qw&start=100&sa=N&sstk=AagrsugqQUeXAFQhkQ-m9k7q2F592NWWOzVlLSbjgF94Rn4_ElEZr_OZyfpLXRwQkzTsIJYzHGnvMSNPcnjIFw78tUmrwIH0N17f1A&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0Q8tMDegQIBRAE",
+            "3": "https://www.google.com/search?q=Senior+Software+Developer+site:jobs.ashbyhq.com+OR+site:join.com+OR+site:jobs.lever.co+OR+site:boards.greenhouse.io+OR+site:wd5.myworkdayjobs.com+OR+site:jobs.lever.co+OR+site:careers.icims.com+OR+site:jobs.jobvite.com+OR+site:jobs.smartrecruiters.com+OR+site:app.breezy.hr+OR+site:jazzhr.com+OR+site:taleo.net+OR+site:oraclecloud.com+OR+site:recruiting.adp.com+after:2024-10-11&num=100&sca_esv=dc67e9d40e314a2a&ei=uvgbZ8eeF4KU5OMP7JvE6Qw&start=200&sa=N&sstk=AagrsugqQUeXAFQhkQ-m9k7q2F592NWWOzVlLSbjgF94Rn4_ElEZr_OZyfpLXRwQkzTsIJYzHGnvMSNPcnjIFw78tUmrwIH0N17f1A&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0Q8tMDegQIBRAG",
+            "4": "https://www.google.com/search?q=Senior+Software+Developer+site:jobs.ashbyhq.com+OR+site:join.com+OR+site:jobs.lever.co+OR+site:boards.greenhouse.io+OR+site:wd5.myworkdayjobs.com+OR+site:jobs.lever.co+OR+site:careers.icims.com+OR+site:jobs.jobvite.com+OR+site:jobs.smartrecruiters.com+OR+site:app.breezy.hr+OR+site:jazzhr.com+OR+site:taleo.net+OR+site:oraclecloud.com+OR+site:recruiting.adp.com+after:2024-10-11&num=100&sca_esv=dc67e9d40e314a2a&ei=uvgbZ8eeF4KU5OMP7JvE6Qw&start=300&sa=N&sstk=AagrsugqQUeXAFQhkQ-m9k7q2F592NWWOzVlLSbjgF94Rn4_ElEZr_OZyfpLXRwQkzTsIJYzHGnvMSNPcnjIFw78tUmrwIH0N17f1A&ved=2ahUKEwjH46eAqaqJAxUCCnkGHewNMc0Q8tMDegQIBRAI"
+    }
+},
+    "serpapi_pagination": {
+    "current": 1,
+        "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=100&q=Senior+Software+Developer+site%3Ajobs.ashbyhq.com+OR+site%3Ajoin.com+OR+site%3Ajobs.lever.co+OR+site%3Aboards.greenhouse.io+OR+site%3Awd5.myworkdayjobs.com+OR+site%3Ajobs.lever.co+OR+site%3Acareers.icims.com+OR+site%3Ajobs.jobvite.com+OR+site%3Ajobs.smartrecruiters.com+OR+site%3Aapp.breezy.hr+OR+site%3Ajazzhr.com+OR+site%3Ataleo.net+OR+site%3Aoraclecloud.com+OR+site%3Arecruiting.adp.com+after%3A2024-10-11&start=100",
+        "next": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=100&q=Senior+Software+Developer+site%3Ajobs.ashbyhq.com+OR+site%3Ajoin.com+OR+site%3Ajobs.lever.co+OR+site%3Aboards.greenhouse.io+OR+site%3Awd5.myworkdayjobs.com+OR+site%3Ajobs.lever.co+OR+site%3Acareers.icims.com+OR+site%3Ajobs.jobvite.com+OR+site%3Ajobs.smartrecruiters.com+OR+site%3Aapp.breezy.hr+OR+site%3Ajazzhr.com+OR+site%3Ataleo.net+OR+site%3Aoraclecloud.com+OR+site%3Arecruiting.adp.com+after%3A2024-10-11&start=100",
+        "other_pages": {
+        "2": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=100&q=Senior+Software+Developer+site%3Ajobs.ashbyhq.com+OR+site%3Ajoin.com+OR+site%3Ajobs.lever.co+OR+site%3Aboards.greenhouse.io+OR+site%3Awd5.myworkdayjobs.com+OR+site%3Ajobs.lever.co+OR+site%3Acareers.icims.com+OR+site%3Ajobs.jobvite.com+OR+site%3Ajobs.smartrecruiters.com+OR+site%3Aapp.breezy.hr+OR+site%3Ajazzhr.com+OR+site%3Ataleo.net+OR+site%3Aoraclecloud.com+OR+site%3Arecruiting.adp.com+after%3A2024-10-11&start=100",
+            "3": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=100&q=Senior+Software+Developer+site%3Ajobs.ashbyhq.com+OR+site%3Ajoin.com+OR+site%3Ajobs.lever.co+OR+site%3Aboards.greenhouse.io+OR+site%3Awd5.myworkdayjobs.com+OR+site%3Ajobs.lever.co+OR+site%3Acareers.icims.com+OR+site%3Ajobs.jobvite.com+OR+site%3Ajobs.smartrecruiters.com+OR+site%3Aapp.breezy.hr+OR+site%3Ajazzhr.com+OR+site%3Ataleo.net+OR+site%3Aoraclecloud.com+OR+site%3Arecruiting.adp.com+after%3A2024-10-11&start=200",
+            "4": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=100&q=Senior+Software+Developer+site%3Ajobs.ashbyhq.com+OR+site%3Ajoin.com+OR+site%3Ajobs.lever.co+OR+site%3Aboards.greenhouse.io+OR+site%3Awd5.myworkdayjobs.com+OR+site%3Ajobs.lever.co+OR+site%3Acareers.icims.com+OR+site%3Ajobs.jobvite.com+OR+site%3Ajobs.smartrecruiters.com+OR+site%3Aapp.breezy.hr+OR+site%3Ajazzhr.com+OR+site%3Ataleo.net+OR+site%3Aoraclecloud.com+OR+site%3Arecruiting.adp.com+after%3A2024-10-11&start=300"
+    }
+}
+}
