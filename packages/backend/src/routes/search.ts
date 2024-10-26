@@ -1,7 +1,11 @@
-import {Router} from 'express';
+import {Request, Response, Router} from 'express';
 import {IResultBase, saveSearchResults} from "../models/Result";
 import {parseDate} from "../utils";
 import {SearchResponse, SerpApiClient} from '../services/serpapi.js';
+import authenticateToken from "../authenticateToken";
+import all from '../models/SearchResults.json'
+
+const samples = (all as SearchResponse)
 
 export const searchRouter = Router();
 /*
@@ -26,6 +30,16 @@ const jobSites = [
     "recruiting.adp.com"
 ];
 let serpApi : SerpApiClient | undefined
+
+searchRouter.get('/view', authenticateToken, (req: Request, res: Response): void => {
+    if (req.user?.role !== 'admin' && req.user?.role !== 'user') {
+        res.status(403).send('logged in users only');
+        return
+    }
+    // Search logic here
+    res.send(samples.organic_results);
+});
+
 
 searchRouter.get('/search', async (req, res) => {
     try {

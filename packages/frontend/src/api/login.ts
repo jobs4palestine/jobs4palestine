@@ -1,11 +1,10 @@
-// Example login function
-import axios from "axios";
+import axios from './axiosSetup';
 
 export const postLogin =  async (password: string) => {
     const base64Credentials = btoa(`${password}`);
 
     try {
-        const response = await axios.post(`${import.meta.env.VITE_API_URL}/login`, {}, {
+        const response = await axios.post(`/login`, {}, {
             headers: {
                 'Authorization': `Basic ${base64Credentials}`
             }

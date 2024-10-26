@@ -1,12 +1,12 @@
-// src/pages/Specialties.tsx
-
 import React from 'react';
-
 import { Button } from 'antd';
 import './LandingView.css';
-import { FaJava, FaAndroid, FaReact, FaNodeJs, FaPython,} from "react-icons/fa";
-import {SiAngular, SiCodacy, SiCsharp, SiFlutter, SiIos, SiJquery, SiRuby, SiSpring} from "react-icons/si";
-import {FaGolang} from "react-icons/fa6";
+import { FaJava, FaAndroid, FaReact, FaNodeJs, FaPython } from "react-icons/fa";
+import { SiAngular, SiCodacy, SiCsharp, SiFlutter, SiIos, SiJquery, SiRuby, SiSpring } from "react-icons/si";
+import { FaGolang } from "react-icons/fa6";
+import { useDispatch } from 'react-redux';
+import { setSpecialty } from '../store/specialtySlice';
+import { useNavigate } from 'react-router-dom';
 
 const specialities = [
     { name: 'Java', icon: <FaJava /> },
@@ -28,8 +28,12 @@ const specialities = [
 ];
 
 const LandingView: React.FC = () => {
-    const handleButtonClick = (label: string) => {
-        alert(`You selected ${label}`);
+    const dispatch = useDispatch();
+    const navigate = useNavigate();
+
+    const handleButtonClick = (specialtyName: string) => {
+        dispatch(setSpecialty(specialtyName));
+        navigate('/table'); // Navigate to TableView
     };
 
     return (
@@ -51,7 +55,5 @@ const LandingView: React.FC = () => {
         </div>
     );
 };
-
-
 
 export default LandingView;

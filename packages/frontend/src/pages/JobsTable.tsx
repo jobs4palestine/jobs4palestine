@@ -1,25 +1,30 @@
-// src/pages/TableView.tsx
-
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Table } from 'antd';
+import { useSelector } from 'react-redux';
+import { RootState } from '../store';
+import { queryTableData } from '../api/api';
 
-const columns = [
-    { title: 'Name', dataIndex: 'name', key: 'name' },
-    { title: 'Specialty', dataIndex: 'specialty', key: 'specialty' },
-];
+const TableView: React.FC = () => {
+    const selectedSpecialty = useSelector((state: RootState) => state.specialty.selectedSpecialty);
+    const [data, setData] = useState([]);
 
-const data = [
-    { key: '1', name: 'John Doe', specialty: 'Java' },
-    { key: '2', name: 'Jane Smith', specialty: 'Python' },
-    { key: '3', name: 'Alice Johnson', specialty: 'React' },
-    { key: '4', name: 'Robert Brown', specialty: 'Node.js' },
-];
+    useEffect(() => {
+        if (selectedSpecialty) {
+            queryTableData(selectedSpecialty).then((tableData) => setData(tableData));
+        }
+    }, [selectedSpecialty]);
 
-const JobsTable: React.FC = () => (
-    <div>
-        <h2>Table View</h2>
-        <Table columns={columns} dataSource={data} pagination={false} />
-    </div>
-);
+    const columns = [
+        { title: 'ID', dataIndex: 'id', key: 'id' },
+        { title: 'Name', dataIndex: 'name', key: 'name' },
+        { title: 'Description', dataIndex: 'description', key: 'description' },
+    ];
 
-export default JobsTable;
+    return (
+        <div>
+            <Table columns={columns} dataSource={data} rowKey="id" pagination={false} />
+        </div>
+    );
+};
+
+export default TableView;

@@ -2,17 +2,25 @@ import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { RootState } from '../store';
 import { logout } from '../store/authSlice';
-import { useLocation, Link } from 'react-router-dom';
-import { LogoutOutlined } from '@ant-design/icons';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { Button } from 'antd';
+import { clearSpecialty } from '../store/specialtySlice';
 
 const Header: React.FC = () => {
     const isLoggedIn = useSelector((state: RootState) => state.auth.isLoggedIn);
+    const selectedSpecialty = useSelector((state: RootState) => state.specialty.selectedSpecialty);
     const location = useLocation();
+    const navigate = useNavigate();
     const dispatch = useDispatch();
 
     const handleLogout = () => {
         dispatch(logout());
+        dispatch(clearSpecialty());
+    };
+
+    const handleBack = () => {
+        dispatch(clearSpecialty());
+        navigate('/specialties');
     };
 
     if (!isLoggedIn) return null;
@@ -20,13 +28,17 @@ const Header: React.FC = () => {
     return (
         <nav className="header">
             <div className="header-left">
-                {location.pathname === '/table' && <Link to="/specialties">Back</Link>}
+                {location.pathname === '/table' && (
+                    <Button onClick={handleBack} type="link">
+                        Back
+                    </Button>
+                )}
             </div>
             <div className="header-title">
-                {location.pathname === '/specialties' ? 'Specialties' : 'Jobs Table'}
+                {location.pathname === '/table' ? selectedSpecialty : 'Specialties'}
             </div>
             <div className="header-right">
-                <Button onClick={handleLogout} type="link" icon={<LogoutOutlined />}>
+                <Button onClick={handleLogout} type="link">
                     Logout
                 </Button>
             </div>
