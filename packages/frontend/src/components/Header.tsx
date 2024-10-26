@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { RootState } from '../store';
 import { logout } from '../store/authSlice';
 import { useLocation, Link } from 'react-router-dom';
+import { LogoutOutlined } from '@ant-design/icons';
 import { Button } from 'antd';
 
 const Header: React.FC = () => {
@@ -18,9 +19,17 @@ const Header: React.FC = () => {
 
     return (
         <nav className="header">
-            {location.pathname === '/table' && <Link to="/specialties">Back</Link>}
-            <span>{location.pathname === '/specialties' ? 'Specialties' : 'Table View'}</span>
-            <Button onClick={handleLogout}>Logout</Button>
+            <div className="header-left">
+                {location.pathname === '/table' && <Link to="/specialties">Back</Link>}
+            </div>
+            <div className="header-title">
+                {location.pathname === '/specialties' ? 'Specialties' : 'Jobs Table'}
+            </div>
+            <div className="header-right">
+                <Button onClick={handleLogout} type="link" icon={<LogoutOutlined />}>
+                    Logout
+                </Button>
+            </div>
         </nav>
     );
 };

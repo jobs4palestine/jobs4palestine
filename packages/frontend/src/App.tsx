@@ -7,6 +7,7 @@ import JobsTable from './pages/JobsTable';
 import Header from './components/Header';
 import { RootState } from './store';
 import { login } from './store/authSlice';
+import './App.css';
 
 
 const ProtectedRoute: React.FC<{ children: React.ReactElement }> = ({ children }) => {
