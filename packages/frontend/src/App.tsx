@@ -1,51 +1,52 @@
-import React from 'react';
-import { Button } from 'antd';
-import './App.css';
-import { FaJava, FaAndroid, FaReact, FaNodeJs, FaPython,} from "react-icons/fa";
-import {SiAngular, SiCodacy, SiCsharp, SiFlutter, SiIos, SiJquery, SiRuby, SiSpring} from "react-icons/si";
-import {FaGolang} from "react-icons/fa6";
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import { useSelector, useDispatch } from 'react-redux';
+import Login from './pages/Login';
+import LandingView from './pages/LandingView';
+import JobsTable from './pages/JobsTable';
+import Header from './components/Header';
+import { RootState } from './store';
+import { login } from './store/authSlice';
 
-const specialities = [
-    { name: 'Java', icon: <FaJava /> },
-    { name: 'J2EE', icon: <SiJquery /> },
-    { name: 'Spring', icon: <SiSpring /> },
-    { name: 'Android', icon: <FaAndroid /> },
-    { name: 'iOS', icon: <SiIos /> },
-    { name: 'React', icon: <FaReact /> },
-    { name: 'React-Native', icon: <FaReact /> },
-    { name: 'GoLang', icon: <FaGolang /> },
-    { name: 'QA (Quality Assurance)', icon: <SiCodacy /> },
-    { name: 'Fullstack', icon: <FaNodeJs /> },
-    { name: 'Python', icon: <FaPython /> },
-    { name: 'C#', icon: <SiCsharp /> },
-    { name: 'Angular', icon: <SiAngular /> },
-    { name: 'Ruby', icon: <SiRuby /> },
-    { name: 'Flutter', icon: <SiFlutter /> },
-    { name: 'Node.js', icon: <FaNodeJs /> },
-];
+
+const ProtectedRoute: React.FC<{ children: React.ReactElement }> = ({ children }) => {
+    const isLoggedIn = useSelector((state: RootState) => state.auth.isLoggedIn);
+    return isLoggedIn ? children : <Navigate to="/" />;
+};
 
 const App: React.FC = () => {
-    const handleButtonClick = (label: string) => {
-        alert(`You selected ${label}`);
-    };
+    const dispatch = useDispatch();
+    const token = localStorage.getItem('token');
+
+    useEffect(() => {
+        if (token) {
+            dispatch(login(token)); // Restore session if token exists
+        }
+    }, [token, dispatch]);
 
     return (
-        <div className="button-cloud-container">
-            <div className="button-row">
-                {specialities.map((speciality, index) => (
-                    <Button
-                        key={index}
-                        type="primary"
-                        ghost
-                        className="floating-button"
-                        icon={speciality.icon}
-                        onClick={() => handleButtonClick(speciality.name)}
-                    >
-                        {speciality.name}
-                    </Button>
-                ))}
-            </div>
-        </div>
+        <Router>
+            <Header />
+            <Routes>
+                <Route path="/" element={!token ? <Login /> : <Navigate to="/specialties" />} />
+                <Route
+                    path="/specialties"
+                    element={
+                        <ProtectedRoute>
+                            <LandingView />
+                        </ProtectedRoute>
+                    }
+                />
+                <Route
+                    path="/table"
+                    element={
+                        <ProtectedRoute>
+                            <JobsTable />
+                        </ProtectedRoute>
+                    }
+                />
+            </Routes>
+        </Router>
     );
 };
 
