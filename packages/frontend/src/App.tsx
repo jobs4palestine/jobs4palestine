@@ -1,42 +1,52 @@
-import { useState, useEffect } from 'react';
-import { Typography, Spin, Alert } from 'antd';
-import { getHelloMessage } from './api/hello';
+import React from 'react';
+import { Button } from 'antd';
+import './App.css';
+import { FaJava, FaAndroid, FaReact, FaNodeJs, FaPython,} from "react-icons/fa";
+import {SiAngular, SiCodacy, SiCsharp, SiFlutter, SiIos, SiJquery, SiRuby, SiSpring} from "react-icons/si";
+import {FaGolang} from "react-icons/fa6";
 
-const { Title } = Typography;
+const specialities = [
+    { name: 'Java', icon: <FaJava /> },
+    { name: 'J2EE', icon: <SiJquery /> },
+    { name: 'Spring', icon: <SiSpring /> },
+    { name: 'Android', icon: <FaAndroid /> },
+    { name: 'iOS', icon: <SiIos /> },
+    { name: 'React', icon: <FaReact /> },
+    { name: 'React-Native', icon: <FaReact /> },
+    { name: 'GoLang', icon: <FaGolang /> },
+    { name: 'QA (Quality Assurance)', icon: <SiCodacy /> },
+    { name: 'Fullstack', icon: <FaNodeJs /> },
+    { name: 'Python', icon: <FaPython /> },
+    { name: 'C#', icon: <SiCsharp /> },
+    { name: 'Angular', icon: <SiAngular /> },
+    { name: 'Ruby', icon: <SiRuby /> },
+    { name: 'Flutter', icon: <SiFlutter /> },
+    { name: 'Node.js', icon: <FaNodeJs /> },
+];
 
-function App() {
-    const [message, setMessage] = useState<string>('');
-    const [loading, setLoading] = useState(true);
-    const [error, setError] = useState<string>('');
-
-    useEffect(() => {
-        const fetchMessage = async () => {
-            try {
-                const response = await getHelloMessage();
-                setMessage(response.message);
-            } catch (err) {
-                setError('Failed to fetch message from server');
-            } finally {
-                setLoading(false);
-            }
-        };
-
-        fetchMessage();
-    }, []);
-
-    if (loading) {
-        return <Spin size="large" />;
-    }
-
-    if (error) {
-        return <Alert type="error" message={error} />;
-    }
+const App: React.FC = () => {
+    const handleButtonClick = (label: string) => {
+        alert(`You selected ${label}`);
+    };
 
     return (
-        <div style={{ padding: '2rem', textAlign: 'center' }}>
-            <Title level={2}>{message}</Title>
+        <div className="button-cloud-container">
+            <div className="button-row">
+                {specialities.map((speciality, index) => (
+                    <Button
+                        key={index}
+                        type="primary"
+                        ghost
+                        className="floating-button"
+                        icon={speciality.icon}
+                        onClick={() => handleButtonClick(speciality.name)}
+                    >
+                        {speciality.name}
+                    </Button>
+                ))}
+            </div>
         </div>
     );
-}
+};
 
 export default App;
