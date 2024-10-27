@@ -13,7 +13,7 @@ const Login: React.FC = () => {
     const handleLogin = async () => {
         try {
             const response : LoginResponse = await postLogin(password);
-            dispatch(login(response.token));
+            dispatch(login(response));
             navigate('/specialties'); // Redirect to specialties page on successful login
         } catch (error) {
             alert('Login failed. Please try again.');

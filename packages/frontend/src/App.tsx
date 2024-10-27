@@ -1,27 +1,21 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
-import { useSelector, useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import Login from './pages/Login';
 import LandingView from './pages/LandingView';
 import JobsTable from './pages/JobsTable';
 import Header from './components/Header';
-import { RootState } from './store';
 import { login } from './store/authSlice';
 import './App.css';
-
-
-const ProtectedRoute: React.FC<{ children: React.ReactElement }> = ({ children }) => {
-    const isLoggedIn = useSelector((state: RootState) => state.auth.isLoggedIn);
-    return isLoggedIn ? children : <Navigate to="/" />;
-};
 
 const App: React.FC = () => {
     const dispatch = useDispatch();
     const token = localStorage.getItem('token');
+    const userType = localStorage.getItem('userType');
 
     useEffect(() => {
-        if (token) {
-            dispatch(login(token)); // Restore session if token exists
+        if (token && (userType === 'user' || userType === 'admin') ) {
+            dispatch(login({token: token, userType: userType})); // Restore session if token exists
         }
     }, [token, dispatch]);
 
@@ -29,23 +23,12 @@ const App: React.FC = () => {
         <Router>
             <Header />
             <Routes>
-                <Route path="/" element={!token ? <Login /> : <Navigate to="/specialties" />} />
-                <Route
-                    path="/specialties"
-                    element={
-                        <ProtectedRoute>
-                            <LandingView />
-                        </ProtectedRoute>
-                    }
-                />
-                <Route
-                    path="/table"
-                    element={
-                        <ProtectedRoute>
-                            <JobsTable />
-                        </ProtectedRoute>
-                    }
-                />
+                {/* Optional login page, accessible only if not already logged in */}
+                <Route path="/" element={<Navigate to="/specialties" />}/>
+                <Route path="/login" element={!token ? <Login /> : <Navigate to="/specialties" />} />
+                {/* Unprotected routes */}
+                <Route path="/specialties" element={<LandingView />} />
+                <Route path="/table" element={<JobsTable />} />
             </Routes>
         </Router>
     );

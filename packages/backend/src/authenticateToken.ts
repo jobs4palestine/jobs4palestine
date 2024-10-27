@@ -5,7 +5,7 @@ interface JwtPayload {
     role: string;
 }
 
-function authenticateToken(req: Request, res: Response, next: NextFunction): void {
+export function authenticateToken(req: Request, res: Response, next: NextFunction): void {
     const authHeader = req.headers['authorization'];
 
     // Check if Authorization header is present and starts with "Bearer "
@@ -27,5 +27,29 @@ function authenticateToken(req: Request, res: Response, next: NextFunction): voi
         next();
     });
 }
+
+export function optionalAuthenticateToken(req: Request, res: Response, next: NextFunction): void {
+    const authHeader = req.headers['authorization'];
+
+    // Check if Authorization header is present and starts with "Bearer "
+    if (authHeader && authHeader.startsWith("Bearer ")) {
+        // Extract the token part by removing "Bearer "
+        const token = authHeader.split(" ")[1];
+
+        jwt.verify(token, process.env.JWT_SECRET as string, (err, decoded) => {
+            if (err) {
+                res.status(403).send('Invalid token');
+                return;
+            }
+
+            req.user = decoded as JwtPayload;
+            next();
+        });
+    } else {
+        next();
+    }
+}
+
+
 
 export default authenticateToken;

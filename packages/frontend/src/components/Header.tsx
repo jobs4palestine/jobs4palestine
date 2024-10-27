@@ -23,7 +23,9 @@ const Header: React.FC = () => {
         navigate('/specialties');
     };
 
-    if (!isLoggedIn) return null;
+    if (location.pathname === '' || location.pathname === '/login') {
+        return null;
+    }
 
     return (
         <nav className="header">
@@ -38,9 +40,10 @@ const Header: React.FC = () => {
                 {location.pathname === '/table' ? selectedSpecialty : 'Specialties'}
             </div>
             <div className="header-right">
-                <Button onClick={handleLogout} type="link">
+                {isLoggedIn ?  (<Button onClick={handleLogout} type="link">
                     Logout
-                </Button>
+                </Button>) : null
+                }
             </div>
         </nav>
     );

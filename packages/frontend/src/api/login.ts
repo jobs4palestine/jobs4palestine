@@ -14,8 +14,6 @@ export const postLogin = async (password: string) => {
         });
         if (response.status === 200) {
             const { token, userType } = response.data;  // Extract both token and userType
-            localStorage.setItem('token', token);
-            localStorage.setItem('userType', userType);  // Store userType in localStorage
             return Promise.resolve({ token, userType });
         }
     } catch (error) {

@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import {config} from 'dotenv';
-import {helloRouter, searchRouter, adminRouter, loginRouter} from './routes';
+import { searchRouter, adminRouter, loginRouter} from './routes';
 import mongoose from "mongoose";
 
 
@@ -36,7 +36,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.use('/api', helloRouter, searchRouter, adminRouter, loginRouter);
+app.use('/api', searchRouter, adminRouter, loginRouter);
 
 if (process.env.NODE_ENV !== 'test') {
     app.listen(port, () => {

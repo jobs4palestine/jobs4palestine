@@ -2,7 +2,7 @@ import {Request, Response, Router} from 'express';
 import ResultModel, {getAllResults, IResultBase, saveSearchResults, getResultsBySpeciality} from "../models/Result";
 import {parseDate, queryForSpecialty} from "../utils";
 import {SerpApiClient} from '../services/serpapi.js';
-import authenticateToken from "../authenticateToken";
+import { authenticateToken, optionalAuthenticateToken} from "../authenticateToken";
 import type { Speciality} from "@monorepo/shared";
 
 export const searchRouter = Router();
@@ -26,11 +26,8 @@ const jobSites = [
 
 let serpApi : SerpApiClient | undefined
 
-searchRouter.get('/view', authenticateToken, async (req: Request, res: Response) => {
-    if (req.user?.role !== 'admin' && req.user?.role !== 'user') {
-        res.status(403).send('logged in users only');
-        return;
-    }
+searchRouter.get('/view', optionalAuthenticateToken, async (req: Request, res: Response) => {
+
     const includeArchived = req.user?.role === 'admin';
 
     const speciality = req.query.q as Speciality | undefined;

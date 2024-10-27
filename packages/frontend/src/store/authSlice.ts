@@ -1,4 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+import {LoginResponse} from "../api/login.ts";
 
 interface AuthState {
     isLoggedIn: boolean;
@@ -14,15 +15,17 @@ const authSlice = createSlice({
     name: 'auth',
     initialState,
     reducers: {
-        login(state, action: PayloadAction<string>) {
+        login(state, action: PayloadAction<LoginResponse>) {
             state.isLoggedIn = true;
-            state.token = action.payload;
-            localStorage.setItem('token', action.payload);
+            state.token = action.payload.token;
+            localStorage.setItem('token', action.payload.token);
+            localStorage.setItem('userType', action.payload.userType);
         },
         logout(state) {
             state.isLoggedIn = false;
             state.token = null;
             localStorage.removeItem('token');
+            localStorage.removeItem('userType');
         },
     },
 });
