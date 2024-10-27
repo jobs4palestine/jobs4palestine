@@ -4,7 +4,7 @@ import { SyncOutlined, ExclamationCircleOutlined, DeleteOutlined, FilterOutlined
 import { ColumnsType } from 'antd/es/table';
 import { useSelector, useDispatch } from 'react-redux';
 import { RootState } from '../store';
-import { searchSpecialityJobs, viewSpecialityJobs, archiveSpecialityJob } from '../api/api';
+import { searchSpecialityJobs, viewSpecialityJobs, archiveJob } from '../api/api';
 import { setResultsBySpecialty } from '../store/resultsSlice';
 import type { APIResult } from '@monorepo/shared';
 import dayjs from 'dayjs';
@@ -39,7 +39,7 @@ const TableView: React.FC = () => {
             render: (date: string) => {
                 const publishedDate = dayjs(date);
                 const daysAgo = dayjs().diff(publishedDate, 'day');
-                return `${publishedDate.format('YYYY-MM-DD')} (${daysAgo} days ago)`;
+                return `${publishedDate.format('YYYY-MM-DD')} (${daysAgo === 0 ? 'Today' : `${daysAgo} days ago`})`;
             },
         },
     ];
@@ -48,13 +48,14 @@ const TableView: React.FC = () => {
         columns.push({
             title: 'Actions',
             key: 'actions',
-            width: 120, // Fixed width for the Actions column
+            width: 150, // Fixed width for the Actions column
             render: (_, record) => (
                 <Button
                     type={record.archived ? 'default' : 'primary'}
                     icon={record.archived ? <ExclamationCircleOutlined /> : <DeleteOutlined />}
                     danger={!record.archived} // Make the button red if not archived
                     onClick={() => handleArchiveClick(record._id, record.archived)}
+                    style={{ minWidth: 100 }} // Ensures consistent button width
                 >
                     {record.archived ? 'Unarchive' : 'Archive'}
                 </Button>
@@ -90,11 +91,13 @@ const TableView: React.FC = () => {
         if (selectedSpecialty) {
             setLoading(true);
             try {
-                await archiveSpecialityJob(objectId, archived);
+                // If the item is currently archived, we want to unarchive it (send false); otherwise, we want to archive it (send true)
+                await archiveJob(objectId, !archived);
                 message.success(`Item has been ${archived ? 'unarchived' : 'archived'}.`);
-                // Update specific item in the state
+
+                // Update the specific item in the local Redux state
                 const updatedResults = data.map((item) =>
-                    item.link === objectId ? { ...item, archived: archived } : item
+                    item._id === objectId ? { ...item, archived: !archived } : item
                 );
                 dispatch(setResultsBySpecialty({ specialty: selectedSpecialty, results: updatedResults }));
             } catch (error) {
@@ -104,6 +107,7 @@ const TableView: React.FC = () => {
             }
         }
     };
+
 
     const toggleFilterArchived = () => {
         setFilterArchived((prev) => !prev);

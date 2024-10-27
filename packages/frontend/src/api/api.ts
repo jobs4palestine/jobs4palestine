@@ -10,7 +10,7 @@ export const viewSpecialityJobs = async (specialty: string) => {
     }
 };
 
-export const archiveSpecialityJob = async (objectId: string, unarchive: boolean = false) => {
+export const archiveJob = async (objectId: string, unarchive: boolean = false) => {
     const url = `/archive?objectId=${objectId}${unarchive ? '&unarchive=true' : ''}`;
     return axios.post(url);
 };
