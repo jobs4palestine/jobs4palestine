@@ -27,12 +27,17 @@ export interface IResultBase {
     created_at?: Date;
     updated_at?: Date;
 }
+
 export interface APIResult extends IResultBase {
     _id: string;
 }
 
 
 export type Speciality =
+    | 'Vue.JS'
+    | 'Fullstack'
+    | 'Frontend'
+    | 'Machine learning'
     | 'Java'
     | 'J2EE'
     | 'Spring'
@@ -42,7 +47,6 @@ export type Speciality =
     | 'React-Native'
     | 'GoLang'
     | 'QA (Quality Assurance)'
-    | 'Fullstack'
     | 'Python'
     | 'C#'
     | 'Angular'
