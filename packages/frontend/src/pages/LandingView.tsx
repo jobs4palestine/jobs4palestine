@@ -32,7 +32,6 @@ const specialities: { name: Speciality; icon: ReactElement }[] = [
     { name: 'React-Native', icon: <FaReact /> },
     { name: 'GoLang', icon: <FaGolang /> },
     { name: 'QA (Quality Assurance)', icon: <SiCodacy /> },
-    { name: 'Fullstack', icon: <FaNodeJs /> },
     { name: 'Python', icon: <FaPython /> },
     { name: 'C#', icon: <SiCsharp /> },
     { name: 'Angular', icon: <SiAngular /> },
