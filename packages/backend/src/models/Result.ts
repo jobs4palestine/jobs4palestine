@@ -1,4 +1,5 @@
 import { Model, Document, Schema, model } from 'mongoose';
+import type { IResultBase } from '@monorepo/shared';
 
 interface SerpapiSearchResult {
     position?: number;
@@ -23,35 +24,6 @@ interface SerpapiSearchResult {
     cached_page_link?: string;
 }
 
-// First, define base interface without Document
-interface IResultBase {
-    position: number;
-    title: string;
-    link: string;
-    redirect_link?: string;
-    displayed_link?: string;
-    domain: string;
-    snippet: string;
-    date_published_raw?: string;
-    date_published?: Date;
-    searchTerm: string;
-    archived: boolean;
-    about_this_result?: {
-        source?: {
-            description?: string;
-            source_info_link?: string;
-            security?: string;
-            icon?: string;
-        };
-        keywords?: string[];
-        languages?: string[];
-    };
-    about_page_link?: string;
-    about_page_serpapi_link?: string;
-    cached_page_link?: string;
-    created_at?: Date;
-    updated_at?: Date;
-}
 
 // Then extend it for the Document
 interface IResult extends IResultBase, Document {}
@@ -102,6 +74,16 @@ function validateSearchResult(result: any): result is IResultBase {
         typeof result.snippet === 'string'
     );
 }
+async function getAllResults(): Promise<IResult[]> {
+    try {
+        // Fetch all documents in the 'results' collection
+        const results = await ResultModel.find();
+        return results;
+    } catch (error) {
+        console.error('Error fetching search results:', error);
+        throw error;
+    }
+}
 
 // Update the save function
 async function saveSearchResults(searchResults: Partial<IResultBase>[]) {
@@ -133,6 +115,7 @@ export {
     ResultSchema,
     validateSearchResult,
     saveSearchResults,
+    getAllResults,
     SerpapiSearchResult
 };
 export default ResultModel;

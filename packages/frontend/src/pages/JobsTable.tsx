@@ -1,90 +1,41 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { Table } from 'antd';
 import { ColumnsType } from 'antd/es/table';
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 import { RootState } from '../store';
 import { queryTableData } from '../api/api';
-import { SearchResult } from '../types/SearchResult'; // Define the SearchResult type in types
-
-interface CellStyle {
-    style: React.CSSProperties;
-}
+import { setResultsBySpecialty } from '../store/resultsSlice';
+import type { IResultBase } from '@monorepo/shared';
 
 const TableView: React.FC = () => {
+    const dispatch = useDispatch();
     const selectedSpecialty = useSelector((state: RootState) => state.specialty.selectedSpecialty);
-    const [data, setData] = useState<SearchResult[]>([]);
-    const [loading, setLoading] = useState<boolean>(true);
+    const data = useSelector((state: RootState) => selectedSpecialty ? state.results[selectedSpecialty] || [] : []);
+    const [loading, setLoading] = React.useState<boolean>(true);
 
-    // Define the columns as per the provided structure
-    const columns: ColumnsType<SearchResult> = [
-        {
-            title: 'Title',
-            dataIndex: 'title',
-            key: 'title',
-            render: (text: string, record: SearchResult) => (
-                <a href={record.link} target="_blank" rel="noopener noreferrer">
-                    {text}
-                </a>
-            ),
-            onCell: (): CellStyle => ({
-                style: {
-                    whiteSpace: 'normal',
-                    wordBreak: 'break-word',
-                },
-            }),
-        },
-        {
-            title: 'Domain',
-            dataIndex: 'domain',
-            key: 'domain',
-            onCell: (): CellStyle => ({
-                style: {
-                    whiteSpace: 'normal',
-                    wordBreak: 'break-word',
-                },
-            }),
-        },
-        {
-            title: 'Snippet',
-            dataIndex: 'snippet',
-            key: 'snippet',
-            onCell: (): CellStyle => ({
-                style: {
-                    whiteSpace: 'normal',
-                    wordBreak: 'break-word',
-                },
-            }),
-        },
-        {
-            title: 'Date Published',
-            dataIndex: 'date_published',
-            key: 'date_published',
-        },
+    const columns: ColumnsType<IResultBase> = [
+        { title: 'Title', dataIndex: 'title', key: 'title' },
+        { title: 'Domain', dataIndex: 'domain', key: 'domain' },
+        { title: 'Description', dataIndex: 'snippet', key: 'snippet' },
+        { title: 'Date Published', dataIndex: 'date_published', key: 'date_published' },
     ];
 
     useEffect(() => {
         if (selectedSpecialty) {
             setLoading(true);
-            queryTableData(selectedSpecialty)
-                .then((tableData) => {
-                    setData(tableData);
-                    setLoading(false);
-                })
-                .catch((error) => {
-                    console.error('Error fetching table data:', error);
-                    setLoading(false);
-                });
+            queryTableData(selectedSpecialty).then((results) => {
+                dispatch(setResultsBySpecialty({ specialty: selectedSpecialty, results }));
+                setLoading(false);
+            });
         }
-    }, [selectedSpecialty]);
+    }, [selectedSpecialty, dispatch]);
 
     return (
         <div>
-            <h2>{selectedSpecialty} Table View</h2>
-            <Table<SearchResult>
+            <Table<IResultBase>
                 dataSource={data}
                 columns={columns}
                 rowKey={(record) => record.link}
-                style={{ marginTop: 20 }}
                 pagination={{ pageSize: 200 }}
                 loading={loading}
             />

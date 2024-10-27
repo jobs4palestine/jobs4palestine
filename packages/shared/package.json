@@ -1,0 +1,17 @@
+{
+  "name": "@monorepo/shared",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/types.js",
+  "types": "./dist/types.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/types.js",
+      "types": "./dist/types.d.ts"
+    }
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  }
+}

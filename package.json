@@ -3,7 +3,9 @@
   "type": "module",
   "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/backend",
+    "packages/frontend",
+    "packages/shared"
   ],
   "scripts": {
     "dev": "concurrently \"yarn workspace @monorepo/backend dev\" \"yarn workspace @monorepo/frontend dev\"",
