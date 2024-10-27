@@ -3,9 +3,14 @@
   "compilerOptions": {
     "outDir": "./dist",
     "rootDir": "./src",
-    "moduleResolution": "node", // Change this from "bundler"
+    "moduleResolution": "node",
     "module": "ESNext",
-    "types": ["jest", "node"]
+    "types": ["jest", "node"],
+    // Add these fields:
+    "baseUrl": ".",
+    "paths": {
+      "*": ["src/*"]
+    }
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist", "tests"]

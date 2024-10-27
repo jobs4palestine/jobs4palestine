@@ -7,7 +7,7 @@
     "build": "tsc",
     "test": "jest",
     "typecheck": "tsc --noEmit",
-    "start": "NODE_ENV=production node dist/index.js"
+    "start": "NODE_ENV=production node --experimental-specifier-resolution=node dist/index.js"
   },
   "dependencies": {
     "base-64": "^1.0.0",

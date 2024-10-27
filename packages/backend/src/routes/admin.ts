@@ -1,6 +1,6 @@
 import {Router, Request, Response} from 'express';
-import authenticateToken from '../authenticateToken';
-import ResultModel from "../models/Result";
+import authenticateToken from '../authenticateToken.js';
+import ResultModel from "../models/Result.js";
 
 export const adminRouter = Router();
 

@@ -1,8 +1,8 @@
 import {Request, Response, Router} from 'express';
-import ResultModel, {getAllResults, IResultBase, saveSearchResults, getResultsBySpeciality} from "../models/Result";
-import {parseDate, queryForSpecialty} from "../utils";
+import ResultModel, {getAllResults, IResultBase, saveSearchResults} from "../models/Result.js";
+import {parseDate, queryForSpecialty} from "../utils.js";
 import {SerpApiClient} from '../services/serpapi.js';
-import { authenticateToken, optionalAuthenticateToken} from "../authenticateToken";
+import { authenticateToken, optionalAuthenticateToken} from "../authenticateToken.js";
 import type { Speciality} from "@jobs4palestine/shared";
 
 export const searchRouter = Router();

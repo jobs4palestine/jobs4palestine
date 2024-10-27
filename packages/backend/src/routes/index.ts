@@ -1,3 +1,3 @@
-export { searchRouter } from './search'
-export { adminRouter } from './admin'
-export { loginRouter } from './login'
+export * from './search.js'
+export * from './admin.js'
+export * from './login.js'
