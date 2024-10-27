@@ -3,9 +3,9 @@
   "type": "module",
   "private": true,
   "workspaces": [
+    "packages/shared",
     "packages/backend",
-    "packages/frontend",
-    "packages/shared"
+    "packages/frontend"
   ],
   "scripts": {
     "dev": "concurrently \"yarn workspace @jobs4palestine/backend dev\" \"yarn workspace @jobs4palestine/frontend dev\"",

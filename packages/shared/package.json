@@ -2,12 +2,12 @@
   "name": "@jobs4palestine/shared",
   "version": "1.0.0",
   "type": "module",
-  "main": "./dist/types.js",
-  "types": "./dist/types.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/types.js",
-      "types": "./dist/types.d.ts"
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
     }
   },
   "license": "LGPL-3.0-or-later",
