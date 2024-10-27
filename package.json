@@ -11,11 +11,13 @@
     "dev": "concurrently \"yarn workspace @jobs4palestine/backend dev\" \"yarn workspace @jobs4palestine/frontend dev\"",
     "test": "yarn workspaces run test",
     "build": "yarn workspaces run build",
-    "start": "concurrently \"yarn workspace @jobs4palestine/backend start\" \"yarn workspace @jobs4palestine/frontend start\""
+    "start": "concurrently \"yarn workspace @jobs4palestine/backend start\" \"yarn workspace @jobs4palestine/frontend start\"",
+    "startBackend": "yarn workspace @jobs4palestine/backend start",
+    "startFrontend": "yarn workspace @jobs4palestine/frontend start"
   },
   "devDependencies": {
     "concurrently": "^9.0.1",
     "typescript": "^5.6.3"
   },
-  "license": "GPL"
+  "license": "LGPL-3.0-or-later"
 }

@@ -10,7 +10,7 @@
       "types": "./dist/types.d.ts"
     }
   },
-  "license": "GPL",
+  "license": "LGPL-3.0-or-later",
   "scripts": {
     "build": "tsc"
   }
