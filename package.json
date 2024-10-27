@@ -10,7 +10,8 @@
   "scripts": {
     "dev": "concurrently \"yarn workspace @jobs4palestine/backend dev\" \"yarn workspace @jobs4palestine/frontend dev\"",
     "test": "yarn workspaces run test",
-    "build": "yarn workspaces run build"
+    "build": "yarn workspaces run build",
+    "start": "concurrently \"yarn workspace @jobs4palestine/backend start\" \"yarn workspace @jobs4palestine/frontend start\""
   },
   "devDependencies": {
     "concurrently": "^9.0.1",

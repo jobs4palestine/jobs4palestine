@@ -6,7 +6,8 @@
     "dev": "NODE_ENV=development tsx watch src/index.ts",
     "build": "tsc",
     "test": "jest",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "start": "NODE_ENV=production node dist/index.js"
   },
   "dependencies": {
     "base-64": "^1.0.0",
