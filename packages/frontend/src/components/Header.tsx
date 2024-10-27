@@ -4,6 +4,7 @@ import { RootState } from '../store';
 import { logout } from '../store/authSlice';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { Button } from 'antd';
+import { GithubOutlined } from '@ant-design/icons';
 import { clearSpecialty } from '../store/specialtySlice';
 
 const Header: React.FC = () => {
@@ -40,10 +41,14 @@ const Header: React.FC = () => {
                 {location.pathname === '/table' ? selectedSpecialty : 'Specialties'}
             </div>
             <div className="header-right">
-                {isLoggedIn ?  (<Button onClick={handleLogout} type="link">
-                    Logout
-                </Button>) : null
-                }
+                <a href="https://github.com/jobs4palestine/jobs4palestine" target="_blank" rel="noopener noreferrer">
+                    <GithubOutlined className="github-icon"/>
+                </a>
+                {isLoggedIn && (
+                    <Button onClick={handleLogout} type="link">
+                        Logout
+                    </Button>
+                )}
             </div>
         </nav>
     );
