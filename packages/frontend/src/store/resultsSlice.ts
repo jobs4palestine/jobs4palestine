@@ -12,7 +12,7 @@ const resultsSlice = createSlice({
     name: 'results',
     initialState,
     reducers: {
-        setResultsBySpecialty: (state, action: PayloadAction<{ specialty: string; results: IResultBase[] }>) => {
+        setResultsBySpecialty: (state, action: PayloadAction<{ specialty: string; results: APIResult[] }>) => {
             state[action.payload.specialty] = action.payload.results;
         },
         clearResults: (state, action: PayloadAction<string>) => {
