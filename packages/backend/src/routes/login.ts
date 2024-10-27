@@ -3,8 +3,6 @@ import jwt from 'jsonwebtoken';
 
 export const loginRouter = Router();
 
-
-
 loginRouter.post('/login', (req, res) => {
     const authHeader = req.headers['authorization'];
 
