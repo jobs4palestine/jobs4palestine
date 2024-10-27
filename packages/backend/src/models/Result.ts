@@ -1,30 +1,6 @@
 import { Model, Document, Schema, model } from 'mongoose';
 import type {IResultBase, Speciality} from '@monorepo/shared';
 
-interface SerpapiSearchResult {
-    position?: number;
-    title: string;
-    link: string;
-    redirect_link?: string;
-    displayed_link?: string;
-    snippet?: string;
-    date?: string;
-    about_this_result?: {
-        source?: {
-            description?: string;
-            source_info_link?: string;
-            security?: string;
-            icon?: string;
-        };
-        keywords?: string[];
-        languages?: string[];
-    };
-    about_page_link?: string;
-    about_page_serpapi_link?: string;
-    cached_page_link?: string;
-}
-
-
 // Then extend it for the Document
 interface IResult extends IResultBase, Document {}
 
@@ -126,7 +102,6 @@ export {
     ResultSchema,
     validateSearchResult,
     saveSearchResults,
-    getAllResults,
-    SerpapiSearchResult
+    getAllResults
 };
 export default ResultModel;

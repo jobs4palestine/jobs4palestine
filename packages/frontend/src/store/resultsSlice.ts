@@ -1,4 +1,3 @@
-// frontend/store/resultsSlice.ts
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import type { APIResult } from '@monorepo/shared';
 

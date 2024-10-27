@@ -87,13 +87,22 @@ searchRouter.get('/search', authenticateToken, async (req, res) => {
                         date_published: parseDate(result.date),
                         searchTerm: fullQuery,
                         archived: false,
-                        about_this_result: result.about_this_result,
+                        about_this_result: result.about_this_result && {
+                            source: result.about_this_result.source && {
+                                description: result.about_this_result.source.description || '',
+                                source_info_link: result.about_this_result.source.source_info_link || '',
+                                security: result.about_this_result.source.security || '',
+                                icon: result.about_this_result.source.icon || ''
+                            },
+                            keywords: result.about_this_result.keywords || [],
+                            languages: result.about_this_result.languages || []
+                        },
                         about_page_link: result.about_page_link,
+                        about_page_serpapi_link: result.about_page_serpapi_link,
                         cached_page_link: result.cached_page_link
                     } as IResultBase;
                 })
-                .filter((result): result is IResultBase => result !== null);
-
+                .filter(result => result !== null); // Filter out any null results
             // Save search results to the database
             const savedResults = await saveSearchResults(processedResults);
 

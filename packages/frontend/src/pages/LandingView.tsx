@@ -10,7 +10,7 @@ import { useNavigate } from 'react-router-dom';
 
 import type { Speciality } from '@monorepo/shared';
 
-export const specialities: { name: Speciality; icon: JSX.Element }[] = [
+const specialities: { name: Speciality; icon: JSX.Element }[] = [
     { name: 'Java', icon: <FaJava /> },
     { name: 'J2EE', icon: <SiJquery /> },
     { name: 'Spring', icon: <SiSpring /> },

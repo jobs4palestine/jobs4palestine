@@ -10,12 +10,23 @@ export interface SearchResult {
     position?: number;
     title: string;
     link: string;
+    redirect_link?: string;
+    displayed_link?: string;
     snippet?: string;
     date?: string;
-    displayed_link?: string;
-    redirect_link?: string;
-    about_this_result?: any;
+    about_this_result?: {
+        source?: {
+            description?: string;
+            source_info_link?: string;
+            security?: string;
+            icon?: string;
+        };
+        keywords?: string[];
+        languages?: string[];
+        regions?: string[];
+    };
     about_page_link?: string;
+    about_page_serpapi_link?: string;
     cached_page_link?: string;
 }
 
