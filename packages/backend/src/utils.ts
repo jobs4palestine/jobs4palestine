@@ -1,3 +1,6 @@
+import {Speciality} from "@monorepo/shared";
+
+
 
 export function parseDate(dateStr?: string): Date | undefined {
     if (!dateStr) return undefined;
@@ -97,4 +100,30 @@ export function parseDate(dateStr?: string): Date | undefined {
     }
 
     return undefined;
+}
+
+export const queryForSpecialty = (speciality: Speciality, sites: string) : string  => {
+    const searchTerms = speciality === "QA (Quality Assurance)"
+        ? ["QA", "Quality Assurance"]
+        : [speciality];
+// Calculate date for two weeks ago
+    const twoWeeksAgo = new Date(Date.now() - 14 * 24 * 60 * 60 * 1000);
+    const afterDate = twoWeeksAgo.toISOString().split('T')[0];
+
+// Expand each search term to include both "developer" and "engineer"
+    const expandedSearchTerms = searchTerms.flatMap(term => [
+        `${term} developer`,
+        `${term} engineer`
+    ]);
+
+// Join the expanded terms with OR for a broad match
+    const searchTermQuery = expandedSearchTerms.join(' OR ');
+
+// Format the sites query
+    const siteQueries = sites.split(',').map((site) => `site:${site.trim()}`);
+    const siteQuery = siteQueries.join(' OR ');
+
+// Construct the final query
+    return `remote (${searchTermQuery}) ${siteQuery} after:${afterDate}`;
+
 }

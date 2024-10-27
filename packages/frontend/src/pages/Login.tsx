@@ -3,7 +3,7 @@ import { Button, Input, Form, Card } from 'antd';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { login } from '../store/authSlice';
-import { postLogin } from '../api/login';
+import {LoginResponse, postLogin} from '../api/login';
 
 const Login: React.FC = () => {
     const [password, setPassword] = useState('');
@@ -12,8 +12,8 @@ const Login: React.FC = () => {
 
     const handleLogin = async () => {
         try {
-            const token = await postLogin(password);
-            dispatch(login(token));
+            const response : LoginResponse = await postLogin(password);
+            dispatch(login(response.token));
             navigate('/specialties'); // Redirect to specialties page on successful login
         } catch (error) {
             alert('Login failed. Please try again.');

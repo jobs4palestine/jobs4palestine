@@ -1,6 +1,9 @@
 import axios from './axiosSetup';
-
-export const postLogin =  async (password: string) => {
+export interface LoginResponse {
+    token: string;
+    userType: 'user' | 'admin';
+}
+export const postLogin = async (password: string) => {
     const base64Credentials = btoa(`${password}`);
 
     try {
@@ -10,13 +13,14 @@ export const postLogin =  async (password: string) => {
             }
         });
         if (response.status === 200) {
-            console.log('Login successful:', response.data);
-            const {token} = response.data;
+            const { token, userType } = response.data;  // Extract both token and userType
             localStorage.setItem('token', token);
-            return Promise.resolve(token)
+            localStorage.setItem('userType', userType);  // Store userType in localStorage
+            return Promise.resolve({ token, userType });
         }
     } catch (error) {
         console.error('Login failed:', error);
     }
-    return Promise.reject('login failed:');
+    return Promise.reject('login failed');
 }
+

@@ -1,9 +1,10 @@
 import React, { useEffect } from 'react';
-import { Table } from 'antd';
+import { Table, FloatButton } from 'antd';
+import { SyncOutlined } from '@ant-design/icons';
 import { ColumnsType } from 'antd/es/table';
 import { useSelector, useDispatch } from 'react-redux';
 import { RootState } from '../store';
-import { queryTableData } from '../api/api';
+import {searchSpecialityJobs, viewSpecialityJobs} from '../api/api';
 import { setResultsBySpecialty } from '../store/resultsSlice';
 import type { IResultBase } from '@monorepo/shared';
 
@@ -12,6 +13,7 @@ const TableView: React.FC = () => {
     const selectedSpecialty = useSelector((state: RootState) => state.specialty.selectedSpecialty);
     const data = useSelector((state: RootState) => selectedSpecialty ? state.results[selectedSpecialty] || [] : []);
     const [loading, setLoading] = React.useState<boolean>(true);
+    const userType = localStorage.getItem('userType');
 
     const columns: ColumnsType<IResultBase> = [
         { title: 'Title', dataIndex: 'title', key: 'title' },
@@ -23,12 +25,26 @@ const TableView: React.FC = () => {
     useEffect(() => {
         if (selectedSpecialty) {
             setLoading(true);
-            queryTableData(selectedSpecialty).then((results) => {
+            viewSpecialityJobs(selectedSpecialty).then((results) => {
                 dispatch(setResultsBySpecialty({ specialty: selectedSpecialty, results }));
                 setLoading(false);
             });
         }
     }, [selectedSpecialty, dispatch]);
+
+    const handleSearchClick = async () => {
+        if (!selectedSpecialty) return;
+
+        setLoading(true);
+        try {
+            const results = await searchSpecialityJobs(selectedSpecialty);
+            dispatch(setResultsBySpecialty({ specialty: selectedSpecialty, results }));
+        } catch (error) {
+            console.error('Error during search:', error);
+        } finally {
+            setLoading(false);
+        }
+    };
 
     return (
         <div>
@@ -39,6 +55,11 @@ const TableView: React.FC = () => {
                 pagination={{ pageSize: 200 }}
                 loading={loading}
             />
+            {userType === 'admin' && (
+                <FloatButton.Group style={{ position: 'fixed', right: 24, top: '50%', transform: 'translateY(-50%)' }}>
+                    <FloatButton icon={<SyncOutlined />} onClick={handleSearchClick} />
+                </FloatButton.Group>
+            )}
         </div>
     );
 };

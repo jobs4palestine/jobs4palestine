@@ -1,15 +1,11 @@
 import {Request, Response, Router} from 'express';
 import {getAllResults, IResultBase, saveSearchResults, getResultsBySpeciality} from "../models/Result";
-import {parseDate} from "../utils";
-import {SearchResponse, SerpApiClient} from '../services/serpapi.js';
+import {parseDate, queryForSpecialty} from "../utils";
+import {SerpApiClient} from '../services/serpapi.js';
 import authenticateToken from "../authenticateToken";
 import type { Speciality} from "@monorepo/shared";
 
 export const searchRouter = Router();
-/*
-import all from '../models/SearchResults.json'
-const samples = (all as SearchResponse)
-*/
 
 const jobSites = [
     "jobs.ashbyhq.com",
@@ -27,6 +23,7 @@ const jobSites = [
     "oraclecloud.com",
     "recruiting.adp.com"
 ];
+
 let serpApi : SerpApiClient | undefined
 
 searchRouter.get('/view', authenticateToken, async (req: Request, res: Response) => {
@@ -47,32 +44,27 @@ searchRouter.get('/view', authenticateToken, async (req: Request, res: Response)
 
 
 
-searchRouter.get('/search', async (req, res) => {
+searchRouter.get('/search', authenticateToken, async (req, res) => {
     try {
+
+        if (req.user?.role !== 'admin' && req.user?.role !== 'user') {
+            res.status(403).send('logged in users only');
+            return;
+        }
+
         const apiKey = process.env.SERPAPI_API_KEY
         if (apiKey && !serpApi) {
             serpApi = new SerpApiClient(apiKey);
         }
 
-        const q = req.query.q as string;
+        const q = req.query.q as Speciality | undefined;
         const sites = req.query.sites as string || jobSites.join(',');
 
         if (!q) {
             res.status(400).json({error: 'Missing query parameters'});
             return;
         }
-
-        const twoWeeksAgo = new Date(Date.now() - 14 * 24 * 60 * 60 * 1000);
-        const afterDate = twoWeeksAgo.toISOString().split('T')[0];
-
-        const searchTerms = q.split(' OR ').map((term) => term.trim());
-        const searchTermQuery = searchTerms.join(' OR ');
-
-        const siteQueries = sites.split(',').map((site) => `site:${site.trim()}`);
-        const siteQuery = siteQueries.join(' OR ');
-
-        const fullQuery = `${searchTermQuery} ${siteQuery} after:${afterDate}`;
-
+       const fullQuery = queryForSpecialty(q, sites)
         const searchResults = await serpApi?.search({q: fullQuery});
         if (searchResults) {
             const processedResults = searchResults.organic_results
@@ -84,6 +76,7 @@ searchRouter.get('/search', async (req, res) => {
 
                     const domain = new URL(result.link).origin;
                     return {
+                        speciality: q,
                         position: result.position || 0,
                         title: result.title,
                         link: result.link,
