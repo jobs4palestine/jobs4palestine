@@ -10,7 +10,7 @@
       "types": "./dist/types.d.ts"
     }
   },
-  "license": "MIT",
+  "license": "GPL",
   "scripts": {
     "build": "tsc"
   }
