@@ -41,6 +41,7 @@ const ResultSchema = new Schema<IResult>({
     displayed_link: String,
     domain: { type: String, required: true },
     snippet: { type: String, required: true },
+    speciality: String,
     date_published_raw: String,
     date_published: Date,
     searchTerm: { type: String, required: true },

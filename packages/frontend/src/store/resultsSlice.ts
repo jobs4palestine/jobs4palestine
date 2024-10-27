@@ -1,9 +1,9 @@
 // frontend/store/resultsSlice.ts
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import type { IResultBase } from '@monorepo/shared';
+import type { APIResult } from '@monorepo/shared';
 
 interface ResultsState {
-    [specialty: string]: IResultBase[];
+    [specialty: string]: APIResult[];
 }
 
 const initialState: ResultsState = {};

@@ -27,13 +27,25 @@ export interface IResultBase {
     created_at?: Date;
     updated_at?: Date;
 }
-
-// shared.ts
-export const allSpecialities = [
-    'Java', 'J2EE', 'Spring', 'Android', 'iOS', 'React', 'React-Native', 'GoLang',
-    'QA (Quality Assurance)', 'Fullstack', 'Python', 'C#', 'Angular', 'Ruby', 'Flutter', 'Node.js'
-] as const;  // `as const` makes this a readonly tuple of string literals
-
-export type Speciality = typeof allSpecialities[number]; // Union type based on the array values
+export interface APIResult extends IResultBase {
+    _id: string;
+}
 
 
+export type Speciality =
+    | 'Java'
+    | 'J2EE'
+    | 'Spring'
+    | 'Android'
+    | 'iOS'
+    | 'React'
+    | 'React-Native'
+    | 'GoLang'
+    | 'QA (Quality Assurance)'
+    | 'Fullstack'
+    | 'Python'
+    | 'C#'
+    | 'Angular'
+    | 'Ruby'
+    | 'Flutter'
+    | 'Node.js';

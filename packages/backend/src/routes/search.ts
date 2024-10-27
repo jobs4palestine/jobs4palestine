@@ -1,5 +1,5 @@
 import {Request, Response, Router} from 'express';
-import {getAllResults, IResultBase, saveSearchResults, getResultsBySpeciality} from "../models/Result";
+import ResultModel, {getAllResults, IResultBase, saveSearchResults, getResultsBySpeciality} from "../models/Result";
 import {parseDate, queryForSpecialty} from "../utils";
 import {SerpApiClient} from '../services/serpapi.js';
 import authenticateToken from "../authenticateToken";
@@ -31,11 +31,13 @@ searchRouter.get('/view', authenticateToken, async (req: Request, res: Response)
         res.status(403).send('logged in users only');
         return;
     }
+    const includeArchived = req.user?.role === 'admin';
 
     const speciality = req.query.q as Speciality | undefined;
     let results;
     if (speciality) {
-        results = await getResultsBySpeciality(speciality);
+        const query = includeArchived ? { speciality } : { speciality, archived: false };
+        results = await ResultModel.find(query);
     } else {
         results = await getAllResults();
     }
@@ -98,7 +100,7 @@ searchRouter.get('/search', authenticateToken, async (req, res) => {
             // Save search results to the database
             const savedResults = await saveSearchResults(processedResults);
 
-            res.status(200).json({results: savedResults});
+            res.status(200).json(savedResults);
         } else {
             res.status(500).json({error: 'could not search'});
 
