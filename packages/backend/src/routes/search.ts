@@ -3,7 +3,7 @@ import ResultModel, {getAllResults, IResultBase, saveSearchResults, getResultsBy
 import {parseDate, queryForSpecialty} from "../utils";
 import {SerpApiClient} from '../services/serpapi.js';
 import { authenticateToken, optionalAuthenticateToken} from "../authenticateToken";
-import type { Speciality} from "@monorepo/shared";
+import type { Speciality} from "@jobs4palestine/shared";
 
 export const searchRouter = Router();
 

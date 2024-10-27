@@ -6,7 +6,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { RootState } from '../store';
 import { searchSpecialityJobs, viewSpecialityJobs, archiveJob } from '../api/api';
 import { setResultsBySpecialty } from '../store/resultsSlice';
-import type { APIResult } from '@monorepo/shared';
+import type { APIResult } from '@jobs4palestine/shared';
 import dayjs from 'dayjs';
 
 const TableView: React.FC = () => {

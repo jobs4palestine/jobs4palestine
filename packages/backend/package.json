@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo/backend",
+  "name": "@jobs4palestine/backend",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
@@ -16,7 +16,7 @@
     "express": "^4.21.1",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.7.2",
-    "@monorepo/shared": "1.0.0"
+    "@jobs4palestine/shared": "1.0.0"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",

@@ -1,4 +1,4 @@
-import {Speciality} from "@monorepo/shared";
+import {Speciality} from "@jobs4palestine/shared";
 
 
 

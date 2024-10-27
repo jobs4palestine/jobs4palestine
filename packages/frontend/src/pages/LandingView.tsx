@@ -8,7 +8,7 @@ import { useDispatch } from 'react-redux';
 import { setSpecialty } from '../store/specialtySlice';
 import { useNavigate } from 'react-router-dom';
 
-import type { Speciality } from '@monorepo/shared';
+import type { Speciality } from '@jobs4palestine/shared';
 
 const specialities: { name: Speciality; icon: JSX.Element }[] = [
     { name: 'Java', icon: <FaJava /> },

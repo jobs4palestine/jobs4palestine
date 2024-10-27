@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo/shared",
+  "name": "@jobs4palestine/shared",
   "version": "1.0.0",
   "type": "module",
   "main": "./dist/types.js",

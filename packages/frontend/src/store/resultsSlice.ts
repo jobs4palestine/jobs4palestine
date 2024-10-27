@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import type { APIResult } from '@monorepo/shared';
+import type { APIResult } from '@jobs4palestine/shared';
 
 interface ResultsState {
     [specialty: string]: APIResult[];

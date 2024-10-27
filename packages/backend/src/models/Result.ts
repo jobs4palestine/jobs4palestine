@@ -1,5 +1,5 @@
 import { Model, Document, Schema, model } from 'mongoose';
-import type {IResultBase, Speciality} from '@monorepo/shared';
+import type {IResultBase, Speciality} from '@jobs4palestine/shared';
 
 // Then extend it for the Document
 interface IResult extends IResultBase, Document {}

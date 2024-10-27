@@ -1,5 +1,5 @@
 {
-  "name": "monorepo",
+  "name": "jobs4palestine",
   "type": "module",
   "private": true,
   "workspaces": [
@@ -8,7 +8,7 @@
     "packages/shared"
   ],
   "scripts": {
-    "dev": "concurrently \"yarn workspace @monorepo/backend dev\" \"yarn workspace @monorepo/frontend dev\"",
+    "dev": "concurrently \"yarn workspace @jobs4palestine/backend dev\" \"yarn workspace @jobs4palestine/frontend dev\"",
     "test": "yarn workspaces run test",
     "build": "yarn workspaces run build"
   },
