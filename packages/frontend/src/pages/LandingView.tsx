@@ -1,7 +1,18 @@
 import React, {ReactElement} from 'react';
 import { Button } from 'antd';
 import './LandingView.css';
-import {FaJava, FaAndroid, FaReact, FaNodeJs, FaPython, FaVuejs, FaRobot, FaLayerGroup, FaHtml5} from "react-icons/fa";
+import {
+    FaJava,
+    FaAndroid,
+    FaReact,
+    FaNodeJs,
+    FaPython,
+    FaVuejs,
+    FaRobot,
+    FaLayerGroup,
+    FaHtml5,
+    FaPhp, FaCode
+} from "react-icons/fa";
 import { SiAngular, SiCodacy, SiCsharp, SiFlutter, SiIos, SiJquery, SiRuby, SiSpring } from "react-icons/si";
 import { FaGolang } from "react-icons/fa6";
 import { useDispatch } from 'react-redux';
@@ -9,6 +20,7 @@ import { setSpecialty } from '../store/specialtySlice';
 import { useNavigate } from 'react-router-dom';
 
 import type { Speciality } from '@jobs4palestine/shared';
+import {CgCPlusPlus} from "react-icons/cg";
 
 const specialities: { name: Speciality; icon: ReactElement }[] = [
     { name: 'Java', icon: <FaJava /> },
@@ -30,7 +42,10 @@ const specialities: { name: Speciality; icon: ReactElement }[] = [
     { name: 'Vue.JS', icon: <FaVuejs />},
     { name: "Machine learning", icon: <FaRobot /> },
     {name: "Fullstack", icon: <FaLayerGroup /> },
-    {name: "Frontend", icon: <FaHtml5 />}
+    {name: "Frontend", icon: <FaHtml5 />},
+    {name: "MatLab", icon: <FaCode />},
+    {name: "PHP", icon: <FaPhp />},
+    {name: "C++", icon: <CgCPlusPlus />}
 ];
 const LandingView: React.FC = () => {
     const dispatch = useDispatch();
