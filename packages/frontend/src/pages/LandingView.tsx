@@ -8,7 +8,9 @@ import { useDispatch } from 'react-redux';
 import { setSpecialty } from '../store/specialtySlice';
 import { useNavigate } from 'react-router-dom';
 
-const specialities = [
+import type { Speciality } from '@monorepo/shared';
+
+export const specialities: { name: Speciality; icon: JSX.Element }[] = [
     { name: 'Java', icon: <FaJava /> },
     { name: 'J2EE', icon: <SiJquery /> },
     { name: 'Spring', icon: <SiSpring /> },
@@ -26,7 +28,6 @@ const specialities = [
     { name: 'Flutter', icon: <SiFlutter /> },
     { name: 'Node.js', icon: <FaNodeJs /> },
 ];
-
 const LandingView: React.FC = () => {
     const dispatch = useDispatch();
     const navigate = useNavigate();

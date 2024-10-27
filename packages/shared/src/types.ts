@@ -6,6 +6,7 @@ export interface IResultBase {
     displayed_link?: string;
     domain: string;
     snippet: string;
+    speciality: Speciality
     date_published_raw?: string;
     date_published?: Date;
     searchTerm: string;
@@ -26,3 +27,22 @@ export interface IResultBase {
     created_at?: Date;
     updated_at?: Date;
 }
+
+export type Speciality =
+    | 'Java'
+    | 'J2EE'
+    | 'Spring'
+    | 'Android'
+    | 'iOS'
+    | 'React'
+    | 'React-Native'
+    | 'GoLang'
+    | 'QA (Quality Assurance)'
+    | 'Fullstack'
+    | 'Python'
+    | 'C#'
+    | 'Angular'
+    | 'Ruby'
+    | 'Flutter'
+    | 'Node.js';
+

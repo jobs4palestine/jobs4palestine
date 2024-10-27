@@ -1,5 +1,5 @@
 import { Model, Document, Schema, model } from 'mongoose';
-import type { IResultBase } from '@monorepo/shared';
+import type {IResultBase, Speciality} from '@monorepo/shared';
 
 interface SerpapiSearchResult {
     position?: number;
@@ -81,6 +81,16 @@ async function getAllResults(): Promise<IResult[]> {
         return results;
     } catch (error) {
         console.error('Error fetching search results:', error);
+        throw error;
+    }
+}
+
+export async function getResultsBySpeciality(speciality: Speciality): Promise<IResult[]> {
+    try {
+        const results = await ResultModel.find({ speciality });
+        return results;
+    } catch (error) {
+        console.error('Error fetching results by speciality:', error);
         throw error;
     }
 }

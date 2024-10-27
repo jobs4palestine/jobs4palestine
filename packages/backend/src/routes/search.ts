@@ -1,11 +1,9 @@
 import {Request, Response, Router} from 'express';
-import {getAllResults, IResultBase, saveSearchResults} from "../models/Result";
+import {getAllResults, IResultBase, saveSearchResults, getResultsBySpeciality} from "../models/Result";
 import {parseDate} from "../utils";
 import {SearchResponse, SerpApiClient} from '../services/serpapi.js';
 import authenticateToken from "../authenticateToken";
-import all from '../models/SearchResults.json'
-
-const samples = (all as SearchResponse)
+import type { Speciality} from "@monorepo/shared";
 
 export const searchRouter = Router();
 /*
@@ -34,12 +32,19 @@ let serpApi : SerpApiClient | undefined
 searchRouter.get('/view', authenticateToken, async (req: Request, res: Response) => {
     if (req.user?.role !== 'admin' && req.user?.role !== 'user') {
         res.status(403).send('logged in users only');
-        return
+        return;
     }
-    const results = await getAllResults();
-    res.json(results);
 
+    const speciality = req.query.q as Speciality | undefined;
+    let results;
+    if (speciality) {
+        results = await getResultsBySpeciality(speciality);
+    } else {
+        results = await getAllResults();
+    }
+    res.json(results);
 });
+
 
 
 searchRouter.get('/search', async (req, res) => {
