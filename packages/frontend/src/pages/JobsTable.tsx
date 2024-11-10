@@ -63,7 +63,6 @@ const TableView: React.FC = () => {
   const availablePages = React.useMemo(() => {
     return Math.ceil(currentCount / limit);
   }, [currentCount]);
-  console.log(availablePages);
   const selectedSpecialty = useSelector(
     (state: RootState) => state.specialty.selectedSpecialty
   );
