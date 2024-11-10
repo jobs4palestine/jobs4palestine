@@ -1,9 +1,13 @@
 import axios from "./axiosSetup";
 import type { Level } from "@jobs4palestine/shared";
 
-export const viewSpecialityJobs = async (specialty: string) => {
+export const viewJobs = async ({ specialty, level }: SearchJobsParams) => {
+  const searchParams = new URLSearchParams({
+    q: specialty,
+    level: level || "",
+  });
   try {
-    const response = await axios.get(`/view?q=${specialty}`);
+    const response = await axios.get(`/view?${searchParams.toString()}`);
     return response.data;
   } catch (error) {
     console.error("Error fetching table data:", error);

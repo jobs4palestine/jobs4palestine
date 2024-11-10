@@ -9,7 +9,7 @@ import {
 import { ColumnsType } from "antd/es/table";
 import { useSelector, useDispatch } from "react-redux";
 import { RootState } from "../store";
-import { searchJobs, viewSpecialityJobs, archiveJob } from "../api/api";
+import { searchJobs, viewJobs, archiveJob } from "../api/api";
 import { setResultsBySpecialty } from "../store/resultsSlice";
 import type { APIResult, Level } from "@jobs4palestine/shared";
 import dayjs from "dayjs";
@@ -125,14 +125,16 @@ const TableView: React.FC = () => {
   useEffect(() => {
     if (selectedSpecialty) {
       setLoading(true);
-      viewSpecialityJobs(selectedSpecialty).then((results) => {
-        dispatch(
-          setResultsBySpecialty({ specialty: selectedSpecialty, results })
-        );
-        setLoading(false);
-      });
+      viewJobs({ specialty: selectedSpecialty, level: selectedLevel }).then(
+        (results) => {
+          dispatch(
+            setResultsBySpecialty({ specialty: selectedSpecialty, results })
+          );
+          setLoading(false);
+        }
+      );
     }
-  }, [selectedSpecialty, dispatch]);
+  }, [selectedSpecialty, selectedLevel, dispatch]);
 
   const handleSearchClick = React.useCallback(async () => {
     if (!selectedSpecialty) return;
