@@ -1,5 +1,13 @@
 import React, { useEffect, useState } from "react";
-import { Table, FloatButton, Button, message, Card, Select } from "antd";
+import {
+  Table,
+  FloatButton,
+  Button,
+  message,
+  Card,
+  Select,
+  Pagination,
+} from "antd";
 import {
   SyncOutlined,
   ExclamationCircleOutlined,
@@ -13,6 +21,7 @@ import { searchJobs, viewJobs, archiveJob } from "../api/api";
 import { setResultsBySpecialty } from "../store/resultsSlice";
 import type { APIResult, Level } from "@jobs4palestine/shared";
 import dayjs from "dayjs";
+import { ShowIf } from "../components/ShowIf";
 const levels = ["INTERNSHIP", "JUNIOR", "SENIOR"];
 type LevelSelectorProps = {
   selectedLevel: Level | null;
@@ -48,6 +57,13 @@ const LevelSelector: React.FC<LevelSelectorProps> = ({
 };
 const TableView: React.FC = () => {
   const dispatch = useDispatch();
+  const [currentCount, setCurrentCount] = useState(0);
+  const limit = 200;
+  const [page, setPage] = useState(1);
+  const availablePages = React.useMemo(() => {
+    return Math.ceil(currentCount / limit);
+  }, [currentCount]);
+  console.log(availablePages);
   const selectedSpecialty = useSelector(
     (state: RootState) => state.specialty.selectedSpecialty
   );
@@ -121,20 +137,33 @@ const TableView: React.FC = () => {
       ),
     });
   }
-
+  useEffect(() => {
+    setPage(1);
+  }, [selectedSpecialty, selectedLevel]);
+  const handleChangingPage = React.useCallback(
+    (page: number) => {
+      setPage(page);
+    },
+    [setPage]
+  );
   useEffect(() => {
     if (selectedSpecialty) {
       setLoading(true);
-      viewJobs({ specialty: selectedSpecialty, level: selectedLevel }).then(
-        (results) => {
-          dispatch(
-            setResultsBySpecialty({ specialty: selectedSpecialty, results })
-          );
-          setLoading(false);
-        }
-      );
+
+      viewJobs({
+        specialty: selectedSpecialty,
+        level: selectedLevel,
+        page,
+      }).then(({ results, count }) => {
+        setCurrentCount(count);
+
+        dispatch(
+          setResultsBySpecialty({ specialty: selectedSpecialty, results })
+        );
+        setLoading(false);
+      });
     }
-  }, [selectedSpecialty, selectedLevel, dispatch]);
+  }, [selectedSpecialty, selectedLevel, page, dispatch]);
 
   const handleSearchClick = React.useCallback(async () => {
     if (!selectedSpecialty) return;
@@ -191,13 +220,29 @@ const TableView: React.FC = () => {
 
   return (
     <Card style={{ margin: 24, padding: 16 }}>
-      <Table<APIResult>
-        dataSource={filteredData}
-        columns={columns}
-        rowKey={(record) => record.link}
-        pagination={{ pageSize: 200 }}
-        loading={loading}
-      />
+      <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
+        <Table<APIResult>
+          dataSource={filteredData}
+          columns={columns}
+          rowKey={(record) => record.link}
+          pagination={false}
+          loading={loading}
+        />
+        <ShowIf condition={availablePages > 1}>
+          <div
+            style={{ width: "100%", display: "flex", justifyContent: "center" }}
+          >
+            <Pagination
+              align="center"
+              current={page}
+              onChange={handleChangingPage}
+              defaultCurrent={1}
+              total={availablePages}
+            />
+          </div>
+        </ShowIf>
+      </div>
+
       {userType === "admin" && (
         <FloatButton.Group
           style={{

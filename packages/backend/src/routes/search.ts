@@ -45,18 +45,37 @@ searchRouter.get(
 
     const speciality = req.query.q as Speciality | undefined;
     const level = req.query.level as Level | undefined;
+    const page = req.query.page as string | undefined;
+    const limit = 200;
 
     const query: SearchQuery = {};
-    Object.entries({ speciality, includeArchived, level }).forEach((res) => {
+    Object.entries({
+      speciality,
+      archived: includeArchived ? undefined : false,
+      level,
+    }).forEach((res) => {
       const key = res[0] as keyof SearchQuery;
       const value = res[1] as SearchQuery[keyof SearchQuery];
-      if (value !== undefined) {
+      if (value !== undefined && value?.length > 0) {
         query[key] = value;
       }
     });
+    let resultsQuery = ResultModel.find(query).limit(limit);
+    let results: IResultBase[] = [];
+    if (page) {
+      const intPage = parseInt(page);
+      if (intPage && !isNaN(intPage) && intPage > 0) {
+        const skip = (intPage - 1) * limit;
 
-    const results = await ResultModel.find(query).lean();
-    res.json(results);
+        resultsQuery = resultsQuery.skip(skip);
+      }
+    }
+    results = await resultsQuery.lean();
+    const count = await ResultModel.countDocuments(query);
+    res.json({
+      results,
+      count,
+    });
   }
 );
 searchRouter.get("/search", authenticateToken, async (req, res) => {
