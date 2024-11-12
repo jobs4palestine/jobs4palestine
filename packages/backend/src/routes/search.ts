@@ -1,10 +1,9 @@
 import { Request, Response, Router } from "express";
 import ResultModel, {
-  getAllResults,
   IResultBase,
   saveSearchResults,
 } from "../models/Result.js";
-import { levels, parseDate, queryForSearch } from "../utils.js";
+import {  parseDate, queryForSearch } from "../utils.js";
 import { SerpApiClient } from "../services/serpapi.js";
 import {
   authenticateToken,

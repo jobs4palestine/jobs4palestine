@@ -1,6 +1,5 @@
 import {Model, Document, Schema, model} from "mongoose";
 import type {IResultBase, Speciality} from "@jobs4palestine/shared";
-import {levels} from "utils";
 
 // Then extend it for the Document
 interface IResult extends IResultBase, Document {
