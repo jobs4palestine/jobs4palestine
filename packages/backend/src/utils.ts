@@ -104,7 +104,6 @@ type QueryForSearchParams = {
   speciality: Speciality;
   level?: Level;
 };
-export const levels = ["INTERNSHIP", "JUNIOR", "SENIOR"];
 
 export const queryForSearch = ({
   sites,

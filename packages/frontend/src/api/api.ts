@@ -2,7 +2,7 @@ import axios from "./axiosSetup";
 import type { Level } from "@jobs4palestine/shared";
 interface SearchJobsParams {
   specialty: string;
-  level?: Level;
+  level: Level | null;
 }
 interface ViewJobsParams extends SearchJobsParams {
   page?: number;

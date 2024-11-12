@@ -57,3 +57,5 @@ export type Speciality =
   | "Flutter"
   | "Node.js";
 export type Level = "INTERNSHIP" | "JUNIOR" | "SENIOR";
+export const levels = ["INTERNSHIP", "JUNIOR", "SENIOR"];
+

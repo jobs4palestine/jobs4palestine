@@ -20,9 +20,10 @@ import { RootState } from "../store";
 import { searchJobs, viewJobs, archiveJob } from "../api/api";
 import { setResultsBySpecialty } from "../store/resultsSlice";
 import type { APIResult, Level } from "@jobs4palestine/shared";
+import { levels } from "@jobs4palestine/shared";
+
 import dayjs from "dayjs";
 import { ShowIf } from "../components/ShowIf";
-const levels = ["INTERNSHIP", "JUNIOR", "SENIOR"];
 type LevelSelectorProps = {
   selectedLevel: Level | null;
   setSelectedLevel: React.Dispatch<React.SetStateAction<Level | null>>;
