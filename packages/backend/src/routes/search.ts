@@ -53,11 +53,13 @@ searchRouter.get(
       speciality,
       archived: includeArchived ? undefined : false,
       level,
-    }).forEach((res) => {
-      const key = res[0] as keyof SearchQuery;
-      const value = res[1] as SearchQuery[keyof SearchQuery];
-      if (value !== undefined && value?.length > 0) {
-        query[key] = value;
+    }).forEach(([key, value]) => {
+      if (value !== undefined && value !== false) {
+        if (typeof value === "string" && value.length > 0) {
+          query[key as keyof SearchQuery] = value as any;
+        } else if (typeof value !== "string") {
+          query[key as keyof SearchQuery] = value as any;
+        }
       }
     });
     let resultsQuery = ResultModel.find(query).limit(limit);
@@ -109,19 +111,12 @@ searchRouter.get("/search", authenticateToken, async (req, res) => {
           }
 
           const domain = new URL(result.link).origin;
-          let documentLevel = level;
-          if (!documentLevel) {
-            const words = result.title.toLowerCase().split(" ");
 
-            documentLevel = levels.find((level) => {
-              return words.includes(level.toLowerCase());
-            });
-          }
 
           return {
             speciality: q,
             position: result.position || 0,
-            level: documentLevel,
+            level: level,
             title: result.title,
             link: result.link,
             redirect_link: result.redirect_link,

@@ -2,6 +2,7 @@ export interface IResultBase {
   position: number;
   title: string;
   link: string;
+  level: Level;
   redirect_link?: string;
   displayed_link?: string;
   domain: string;
