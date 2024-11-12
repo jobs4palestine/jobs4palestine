@@ -114,11 +114,7 @@ export const queryForSearch = ({
     speciality === "QA (Quality Assurance)"
       ? ["QA", "Quality Assurance"]
       : [speciality];
-  if (level) {
-    const formattedLevel =
-      level.charAt(0) + String(level).slice(1).toLowerCase();
-    searchTerms.push(formattedLevel);
-  }
+
 
   // Calculate date for two weeks ago
   const twoWeeksAgo = new Date(Date.now() - 14 * 24 * 60 * 60 * 1000);
@@ -138,5 +134,5 @@ export const queryForSearch = ({
   const siteQuery = siteQueries.join(" OR ");
 
   // Construct the final query
-  return `remote (${searchTermQuery}) ${siteQuery} after:${afterDate}`;
+  return `remote ${level} (${searchTermQuery}) ${siteQuery} after:${afterDate}`;
 };

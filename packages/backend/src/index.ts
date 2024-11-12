@@ -7,7 +7,7 @@ import mongoose from "mongoose";
 
 config({
     path: process.env.NODE_ENV === 'development'
-        ? '.env.local'
+        ? '.env.development'
         : '.env'
 });
 
