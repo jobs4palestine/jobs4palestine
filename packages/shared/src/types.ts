@@ -52,6 +52,7 @@ export type Speciality =
   | "QA (Quality Assurance)"
   | "Python"
   | "C#"
+  | ".NET"
   | "Angular"
   | "Ruby"
   | "Flutter"

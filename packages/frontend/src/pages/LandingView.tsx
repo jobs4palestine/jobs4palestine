@@ -17,7 +17,7 @@ import {
 import {
   SiAngular,
   SiCodacy,
-  SiCsharp,
+  SiCsharp, SiDotnet,
   SiFlutter,
   SiIos,
   SiJquery,
@@ -44,6 +44,7 @@ const specialities: { name: Speciality; icon: ReactElement }[] = [
   { name: "QA (Quality Assurance)", icon: <SiCodacy /> },
   { name: "Python", icon: <FaPython /> },
   { name: "C#", icon: <SiCsharp /> },
+  { name: ".NET", icon: <SiDotnet /> },
   { name: "Angular", icon: <SiAngular /> },
   { name: "Ruby", icon: <SiRuby /> },
   { name: "Flutter", icon: <SiFlutter /> },
