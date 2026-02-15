@@ -101,24 +101,39 @@ export function parseDate(dateStr?: string): Date | undefined {
 }
 type QueryForSearchParams = {
   sites: string;
-  speciality: Speciality;
+  speciality?: Speciality;
   level?: Level;
+  customSearch?: string;
 };
 
 export const queryForSearch = ({
   sites,
   speciality,
   level,
+  customSearch,
 }: QueryForSearchParams): string => {
+  // Calculate date for two weeks ago
+  const twoWeeksAgo = new Date(Date.now() - 14 * 24 * 60 * 60 * 1000);
+  const afterDate = twoWeeksAgo.toISOString().split("T")[0];
+
+  // Format the sites query
+  const siteQueries = sites.split(",").map((site) => `site:${site.trim()}`);
+  const siteQuery = siteQueries.join(" OR ");
+
+  // If customSearch is provided, use it directly without appending "developer" or "engineer"
+  if (customSearch) {
+    return `remote ${level || ""} ${customSearch} ${siteQuery} after:${afterDate}`.replace(/\s+/g, ' ').trim();
+  }
+
+  // Original behavior for speciality-based search
+  if (!speciality) {
+    throw new Error("Either customSearch or speciality must be provided");
+  }
+
   const searchTerms =
     speciality === "QA (Quality Assurance)"
       ? ["QA", "Quality Assurance"]
       : [speciality];
-
-
-  // Calculate date for two weeks ago
-  const twoWeeksAgo = new Date(Date.now() - 14 * 24 * 60 * 60 * 1000);
-  const afterDate = twoWeeksAgo.toISOString().split("T")[0];
 
   // Expand each search term to include both "developer" and "engineer"
   const expandedSearchTerms = searchTerms.flatMap((term) => [
@@ -128,10 +143,6 @@ export const queryForSearch = ({
 
   // Join the expanded terms with OR for a broad match
   const searchTermQuery = expandedSearchTerms.join(" OR ");
-
-  // Format the sites query
-  const siteQueries = sites.split(",").map((site) => `site:${site.trim()}`);
-  const siteQuery = siteQueries.join(" OR ");
 
   // Construct the final query
   return `remote ${level} (${searchTermQuery}) ${siteQuery} after:${afterDate}`;

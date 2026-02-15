@@ -92,15 +92,31 @@ searchRouter.get("/search", authenticateToken, async (req, res) => {
     }
 
     const q = req.query.q as Speciality | undefined;
+    const customSearch = req.query.customSearch as string | undefined;
     const level = req.query.level as Level | undefined;
     const sites = (req.query.sites as string) || jobSites.join(",");
 
-    if (!q) {
-      res.status(400).json({ error: "Missing query parameters" });
+    // Allow admins to use customSearch, otherwise require q (speciality)
+    if (customSearch && req.user?.role !== "admin") {
+      res.status(403).json({ error: "Custom search is only available for admins" });
       return;
     }
-    const fullQuery = queryForSearch({ speciality: q, level, sites });
-    const searchResults = await serpApi?.search({ q: fullQuery });
+
+    if (!q && !customSearch) {
+      res.status(400).json({ error: "Missing query parameters (q or customSearch required)" });
+      return;
+    }
+
+    const fullQuery = queryForSearch({
+      speciality: q,
+      level,
+      sites,
+      customSearch
+    });
+    const searchResults = await serpApi?.search({
+      q: fullQuery,
+      num: "100"  // Request maximum results (Google's limit per page)
+    });
     if (searchResults) {
       const processedResults = searchResults.organic_results
         .map((result) => {
@@ -111,9 +127,11 @@ searchRouter.get("/search", authenticateToken, async (req, res) => {
 
           const domain = new URL(result.link).origin;
 
+          // Use customSearch as speciality if provided, otherwise use q
+          const resultSpeciality = customSearch || q;
 
           return {
-            speciality: q,
+            speciality: resultSpeciality,
             position: result.position || 0,
             level: level,
             title: result.title,

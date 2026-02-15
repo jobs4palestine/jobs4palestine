@@ -7,12 +7,16 @@ import {
   Card,
   Select,
   Pagination,
+  Input,
+  Space,
 } from "antd";
 import {
   SyncOutlined,
   ExclamationCircleOutlined,
   DeleteOutlined,
   FilterOutlined,
+  SearchOutlined,
+  DownloadOutlined,
 } from "@ant-design/icons";
 import { ColumnsType } from "antd/es/table";
 import { useSelector, useDispatch } from "react-redux";
@@ -58,22 +62,34 @@ const LevelSelector: React.FC<LevelSelectorProps> = ({
 };
 const TableView: React.FC = () => {
   const dispatch = useDispatch();
+
+  // All state declarations first
   const [currentCount, setCurrentCount] = useState(0);
-  const limit = 200;
   const [page, setPage] = useState(1);
-  const availablePages = React.useMemo(() => {
-    return Math.ceil(currentCount / limit);
-  }, [currentCount]);
-  const selectedSpecialty = useSelector(
-    (state: RootState) => state.specialty.selectedSpecialty
-  );
-  const data = useSelector((state: RootState) =>
-    selectedSpecialty ? state.results[selectedSpecialty] || [] : []
-  );
   const [loading, setLoading] = useState<boolean>(true);
   const [selectedLevel, setSelectedLevel] = useState<Level | null>(null);
   const [filterArchived, setFilterArchived] = useState(false);
+  const [customSearch, setCustomSearch] = useState<string>("");
+  const [customSearchMode, setCustomSearchMode] = useState<boolean>(false);
+  const [activeCustomSearch, setActiveCustomSearch] = useState<string>("");
+
+  const limit = 200;
   const userType = localStorage.getItem("userType");
+
+  const availablePages = React.useMemo(() => {
+    return Math.ceil(currentCount / limit);
+  }, [currentCount]);
+
+  const selectedSpecialty = useSelector(
+    (state: RootState) => state.specialty.selectedSpecialty
+  );
+
+  // Use activeCustomSearch as the key when in custom search mode
+  const activeSearchKey = customSearchMode ? activeCustomSearch : selectedSpecialty;
+
+  const data = useSelector((state: RootState) =>
+    activeSearchKey ? state.results[activeSearchKey] || [] : []
+  );
 
   const filteredData = filterArchived
     ? data.filter((item) => !item.archived)
@@ -146,43 +162,48 @@ const TableView: React.FC = () => {
     },
     [setPage]
   );
+
   useEffect(() => {
-    if (selectedSpecialty) {
+    const searchKey = customSearchMode ? activeCustomSearch : selectedSpecialty;
+    if (searchKey) {
       setLoading(true);
 
       viewJobs({
-        specialty: selectedSpecialty,
+        specialty: customSearchMode ? undefined : selectedSpecialty,
+        customSearch: customSearchMode ? activeCustomSearch : undefined,
         level: selectedLevel,
         page,
       }).then(({ results, count }) => {
         setCurrentCount(count);
 
         dispatch(
-          setResultsBySpecialty({ specialty: selectedSpecialty, results })
+          setResultsBySpecialty({ specialty: searchKey, results })
         );
         setLoading(false);
       });
     }
-  }, [selectedSpecialty, selectedLevel, page, dispatch]);
+  }, [selectedSpecialty, selectedLevel, page, dispatch, activeCustomSearch, customSearchMode]);
 
   const handleSearchClick = React.useCallback(async () => {
-    if (!selectedSpecialty) return;
+    const searchKey = customSearchMode ? activeCustomSearch : selectedSpecialty;
+    if (!searchKey) return;
 
     setLoading(true);
     try {
       const results = await searchJobs({
-        specialty: selectedSpecialty,
+        specialty: customSearchMode ? undefined : selectedSpecialty,
+        customSearch: customSearchMode ? activeCustomSearch : undefined,
         level: selectedLevel,
       });
       dispatch(
-        setResultsBySpecialty({ specialty: selectedSpecialty, results })
+        setResultsBySpecialty({ specialty: searchKey, results })
       );
     } catch (error) {
       console.error("Error during search:", error);
     } finally {
       setLoading(false);
     }
-  }, [setLoading, dispatch, selectedSpecialty, selectedLevel]);
+  }, [setLoading, dispatch, selectedSpecialty, selectedLevel, activeCustomSearch, customSearchMode]);
   const handleArchiveClick = async (objectId: string, archived: boolean) => {
     if (selectedSpecialty) {
       setLoading(true);
@@ -218,8 +239,110 @@ const TableView: React.FC = () => {
     setFilterArchived((prev) => !prev);
   };
 
+  const downloadCSV = () => {
+    if (filteredData.length === 0) {
+      message.warning("No data to download");
+      return;
+    }
+
+    // Define CSV headers
+    const headers = ["Title", "Link", "Domain", "Description", "Date Published", "Level", "Specialty"];
+
+    // Convert data to CSV rows
+    const csvRows = filteredData.map((item) => {
+      const datePublished = item.date_published
+        ? dayjs(item.date_published).format("YYYY-MM-DD")
+        : "";
+
+      return [
+        `"${(item.title || "").replace(/"/g, '""')}"`, // Escape quotes
+        `"${(item.link || "").replace(/"/g, '""')}"`,
+        `"${(item.domain || "").replace(/"/g, '""')}"`,
+        `"${(item.snippet || "").replace(/"/g, '""')}"`,
+        datePublished,
+        item.level || "",
+        `"${(item.speciality || "").replace(/"/g, '""')}"`,
+      ].join(",");
+    });
+
+    // Combine headers and rows
+    const csvContent = [headers.join(","), ...csvRows].join("\n");
+
+    // Create blob and download
+    const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
+    const link = document.createElement("a");
+    const url = URL.createObjectURL(blob);
+
+    const filename = `jobs_${activeSearchKey || "export"}_${dayjs().format("YYYY-MM-DD")}.csv`;
+
+    link.setAttribute("href", url);
+    link.setAttribute("download", filename);
+    link.style.visibility = "hidden";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+    message.success(`Downloaded ${filteredData.length} jobs to ${filename}`);
+  };
+
+  const handleCustomSearchSubmit = () => {
+    if (customSearch.trim()) {
+      setActiveCustomSearch(customSearch.trim());
+      setCustomSearchMode(true);
+      setPage(1);
+    }
+  };
+
+  const handleBackToSpecialty = () => {
+    setCustomSearchMode(false);
+    setCustomSearch("");
+    setActiveCustomSearch("");
+    setPage(1);
+  };
+
   return (
     <Card style={{ margin: 24, padding: 16 }}>
+      <Space direction="vertical" style={{ width: "100%", marginBottom: 16 }}>
+        {userType === "admin" && (
+          <>
+            <Space.Compact style={{ width: "100%" }}>
+              <Input
+                placeholder="Custom search (e.g., 'data scientist', 'product manager')"
+                value={customSearch}
+                onChange={(e) => setCustomSearch(e.target.value)}
+                onPressEnter={handleCustomSearchSubmit}
+                disabled={loading}
+                prefix={<SearchOutlined />}
+              />
+              <Button
+                type="primary"
+                onClick={handleCustomSearchSubmit}
+                disabled={!customSearch.trim() || loading}
+              >
+                Search
+              </Button>
+            </Space.Compact>
+            {customSearchMode && (
+              <Button
+                type="link"
+                onClick={handleBackToSpecialty}
+                style={{ padding: 0 }}
+              >
+                ← Back to {selectedSpecialty}
+              </Button>
+            )}
+          </>
+        )}
+        <div style={{ display: "flex", justifyContent: "flex-end" }}>
+          <Button
+            icon={<DownloadOutlined />}
+            onClick={downloadCSV}
+            disabled={filteredData.length === 0}
+          >
+            Download CSV ({filteredData.length} jobs)
+          </Button>
+        </div>
+      </Space>
       <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
         <Table<APIResult>
           dataSource={filteredData}
@@ -258,6 +381,7 @@ const TableView: React.FC = () => {
             type={filterArchived ? "primary" : "default"}
             onClick={toggleFilterArchived}
           />
+          <FloatButton icon={<DownloadOutlined />} onClick={downloadCSV} />
         </FloatButton.Group>
       )}
     </Card>

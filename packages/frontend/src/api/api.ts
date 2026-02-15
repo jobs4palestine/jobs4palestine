@@ -1,15 +1,19 @@
 import axios from "./axiosSetup";
 import type { Level } from "@jobs4palestine/shared";
 interface SearchJobsParams {
-  specialty: string;
+  specialty?: string;
   level: Level | null;
+  customSearch?: string;
 }
-interface ViewJobsParams extends SearchJobsParams {
+interface ViewJobsParams {
+  specialty?: string;
+  level: Level | null;
   page?: number;
+  customSearch?: string;
 }
-export const viewJobs = async ({ specialty, level, page }: ViewJobsParams) => {
+export const viewJobs = async ({ specialty, level, page, customSearch }: ViewJobsParams) => {
   const searchParams = new URLSearchParams({
-    q: specialty,
+    q: specialty || customSearch || "",
     level: level || "",
     page: typeof page === "number" ? String(page) : "",
   });
@@ -32,12 +36,19 @@ export const archiveJob = async (
   return axios.post(url);
 };
 
-export const searchJobs = async ({ specialty, level }: SearchJobsParams) => {
+export const searchJobs = async ({ specialty, level, customSearch }: SearchJobsParams) => {
   try {
-    const searchParams = new URLSearchParams({
-      q: specialty,
+    const params: Record<string, string> = {
       level: level || "",
-    });
+    };
+
+    if (customSearch) {
+      params.customSearch = customSearch;
+    } else if (specialty) {
+      params.q = specialty;
+    }
+
+    const searchParams = new URLSearchParams(params);
     const response = await axios.get(`/search?${searchParams.toString()}`);
     return response.data;
   } catch (error) {
